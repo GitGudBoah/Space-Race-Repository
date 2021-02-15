@@ -1,3 +1,4 @@
+audio_play_sound(snd_space_race_intro, 0, 0);
 menu_move = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
 
 menu_index += menu_move;
