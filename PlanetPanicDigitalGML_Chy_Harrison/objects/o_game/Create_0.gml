@@ -1,4 +1,8 @@
-score = 0;
-lives = 3;
+game_over = false;
 
-draw_set_font(font_main);
+score = 0;
+//lives = 3;
+
+//pause menu
+paused = false;
+paused_surf = -1;

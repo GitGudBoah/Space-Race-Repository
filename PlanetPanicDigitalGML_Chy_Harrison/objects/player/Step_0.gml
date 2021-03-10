@@ -19,9 +19,28 @@ if(keyboard_check_pressed(vk_space)){
 	audio_play_sound(snd_lasershot, 1, false);
 }
 
-move_wrap(true,true,sprite_width/2);
+//move_wrap(true,true,sprite_width/2);
 
 if (place_meeting(x,y,o_Wall))
 {
 	speed = 0;	
+}
+
+// health system
+if hp <= 0
+{
+	with (o_game){
+		game_over = true;
+	}
+	
+	with (o_game){
+		alarm[0] = room_speed * 1;
+	}
+	
+	repeat(10)
+	{
+	instance_create_layer(x,y,"Instances",debris);
+	}
+
+	instance_destroy();
 }

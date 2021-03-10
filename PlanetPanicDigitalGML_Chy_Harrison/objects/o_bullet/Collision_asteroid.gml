@@ -1,7 +1,5 @@
 score += 10;
 
-instance_destroy();
-
 with(other){
 	instance_destroy();
 	
@@ -19,7 +17,9 @@ with(other){
 	
 	repeat(10){
 		instance_create_layer(x,y,"Instances",debris);
-		audio_play_sound(snd_explosion_small, 1, false);
 	}
 	
 }
+audio_play_sound(snd_explosion_small, 1, false);
+
+instance_destroy();

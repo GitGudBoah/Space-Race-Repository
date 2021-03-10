@@ -1,2 +1,5 @@
 //chase the player
-direction=point_direction(x,y,t_player.x,t_player.y);
+if o_game.game_over = false
+{
+	direction=point_direction(x,y,player.x,player.y);
+}

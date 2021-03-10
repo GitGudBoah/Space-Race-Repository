@@ -8,7 +8,8 @@ xx = room_width/2;
 yy = room_height/2 - 50;
 c_h = 32;
 
-c_line[0] = "Move Forward: Up/W";
-c_line[1] = "Rotate: Left & Right/A & D";
+c_line[0] = "Move Forward: W";
+c_line[1] = "Rotate: A & D";
 c_line[2] = "Shoot: Spacebar";
+c_line[3] = "Pause Game: P";
 c_lines = array_length_1d(c_line);

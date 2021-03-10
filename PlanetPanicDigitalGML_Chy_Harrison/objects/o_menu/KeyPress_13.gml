@@ -1,5 +1,6 @@
 switch(menu_index) {
 	case 0:
+		score = 0;
 		room_goto(rm_enemy);
 		break;
 	case 1:
