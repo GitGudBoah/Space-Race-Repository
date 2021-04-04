@@ -18,7 +18,6 @@
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},"order":11,},
     {"id":{"name":"font_main","path":"fonts/font_main/font_main.yy",},"order":0,},
     {"id":{"name":"font_title","path":"fonts/font_title/font_title.yy",},"order":1,},
-    {"id":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},"order":15,},
     {"id":{"name":"o_title","path":"objects/o_title/o_title.yy",},"order":2,},
     {"id":{"name":"rm_enemy","path":"rooms/rm_enemy/rm_enemy.yy",},"order":4,},
     {"id":{"name":"o_bullet","path":"objects/o_bullet/o_bullet.yy",},"order":9,},
@@ -117,7 +116,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.542",
+    "IDEVersion": "2.3.2.556",
   },
   "resourceVersion": "1.4",
   "name": "PlanetPanicDigitalGML_Chy_Harrison",
