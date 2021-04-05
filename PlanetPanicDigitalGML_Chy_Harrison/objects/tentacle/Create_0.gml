@@ -1,3 +1,8 @@
+range = 500;
+inrange = false;
 fade = false;
+cantrigger = true;
+alert = true;
 
-alarm[0] = room_speed * 1;
+hp = 20;
+alive = true;

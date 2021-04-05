@@ -1,5 +1,5 @@
 // new hp bar
-hp = 100;
+hp = 200;
 hp_max = hp;
 
 healthbar_width = 100;
