@@ -17,6 +17,11 @@ if (o_game.game_over = false) && (pursuit)
 	}
 }
 
+if (place_meeting(x,y,o_Wall))
+{
+	speed = 0;	
+}
+
 if hp <= 0{
 	with (o_game){
 		alarm[1] = room_speed * 1;

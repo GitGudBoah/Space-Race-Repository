@@ -6,6 +6,7 @@
 // @param subimg
 
 //Args
+function draw_9slice() {
 var _x = argument[0];
 var _y = argument[1];
 var _w = argument[2];
@@ -50,3 +51,4 @@ draw_sprite_part_ext(_sprite, _subimg, 0, cellSize, cellSize, cellSize, _x, _y +
 
 //right
 draw_sprite_part_ext(_sprite, _subimg, cellSize*2, cellSize, cellSize, cellSize, (_x + _w) - cellSize, _y + cellSize, 1, mainScaleH, -1, 1);
+}
