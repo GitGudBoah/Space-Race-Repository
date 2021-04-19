@@ -26,4 +26,6 @@ if room = Game_Over
 if room = rm_enemy
 {
 	audio_stop_all();
+	audio_play_sound(snd_space, 1, true);
+	reset_bg = false;
 }

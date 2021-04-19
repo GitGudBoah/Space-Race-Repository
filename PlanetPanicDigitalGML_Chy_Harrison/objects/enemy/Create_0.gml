@@ -1,3 +1,5 @@
+sprite_index = choose(spr_enemy, spr_pirate_drone, spr_pirate_ship_2);
+
 speed = 1;
 
 //My messages

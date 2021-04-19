@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_boss",
-    "path": "sprites/spr_boss/spr_boss.yy",
+    "name": "spr_kandar_ship",
+    "path": "sprites/spr_kandar_ship/spr_kandar_ship.yy",
   },
   "solid": false,
   "visible": true,
