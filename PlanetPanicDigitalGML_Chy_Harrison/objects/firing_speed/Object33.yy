@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_nalthuraas",
-    "path": "sprites/spr_nalthuraas/spr_nalthuraas.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "background",
-    "path": "folders/Objects/background.yy",
+    "name": "powerups",
+    "path": "folders/Objects/powerups.yy",
   },
   "resourceVersion": "1.0",
-  "name": "nalthuraas",
+  "name": "Object33",
   "tags": [],
   "resourceType": "GMObject",
 }

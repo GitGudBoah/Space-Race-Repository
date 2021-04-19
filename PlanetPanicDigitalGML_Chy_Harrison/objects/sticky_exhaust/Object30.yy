@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_commlink_glaucus",
-    "path": "sprites/spr_commlink_glaucus/spr_commlink_glaucus.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,17 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "power_debuffs",
+    "path": "folders/Objects/power_debuffs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "glaucustext",
+  "name": "Object30",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_nalthuraas",
-    "path": "sprites/spr_nalthuraas/spr_nalthuraas.yy",
+    "name": "spr_powerdebuff_jammed_gun",
+    "path": "sprites/spr_powerdebuff_jammed_gun/spr_powerdebuff_jammed_gun.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "background",
-    "path": "folders/Objects/background.yy",
+    "name": "power_debuffs",
+    "path": "folders/Objects/power_debuffs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "nalthuraas",
+  "name": "jammed_gun",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_nalthuraas",
-    "path": "sprites/spr_nalthuraas/spr_nalthuraas.yy",
+    "name": "spr_commlink_ralaxia",
+    "path": "sprites/spr_commlink_ralaxia/spr_commlink_ralaxia.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "background",
-    "path": "folders/Objects/background.yy",
+    "name": "commlink_faces",
+    "path": "folders/Objects/commlink/commlink_faces.yy",
   },
   "resourceVersion": "1.0",
-  "name": "nalthuraas",
+  "name": "ralaxia",
   "tags": [],
   "resourceType": "GMObject",
 }

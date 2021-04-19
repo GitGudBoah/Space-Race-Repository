@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_nalthuraas",
-    "path": "sprites/spr_nalthuraas/spr_nalthuraas.yy",
+    "name": "spr_powerup_movement_speed",
+    "path": "sprites/spr_powerup_movement_speed/spr_powerup_movement_speed.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "background",
-    "path": "folders/Objects/background.yy",
+    "name": "powerups",
+    "path": "folders/Objects/powerups.yy",
   },
   "resourceVersion": "1.0",
-  "name": "nalthuraas",
+  "name": "movement_speed",
   "tags": [],
   "resourceType": "GMObject",
 }

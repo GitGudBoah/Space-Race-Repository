@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_nalthuraas",
-    "path": "sprites/spr_nalthuraas/spr_nalthuraas.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "background",
-    "path": "folders/Objects/background.yy",
+    "name": "commlink_faces",
+    "path": "folders/Objects/commlink/commlink_faces.yy",
   },
   "resourceVersion": "1.0",
-  "name": "nalthuraas",
+  "name": "Object2324",
   "tags": [],
   "resourceType": "GMObject",
 }

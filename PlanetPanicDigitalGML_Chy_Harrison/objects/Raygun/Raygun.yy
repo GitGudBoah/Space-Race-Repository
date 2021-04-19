@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_nalthuraas",
-    "path": "sprites/spr_nalthuraas/spr_nalthuraas.yy",
+    "name": "spr_raygun",
+    "path": "sprites/spr_raygun/spr_raygun.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "background",
-    "path": "folders/Objects/background.yy",
+    "name": "items",
+    "path": "folders/Objects/items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "nalthuraas",
+  "name": "Raygun",
   "tags": [],
   "resourceType": "GMObject",
 }
