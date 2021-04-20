@@ -1,3 +1,7 @@
+power_up_fr = false;
+power_up_ss = false;
+bullet_speed = speed + 5;
+
 // new hp bar
 hp = 200;
 hp_max = hp;

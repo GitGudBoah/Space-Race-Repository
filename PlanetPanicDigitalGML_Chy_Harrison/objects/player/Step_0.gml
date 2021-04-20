@@ -1,3 +1,7 @@
+if power_up_fr = false{
+	bullet_speed = speed + 5;
+}
+
 move_bounce_solid(0);
 
 if(keyboard_check(ord("A"))){

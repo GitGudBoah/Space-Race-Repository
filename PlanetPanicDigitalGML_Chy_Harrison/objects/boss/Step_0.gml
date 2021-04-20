@@ -28,7 +28,7 @@ if hp <= 0{
 	}
 	score += 9001;
 	repeat(20){
-	instance_create_layer(x,y,"Instances",debris_boss);
+	instance_create_layer(x,y,"Instances",debris);
 	}
 	instance_destroy();
 }
