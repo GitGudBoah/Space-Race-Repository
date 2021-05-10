@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 133,
-  "bbox_right": 1190,
-  "bbox_top": 227,
-  "bbox_bottom": 1017,
+  "bbox_left": 348,
+  "bbox_right": 1002,
+  "bbox_top": 11,
+  "bbox_bottom": 754,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1276,
-  "height": 1166,
+  "width": 1191,
+  "height": 842,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d1499404-6ee7-4d6f-859f-4f81e4210047","path":"sprites/spr_asteroid_medium/spr_asteroid_medium.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d1499404-6ee7-4d6f-859f-4f81e4210047","path":"sprites/spr_asteroid_medium/spr_asteroid_medium.yy",},"LayerId":{"name":"9a77ae25-ab33-4bf1-858c-62103db35438","path":"sprites/spr_asteroid_medium/spr_asteroid_medium.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_asteroid_medium","path":"sprites/spr_asteroid_medium/spr_asteroid_medium.yy",},"resourceVersion":"1.0","name":"d1499404-6ee7-4d6f-859f-4f81e4210047","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"31699543-3218-4129-9b0e-0704ea61d227","path":"sprites/spr_tiny_terror_red/spr_tiny_terror_red.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"31699543-3218-4129-9b0e-0704ea61d227","path":"sprites/spr_tiny_terror_red/spr_tiny_terror_red.yy",},"LayerId":{"name":"73ae4cdd-d947-4545-94d6-cba03cf4a75b","path":"sprites/spr_tiny_terror_red/spr_tiny_terror_red.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_tiny_terror_red","path":"sprites/spr_tiny_terror_red/spr_tiny_terror_red.yy",},"resourceVersion":"1.0","name":"31699543-3218-4129-9b0e-0704ea61d227","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_asteroid_medium","path":"sprites/spr_asteroid_medium/spr_asteroid_medium.yy",},
+    "spriteId": {"name":"spr_tiny_terror_red","path":"sprites/spr_tiny_terror_red/spr_tiny_terror_red.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"396dd268-4852-47d4-bdba-51c48888704e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1499404-6ee7-4d6f-859f-4f81e4210047","path":"sprites/spr_asteroid_medium/spr_asteroid_medium.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"12a110b0-5dfa-48bf-8cc7-4e1b764ae471","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"31699543-3218-4129-9b0e-0704ea61d227","path":"sprites/spr_tiny_terror_red/spr_tiny_terror_red.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_asteroid_medium","path":"sprites/spr_asteroid_medium/spr_asteroid_medium.yy",},
+    "parent": {"name":"spr_tiny_terror_red","path":"sprites/spr_tiny_terror_red/spr_tiny_terror_red.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_asteroid_medium",
+    "name": "spr_tiny_terror_red",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9a77ae25-ab33-4bf1-858c-62103db35438","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"73ae4cdd-d947-4545-94d6-cba03cf4a75b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_asteroid_medium",
+  "name": "spr_tiny_terror_red",
   "tags": [],
   "resourceType": "GMSprite",
 }
