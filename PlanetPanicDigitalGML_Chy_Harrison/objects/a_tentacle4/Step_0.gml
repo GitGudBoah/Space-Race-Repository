@@ -23,6 +23,7 @@ if activated && image_alpha < 100
 // health system
 if hp <= 0
 {
+	audio_play_sound(snd_alien_alert_smooth, 1, false);
 	nal_hp.alive4 = false;
 	nal_hp.dead += 1;
 	repeat(10)
