@@ -1,1 +1,0 @@
-canFire = true;

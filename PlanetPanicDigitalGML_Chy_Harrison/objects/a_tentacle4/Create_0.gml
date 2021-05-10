@@ -1,6 +1,5 @@
 canTrigger = true;
 activated = false;
-canFire = true;
 
 //fade in
 image_alpha = 0;

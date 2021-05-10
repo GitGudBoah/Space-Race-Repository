@@ -4,15 +4,13 @@ if o_game.game_over = false{
 		activated = true;
 		canTrigger = false;
 	}
-
-	if activated && canFire
+//throw asteroid
+	if fire_order.a3
 	{
-		canFire = false;
-		//throw asteroid
 		var inst = instance_create_layer(x, y, "Instances", t_asteroid);
 			inst.direction = point_direction(x,y,player.x,player.y);
 			audio_play_sound(snd_tentacle_attack, 1, false);
-		alarm[0] = room_speed * 1;
+		fire_order.a3 = false;
 	}
 }
 
@@ -26,6 +24,7 @@ if activated && image_alpha < 100
 if hp <= 0
 {
 	nal_hp.alive3 = false;
+	nal_hp.dead += 1;
 	repeat(10)
 	{
 	instance_create_layer(x,y,"Instances",debris);
