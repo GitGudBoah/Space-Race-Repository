@@ -23,9 +23,9 @@ if (place_meeting(x,y,o_Wall))
 }
 
 if hp <= 0{
-	with (o_game){
-		alarm[1] = room_speed * 1;
-	}
+	//with (o_game){
+		//alarm[1] = room_speed * 1;
+	//}
 	score += 9001;
 	repeat(20){
 	instance_create_layer(x,y,"Instances",debris);
