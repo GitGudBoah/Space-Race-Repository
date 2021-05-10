@@ -1,5 +1,10 @@
+//Break
+if(keyboard_check_pressed(vk_shift)){
+	speed = 0;
+}
+
 if power_up_fr = false{
-	bullet_speed = speed + 5;
+	bullet_speed = 30;
 }
 
 move_bounce_solid(0);

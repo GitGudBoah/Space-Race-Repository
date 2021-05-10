@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_boss",
-    "path": "sprites/spr_boss/spr_boss.yy",
+    "name": "Amigurumi_Cthulhu_Crochet_Pattern",
+    "path": "sprites/Amigurumi_Cthulhu_Crochet_Pattern/Amigurumi_Cthulhu_Crochet_Pattern.yy",
   },
   "solid": false,
   "visible": true,

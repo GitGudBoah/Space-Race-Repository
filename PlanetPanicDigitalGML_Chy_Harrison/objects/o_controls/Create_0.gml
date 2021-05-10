@@ -11,5 +11,6 @@ c_h = 32;
 c_line[0] = "Move Forward: W";
 c_line[1] = "Rotate: A & D";
 c_line[2] = "Shoot: Spacebar";
-c_line[3] = "Pause Game: P";
+c_line[3] = "Break: Shift";
+c_line[4] = "Pause Game: P";
 c_lines = array_length_1d(c_line);
