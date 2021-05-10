@@ -1,8 +1,3 @@
-range = 500;
-inrange = false;
-fade = false;
+activated = false;
 cantrigger = true;
 alert = true;
-
-hp = 20;
-alive = true;
