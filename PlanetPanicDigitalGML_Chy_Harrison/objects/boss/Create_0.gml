@@ -1,5 +1,5 @@
 range = 1000
-hp = 100;
+hp = 300;
 vulnerable = true;
 
 pursuit = false;

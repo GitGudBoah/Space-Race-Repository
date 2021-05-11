@@ -7,7 +7,7 @@ if (check) && (distance_to_object(player) <= range) {
 if (o_game.game_over = false) && (pursuit)
 {
 	direction=point_direction(x,y,player.x,player.y);
-	speed = 2;
+	speed = 2.4;
 	if reloading = false {
 		var inst = instance_create_layer(x, y, "Instances", o_boss_bullet);
 		inst.direction = direction;
@@ -23,12 +23,11 @@ if (place_meeting(x,y,o_Wall))
 }
 
 if hp <= 0{
-	//with (o_game){
-		//alarm[1] = room_speed * 1;
-	//}
-	score += 9001;
-	repeat(20){
-	instance_create_layer(x,y,"Instances",debris);
-	}
+	commlink.speaker = spr_com_glaucus;
+	commlink.text = "Interesting... Half of that ship's guns were torn off.";
+	
+	score += 500;
+	audio_play_sound(snd_explosion_big, 1, false);
+	instance_create_layer(x,y,"Instances",explosion);
 	instance_destroy();
 }
