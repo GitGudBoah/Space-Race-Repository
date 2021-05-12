@@ -64,7 +64,7 @@ if counter = 13{
 
 if counter = 14{
 	speaker = spr_com_jay;
-	text = "*nudges demeter with elbow*";
+	text = "*nudges Demeter with elbow*";
 }
 
 if counter = 15{
