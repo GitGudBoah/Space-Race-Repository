@@ -1,1 +1,1 @@
-room_goto(rm_forest);
+room_goto(scene8);
