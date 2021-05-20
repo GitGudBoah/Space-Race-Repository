@@ -7,14 +7,15 @@ if r_enter{
 }
 
 if enemy_manager.alive && enemy_manager.hostile{
+	sprite_index = spr_robot_shooting;
 	direction=point_direction(x,y,alan_move2.x,alan_move2.y);
 	speed = 2.4;
 	if reloading = false {
-		var inst = instance_create_layer(x, y, "Instances", o_boss_bullet);
+		var inst = instance_create_layer(x, y, "Instances", robot_bullet);
 		inst.direction = direction;
 		audio_play_sound(snd_lasershot, 1, false);
 		reloading = true;
-		alarm[1] = room_speed * 2;
+		alarm[1] = room_speed * 1.5;
 	}
 }
 

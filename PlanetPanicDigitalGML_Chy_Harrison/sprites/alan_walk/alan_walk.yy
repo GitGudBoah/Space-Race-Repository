@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "alan",
+    "path": "folders/Sprites/character_sprites/alan.yy",
   },
   "resourceVersion": "1.0",
   "name": "alan_walk",

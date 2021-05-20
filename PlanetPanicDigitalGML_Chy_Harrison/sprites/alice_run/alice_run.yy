@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "alice",
+    "path": "folders/Sprites/character_sprites/alice.yy",
   },
   "resourceVersion": "1.0",
   "name": "alice_run",

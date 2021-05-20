@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "alan_walk",
-    "path": "sprites/alan_walk/alan_walk.yy",
+    "name": "spr_robot_walk",
+    "path": "sprites/spr_robot_walk/spr_robot_walk.yy",
   },
   "solid": false,
   "visible": true,
@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "enemies",
-    "path": "folders/Objects/enemies.yy",
+    "path": "folders/Objects/level1/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "robot",

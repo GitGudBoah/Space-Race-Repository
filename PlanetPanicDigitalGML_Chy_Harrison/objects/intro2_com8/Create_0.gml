@@ -10,3 +10,4 @@ talking = false;
 counter = 0;
 
 canTrigger = true;
+canTrigger2 = true;

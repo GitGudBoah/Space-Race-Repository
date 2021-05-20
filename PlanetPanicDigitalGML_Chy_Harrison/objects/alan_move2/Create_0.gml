@@ -17,3 +17,11 @@ healthbar_y = 10;
 rifle = false;
 reloading = false;
 firerate = 0.1;
+
+cig = true;
+kneeling = false;
+idle = true;
+armed = false;
+shooting = false;
+walking_in = true;
+firing = false;

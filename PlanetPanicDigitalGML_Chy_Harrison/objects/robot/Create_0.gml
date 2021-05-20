@@ -1,4 +1,4 @@
-hp = 300;
+hp = 350;
 vulnerable = true;
 reloading = false;
 

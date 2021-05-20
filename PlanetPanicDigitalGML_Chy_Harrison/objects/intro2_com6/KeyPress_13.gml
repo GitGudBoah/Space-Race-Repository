@@ -4,6 +4,7 @@ if enemy_manager.burned = false{
 			npc4.available = false;
 			alan_move2.incontrol = false;
 			talking = true;
+			alan_move2.image_xscale = 1;
 		}
 	}
 

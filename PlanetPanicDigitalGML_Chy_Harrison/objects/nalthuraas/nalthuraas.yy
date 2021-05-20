@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "background",
-    "path": "folders/Objects/background.yy",
+    "path": "folders/Objects/level1/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "nalthuraas",

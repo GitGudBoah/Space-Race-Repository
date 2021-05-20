@@ -1,5 +1,5 @@
 if counter = 1{
-	speaker = spr_com_ralaxia;
+	speaker = spr_com_alice;
 	text = "Hurry up, dad! The zoo is going to close!";
 }
 

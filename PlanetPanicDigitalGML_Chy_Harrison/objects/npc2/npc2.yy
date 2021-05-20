@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_a_tentacle",
-    "path": "sprites/spr_a_tentacle/spr_a_tentacle.yy",
+    "name": "spr_repairman",
+    "path": "sprites/spr_repairman/spr_repairman.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "background",
-    "path": "folders/Objects/background.yy",
+    "path": "folders/Objects/level1/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "npc2",

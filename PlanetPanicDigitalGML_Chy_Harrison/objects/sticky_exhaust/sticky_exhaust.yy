@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "power_debuffs",
-    "path": "folders/Objects/power_debuffs.yy",
+    "name": "powerups & debuffs",
+    "path": "folders/Objects/level2/powerups & debuffs.yy",
   },
   "resourceVersion": "1.0",
   "name": "sticky_exhaust",

@@ -4,7 +4,7 @@
     "path": "sprites/spr_a_tentacle/spr_a_tentacle.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "background",
-    "path": "folders/Objects/background.yy",
+    "path": "folders/Objects/level1/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "npc4",

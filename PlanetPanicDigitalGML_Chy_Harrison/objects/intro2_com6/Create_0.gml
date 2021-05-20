@@ -14,3 +14,5 @@ canTrigger2 = true;
 canTrigger3 = true;
 canTrigger4 = true;
 canTrigger5 = true;
+canTrigger6 = true;
+canTrigger7 = true;

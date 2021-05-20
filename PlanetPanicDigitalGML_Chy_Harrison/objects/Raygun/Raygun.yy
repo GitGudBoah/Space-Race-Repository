@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "items",
-    "path": "folders/Objects/items.yy",
+    "path": "folders/Objects/level1/items.yy",
   },
   "resourceVersion": "1.0",
   "name": "Raygun",

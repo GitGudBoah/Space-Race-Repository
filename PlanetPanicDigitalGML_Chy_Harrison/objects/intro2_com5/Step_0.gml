@@ -6,8 +6,8 @@ if counter = 1{
 }
 
 if counter = 2{
-	speaker = spr_com_believer;
-	text = "Did you hear the news? They called it a living black hole.";
+	speaker = spr_com_citizen1;
+	text = "Didn't you hear the news? They called it a living black hole.";
 }
 
 if counter = 3{
@@ -16,13 +16,13 @@ if counter = 3{
 }
 
 if counter = 4{
-	speaker = spr_com_kandar;
+	speaker = spr_com_elroy;
 	text = "Sure thing.";
 }
 
 if counter = 5{
-	speaker = spr_com_believer;
-	text = "The station scientists said it grows like a cancer. It could be the death of the universe.";
+	speaker = spr_com_citizen2;
+	text = "The station scientists said that it grows like a cancer. It could be the death of the universe.";
 }
 
 if counter = 6{
@@ -36,7 +36,7 @@ if counter = 7{
 }
 
 if counter = 8{
-	speaker = spr_com_believer;
+	speaker = spr_com_citizen1;
 	text = "But what about future generations?";
 }
 
@@ -51,7 +51,7 @@ if counter = 10{
 }
 
 if counter = 11{
-	speaker = spr_com_kandar;
+	speaker = spr_com_elroy;
 	text = "On the topic of cancer, don't you think you've been smoking too much? What'll happen to that kid of yours if you get sick?";
 }
 
@@ -61,8 +61,8 @@ if counter = 12{
 }
 
 if counter = 13{
-	speaker = spr_com_kandar;
-	text = "At least spend some more time with her. You're the only family she's got left.";
+	speaker = spr_com_elroy;
+	text = "At least spend some more time with her, man. You're the only family she's got left.";
 }
 
 if counter = 14{
@@ -71,17 +71,17 @@ if counter = 14{
 }
 
 if counter = 15{
-	speaker = spr_com_kandar;
+	speaker = spr_com_elroy;
 	text = "*smiles and glances*";
 }
 
 if counter = 16{
-	speaker = spr_com_ralaxia;
+	speaker = spr_com_alice;
 	text = "Dad, I found something! Come look!";
 }
 
 if counter = 17{
-	speaker = spr_com_kandar;
+	speaker = spr_com_elroy;
 	text = "He'll be right there!";
 }
 

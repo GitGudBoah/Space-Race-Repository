@@ -1,8 +1,8 @@
-// Attis salesman
+// Attis drug dealer
 
 if counter = 1{
-	speaker = spr_com_believer;
-	text = "You look like you could use a pack of x!";
+	speaker = spr_com_dealer;
+	text = "You look stressed, pal. A gram of (drug) could boost your spirits!";
 }
 
 if counter = 2{
@@ -11,7 +11,7 @@ if counter = 2{
 }
 
 if counter = 3{
-	speaker = spr_com_believer;
+	speaker = spr_com_dealer;
 	text = "Your loss.";
 }
 

@@ -17,11 +17,6 @@ if (o_game.game_over = false) && (pursuit)
 	}
 }
 
-if (place_meeting(x,y,o_Wall))
-{
-	speed = 0;	
-}
-
 if hp <= 0{
 	commlink.speaker = spr_com_glaucus;
 	commlink.text = "Interesting... Half of that ship's guns were torn off.";

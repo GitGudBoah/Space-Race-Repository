@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "commlink",
-    "path": "folders/Objects/commlink.yy",
+    "path": "folders/Objects/level1/commlink.yy",
   },
   "resourceVersion": "1.0",
   "name": "intro2_com2",

@@ -24,7 +24,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obstacles",
-    "path": "folders/Objects/obstacles.yy",
+    "path": "folders/Objects/level1/obstacles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spawn4",

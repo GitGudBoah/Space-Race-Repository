@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "com_art",
+    "path": "folders/Sprites/com_art.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_com_believer",
