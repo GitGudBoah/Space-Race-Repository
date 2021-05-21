@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_drone",
-    "path": "sprites/spr_drone/spr_drone.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,15 +17,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "background",
-    "path": "folders/Objects/level2/background.yy",
+    "name": "obstacles",
+    "path": "folders/Objects/level2/obstacles.yy",
   },
   "resourceVersion": "1.0",
-  "name": "gagarin_exit",
+  "name": "tentacle2_hp",
   "tags": [],
   "resourceType": "GMObject",
 }

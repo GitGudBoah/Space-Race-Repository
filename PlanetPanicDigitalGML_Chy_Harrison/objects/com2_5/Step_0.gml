@@ -72,7 +72,7 @@ if counter = 14{
 
 if counter = 15{
 	speaker = spr_com_alan;
-	text = "*grabs Demeter by her collar* What the hell!? That's none of your goddamn business, Monroe!";
+	text = "*grabs Demeter by her collar* What the hell, Monroe! That's my business, not yours!";
 }
 
 if counter = 16{
@@ -107,7 +107,7 @@ if counter = 21{
 
 if counter = 22{
 	speaker = spr_com_alan;
-	text = "My daughter became sick after touching a piece of that behemoth a half a decade ago. I caught a bit of it as well.";
+	text = "My daughter became sick after touching a piece of that behemoth seven years ago. I caught a bit of it as well.";
 }
 
 if counter = 23{
@@ -155,5 +155,7 @@ if counter = 31{
 	if canTrigger{
 		canTrigger = false;
 		jay2_2.incontrol = true;
+		demeter.following = true;
+		gagarin2_exit.available = true;
 	}
 }

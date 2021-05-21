@@ -34,6 +34,15 @@ if collision_point(x, y, o_Wall2, true, true){
 if collision_point(x, y, o_Wall4, true, true){
 	hspeed *= -1;
 }
+if collision_point(x, y, tentacle2, false, true){
+	hspeed *= -1;
+}
+if collision_point(x, y, tentacle2_2, false, true){
+	hspeed *= -1;
+}
+if collision_point(x, y, tentacle2_3, false, true){
+	hspeed *= -1;
+}
 if collision_point(x, y, tree, true, true){
 	speed = 30;
 	hp -= 2;
@@ -70,6 +79,10 @@ if jammed = false{
 }
 
 // health system
+if hp > hp_max{
+	hp = hp_max;
+}
+
 if hp <= 0
 {
 	enemy_manager2.game_over = true;

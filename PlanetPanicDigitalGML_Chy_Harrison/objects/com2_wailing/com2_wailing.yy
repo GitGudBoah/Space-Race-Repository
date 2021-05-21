@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_drone",
-    "path": "sprites/spr_drone/spr_drone.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "player",
-    "path": "objects/player/player.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,15 +17,18 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level1",
-    "path": "folders/Objects/level1.yy",
+    "name": "commlink",
+    "path": "folders/Objects/level2/commlink.yy",
   },
   "resourceVersion": "1.0",
-  "name": "g_drone",
+  "name": "com2_wailing",
   "tags": [],
   "resourceType": "GMObject",
 }

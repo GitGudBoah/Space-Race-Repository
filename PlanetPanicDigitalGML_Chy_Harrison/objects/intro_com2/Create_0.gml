@@ -1,8 +1,8 @@
 //portrait
-speaker = spr_com_alan;
+speaker = spr_com_blank;
 
 //text
-text = "We need to trade some of our loot for resources to keep the station running.";
+text = "The crew steps onto the Strange Horizon. The ship creaks and hums like a decrepit elder - its glory days are behind it.";
 boxWidth = sprite_get_width(spr_textbox);
 stringHeight = string_height(text);
 

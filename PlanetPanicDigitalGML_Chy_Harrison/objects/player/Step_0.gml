@@ -49,6 +49,10 @@ if(keyboard_check_pressed(vk_space)){
 }
 
 // health system
+if hp > hp_max{
+	hp = hp_max;
+}
+
 if hp <= 0
 {
 	with (o_game){

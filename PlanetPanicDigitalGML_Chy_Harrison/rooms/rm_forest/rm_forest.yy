@@ -33,7 +33,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_704E0871","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_396B60E5","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_620FD1AE","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_101A92AD","path":"rooms/rm_forest/rm_forest.yy",},
@@ -41,8 +40,9 @@
     {"name":"inst_68E98A54","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_1616DA54","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_723BA1DF","path":"rooms/rm_forest/rm_forest.yy",},
-    {"name":"inst_7E35F5CA","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_7C3B4191","path":"rooms/rm_forest/rm_forest.yy",},
+    {"name":"inst_7E35F5CA","path":"rooms/rm_forest/rm_forest.yy",},
+    {"name":"inst_704E0871","path":"rooms/rm_forest/rm_forest.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
