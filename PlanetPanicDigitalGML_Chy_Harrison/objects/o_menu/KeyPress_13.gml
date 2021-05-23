@@ -24,6 +24,12 @@ switch(menu_index) {
 			if music.cp4{
 			room_goto(rm_forest3);
 			}
+			if music.cp5{
+			room_goto(rm_settlement);
+			}
+			if music.cp6{
+			room_goto(rm_believer);
+			}
 		}
 		break;
 	case 1:

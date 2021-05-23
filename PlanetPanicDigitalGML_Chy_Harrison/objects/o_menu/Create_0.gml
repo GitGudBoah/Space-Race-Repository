@@ -1,6 +1,6 @@
 //shortcut: menu sends you to the specified room
 shortcut = false;
-shortcut_destination = rm_forest4;
+shortcut_destination = rm_believer;
 
 menu_x = room_width/2;
 menu_y = 250;

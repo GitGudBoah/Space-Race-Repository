@@ -22,6 +22,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"npc_marker2_2","path":"objects/npc_marker2_2/npc_marker2_2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3104.0,"y":800.0,"resourceVersion":"1.0","name":"inst_B47F3DD","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"com2_5","path":"objects/com2_5/com2_5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3168.0,"y":768.0,"resourceVersion":"1.0","name":"inst_3DA361DB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"com2_gagarin2","path":"objects/com2_gagarin2/com2_gagarin2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":864.0,"resourceVersion":"1.0","name":"inst_34AE9D82","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"enemy_manager2","path":"objects/enemy_manager2/enemy_manager2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3264.0,"y":864.0,"resourceVersion":"1.0","name":"inst_32E63B99","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"gagarin2_exit","path":"objects/gagarin2_exit/gagarin2_exit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":992.0,"resourceVersion":"1.0","name":"inst_273B391E","tags":[],"resourceType":"GMRInstance",},
@@ -49,6 +50,7 @@
     {"name":"inst_B47F3DD","path":"rooms/rm_crash_site/rm_crash_site.yy",},
     {"name":"inst_3DA361DB","path":"rooms/rm_crash_site/rm_crash_site.yy",},
     {"name":"inst_34AE9D82","path":"rooms/rm_crash_site/rm_crash_site.yy",},
+    {"name":"inst_32E63B99","path":"rooms/rm_crash_site/rm_crash_site.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

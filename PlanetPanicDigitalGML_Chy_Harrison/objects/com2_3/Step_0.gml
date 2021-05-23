@@ -16,8 +16,10 @@ if counter = 3{
 	speaker = spr_com_jay;
 	if choice = false{
 		text = "Old habits die hard...";
+		music.ring = true;
 	} else{
 		text = "No. I'm not like them.";
+		music.ring = false;
 	}
 	decision = false;
 }

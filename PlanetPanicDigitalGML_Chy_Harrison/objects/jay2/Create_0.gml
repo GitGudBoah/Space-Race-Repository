@@ -1,6 +1,8 @@
 incontrol = false;
 dodging = false;
 reverse = false;
+canDodge = true;
+dodgeCD = 0.4;
 
 // hp bar
 hp = 200;

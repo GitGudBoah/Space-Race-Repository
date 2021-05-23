@@ -20,6 +20,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"demeter","path":"objects/demeter/demeter.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2912.0,"y":1088.0,"resourceVersion":"1.0","name":"inst_6398F385","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"jay2_2","path":"objects/jay2_2/jay2_2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2752.0,"y":1024.0,"resourceVersion":"1.0","name":"inst_5573BB76","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"com2_7","path":"objects/com2_7/com2_7.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2560.0,"y":864.0,"resourceVersion":"1.0","name":"inst_2118F0F2","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"enemy_manager2","path":"objects/enemy_manager2/enemy_manager2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2560.0,"y":800.0,"resourceVersion":"1.0","name":"inst_104ABE35","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_Wall2","path":"objects/o_Wall2/o_Wall2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":11.75,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3296.0,"y":0.0,"resourceVersion":"1.0","name":"inst_723BA1DF","tags":[],"resourceType":"GMRInstance",},
@@ -39,6 +40,7 @@
     {"name":"inst_2497E318","path":"rooms/rm_forest4/rm_forest4.yy",},
     {"name":"inst_135E93CA","path":"rooms/rm_forest4/rm_forest4.yy",},
     {"name":"inst_2118F0F2","path":"rooms/rm_forest4/rm_forest4.yy",},
+    {"name":"inst_104ABE35","path":"rooms/rm_forest4/rm_forest4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

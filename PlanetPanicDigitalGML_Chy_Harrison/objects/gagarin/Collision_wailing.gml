@@ -1,4 +1,4 @@
-hp -= 34;
+hp -= 40;
 speed = 6;
 stuck = true;
 alarm[4] = room_speed * 2;

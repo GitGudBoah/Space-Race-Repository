@@ -1,5 +1,5 @@
 //follow
-if following{
+if enemy_manager2.alan_follow_alive && following{
 	if distance_to_object(jay2_2) > stop_distance{
 		if distance_to_object(jay2_2) > catchup_distance{
 			if jay2_2.x > x{

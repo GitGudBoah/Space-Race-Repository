@@ -81,6 +81,20 @@ if cp4{
 		audio_play_sound(placeholder_music1, 1, true);
 	}	
 }
+if cp5{
+	if room = rm_settlement
+	{
+		audio_stop_all();
+		audio_play_sound(placeholder_music1, 1, true);
+	}
+}
+if cp6{
+	if room = rm_believer
+	{
+		audio_stop_all();
+		audio_play_sound(placeholder_music1, 1, true);
+	}	
+}
 
 //checkpoints
 if room = rm_enemy{
@@ -98,4 +112,12 @@ if room = rm_forest2{
 if room = rm_forest3{
 	cp3 = false;
 	cp4 = true;
+}
+if room = rm_settlement{
+	cp4 = false;
+	cp5 = true;
+}
+if room = rm_believer{
+	cp5 = false;
+	cp6 = true;
 }

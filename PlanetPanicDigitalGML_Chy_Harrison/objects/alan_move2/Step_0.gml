@@ -82,7 +82,9 @@ if incontrol{
 	}
 	
 	//dodge
-	if keyboard_check_pressed(vk_shift){
+	if keyboard_check_pressed(vk_shift) && canDodge{
+		canDodge = false;
+		alarm[4] = room_speed * dodgeCD;
 		incontrol = false
 		alarm[1] = room_speed * 0.2;
 		dodging = true;

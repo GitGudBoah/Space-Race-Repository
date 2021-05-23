@@ -2,7 +2,10 @@ if enemy_manager2.game_over = false{
 	if gagarin.x > 22200 && gagarin.x < 22300{
 		speaker = spr_com_jay;
 		text = "Only from its main body. Luckily, these small fries go down easily.";
-		alarm[1] = room_speed * 2;
+	}
+	
+	if gagarin.x > 21750 && gagarin.x < 21850{
+		talking = false;
 	}
 
 	if gagarin.x > 20600 && gagarin.x < 20700{
@@ -46,7 +49,7 @@ if enemy_manager2.game_over = false{
 		text = "No... You just reminded me of someone.";
 	}
 	
-	if gagarin.x > 11600 && gagarin.x < 11700{
+	if gagarin.x > 12100 && gagarin.x < 12200{
 		speaker = spr_com_jay;
 		text = "I like the idea. We could do it after we get drunk-";
 	}
