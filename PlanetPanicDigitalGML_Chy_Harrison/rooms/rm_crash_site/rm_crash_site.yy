@@ -74,8 +74,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "level2",
+    "path": "folders/Rooms/level2.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_crash_site",

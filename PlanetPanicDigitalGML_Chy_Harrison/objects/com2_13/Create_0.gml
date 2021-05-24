@@ -8,5 +8,6 @@ stringHeight = string_height(text);
 
 talking = false;
 counter = 0;
+canTrigger = true;
 
 jay_moveit = false;

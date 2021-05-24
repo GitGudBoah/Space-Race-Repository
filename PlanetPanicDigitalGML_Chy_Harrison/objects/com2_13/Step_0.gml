@@ -18,9 +18,11 @@ if counter = 2{
 	text = "Get low!";
 }
 
-if counter = 3{
+if counter = 3 && canTrigger{
+	canTrigger = false
 	speaker = spr_com_alan;
 	text = "*fires a shot from his pistol, springing the trap*";
+	audio_sound_gain(placeholder_music1, 0, 2000);
 }
 
 if counter = 4{
@@ -139,7 +141,7 @@ if counter = 27{
 	talking = false;
 	//fade to black - transition to next room
 	var inst = instance_create_depth(0, 0, -999, fader);
-	inst.destination_room = Victory;
+	inst.destination_room = black_screen2;
 	inst.fadein_speed = 0.0075;
 	inst.fadeout_speed = 0.02;
 }

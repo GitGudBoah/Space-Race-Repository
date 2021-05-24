@@ -2,8 +2,11 @@ if state == fade_in{
 	image_alpha += fadein_speed;
 	if image_alpha >= 1{
 		image_alpha = 1;
-		state = fade_out;
-		room_goto(destination_room);
+		//state = fade_out;
+		if canTrigger{
+			canTrigger = false;
+			alarm[0] = room_speed * room_swap_delay;
+		}
 	}
 }
 else if state == fade_out{
