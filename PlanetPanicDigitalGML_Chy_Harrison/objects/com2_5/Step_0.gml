@@ -62,7 +62,7 @@ if counter = 12{
 
 if counter = 13{
 	speaker = spr_com_demeter;
-	text = "I tested your blood after Glaucus said that you might be sick. It turns out, you're infected with something.";
+	text = "I tested your blood after Glaucus said that you might be sick. It turns out, you're infected with something nasty.";
 }
 
 if counter = 14{
@@ -72,12 +72,12 @@ if counter = 14{
 
 if counter = 15{
 	speaker = spr_com_alan;
-	text = "*grabs Demeter by her collar* What the hell, Monroe! That's my business, not yours!";
+	text = "*grabs Demeter by her collar* Damn it, Monroe! That's my business, not yours!";
 }
 
 if counter = 16{
 	speaker = spr_com_jay;
-	text = "*places hand on Alan's shoulder* Calm down, Alan!";
+	text = "*places hand on Alan's shoulder* Alan, calm down!";
 }
 
 if counter = 17{

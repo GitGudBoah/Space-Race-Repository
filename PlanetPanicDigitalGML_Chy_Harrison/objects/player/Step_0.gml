@@ -1,8 +1,3 @@
-//Break
-if(keyboard_check(vk_shift)){
-	speed = 0;
-}
-
 if power_up_fr = false{
 	bullet_speed = 30;
 }
@@ -26,26 +21,32 @@ if collision_point(x, y, boss, false, true){
 	}
 }
 
+//controls
+if incontrol{
+	if(keyboard_check(ord("A"))){
+		image_angle = image_angle + 5;
+	}
 
-if(keyboard_check(ord("A"))){
-	image_angle = image_angle + 5;
-}
+	if(keyboard_check(ord("D"))){
+		image_angle = image_angle - 5;
+	}
 
-if(keyboard_check(ord("D"))){
-	image_angle = image_angle - 5;
-}
+	if(keyboard_check(ord("W"))){
+		motion_add(image_angle, 0.15);
+	}
+	if(keyboard_check(ord("S"))){
+		motion_add(image_angle, -0.15);
+	}
 
-if(keyboard_check(ord("W"))){
-	motion_add(image_angle, 0.15);
-}
-if(keyboard_check(ord("S"))){
-	motion_add(image_angle, -0.15);
-}
+	if(keyboard_check_pressed(vk_space)){
+		var inst = instance_create_layer(x,y, "Instances", o_bullet);
+		inst.direction = image_angle;
+		audio_play_sound(snd_lasershot, 1, false);
+	}
 
-if(keyboard_check_pressed(vk_space)){
-	var inst = instance_create_layer(x,y, "Instances", o_bullet);
-	inst.direction = image_angle;
-	audio_play_sound(snd_lasershot, 1, false);
+	if(keyboard_check(vk_shift)){
+		speed = 0;
+	}
 }
 
 // health system
@@ -55,12 +56,16 @@ if hp > hp_max{
 
 if hp <= 0
 {
-	with (o_game){
-		game_over = true;
-	}
+	if rm1{
+		with (o_game){
+			game_over = true;
+		}
 	
-	with (o_game){
-		alarm[0] = room_speed * 1;
+		with (o_game){
+			alarm[0] = room_speed * 1;
+		}
+	} else{
+		enemy_manager3.game_over = true;
 	}
 	
 	repeat(10)

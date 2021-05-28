@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_a_tentacle",
-    "path": "sprites/spr_a_tentacle/spr_a_tentacle.yy",
+    "name": "spr_plant",
+    "path": "sprites/spr_plant/spr_plant.yy",
   },
   "solid": true,
   "visible": true,

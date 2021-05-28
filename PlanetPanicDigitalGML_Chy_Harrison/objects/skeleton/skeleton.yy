@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_a_tentacle",
-    "path": "sprites/spr_a_tentacle/spr_a_tentacle.yy",
+    "name": "spr_skeleton",
+    "path": "sprites/spr_skeleton/spr_skeleton.yy",
   },
   "solid": false,
   "visible": true,

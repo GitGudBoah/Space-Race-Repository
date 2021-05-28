@@ -105,11 +105,10 @@ if dodging{
 //walk-in
 if walking_in{
 	x += 2.5;
-}
-
-if x >= 175 && canTrigger{
-	canTrigger = false
-	o_Wall2.x = -128;
-	walking_in = false;
-	com2_14.talking = true;
+	
+	if x >= 175{
+		walking_in = false;
+		o_Wall2.x = -128;
+		com2_14.talking = true;
+	}
 }

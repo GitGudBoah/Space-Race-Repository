@@ -98,7 +98,7 @@ if counter = 18{
 
 if counter = 19{
 	speaker = spr_com_jay;
-	text = "Oh, thank god! We'll be there in a flash!";
+	text = "Oh, thank god! We'll be there in a flash, Glaucus!";
 }
 
 if counter = 20{

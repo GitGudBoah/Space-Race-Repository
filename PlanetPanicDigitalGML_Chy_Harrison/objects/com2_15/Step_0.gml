@@ -13,8 +13,9 @@ if counter = 2{
 if counter = 3{
 	speaker = spr_com_robot;
 	text = "...";
+	audio_sound_gain(placeholder_music5, 0, 1000);
 }
 
 if counter = 4{
-	room_goto(Victory);
+	room_goto(rm_museum);
 }

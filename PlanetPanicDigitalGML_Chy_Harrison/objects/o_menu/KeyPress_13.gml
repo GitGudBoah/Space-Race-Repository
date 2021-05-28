@@ -7,6 +7,7 @@ switch(menu_index) {
 	case 0:
 		score = 0;
 		if shortcut{
+			audio_stop_all();
 			room_goto(shortcut_destination);
 		} else{
 			if music.cp{

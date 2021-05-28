@@ -1,0 +1,2 @@
+inrange = false;
+available = true;

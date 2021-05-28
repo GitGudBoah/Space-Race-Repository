@@ -1,13 +1,13 @@
 //Jokester
 
 if counter = 1{
-	speaker = spr_com_kandar;
+	speaker = spr_com_jokester;
 	text = "Hey, geezer. You look funny. Tell me a joke, would ya?";
 }
 
 //decision
 if counter = 2{
-	speaker = spr_com_kandar;
+	speaker = spr_com_jokester;
 	text = "Hey, geezer. You look funny. Tell me a joke, would ya?";
 	decision = true;
 }
@@ -29,7 +29,7 @@ if counter = 4{
 		speaker = spr_com_alan;
 		text = "The bartender asks: Why the big pause?";
 	} else{
-		speaker = spr_com_kandar;
+		speaker = spr_com_jokester;
 		text = "...?";
 	}
 }
@@ -46,10 +46,10 @@ if counter = 5{
 
 if counter = 6{
 	if choice = false{
-		speaker = spr_com_kandar;
+		speaker = spr_com_jokester;
 		text = ".....................";
 	} else{
-		speaker = spr_com_kandar;
+		speaker = spr_com_jokester;
 		text = "PFFT AHAHHAHAHA- Good shit, gramps!";
 	}
 }
@@ -59,14 +59,14 @@ if counter = 7{
 		speaker = spr_com_alan;
 		text = "*sweats nervously*";
 	} else{
-		speaker = spr_com_kandar;
+		speaker = spr_com_jokester;
 		text = "Here! To thank you for making me laugh, I'll give my rarest trading card. Treat her well, would ya?";
 	}
 }
 
 if counter = 8{
 	if choice = false{
-		speaker = spr_com_kandar;
+		speaker = spr_com_jokester;
 		text = "That ruined my day.";
 	} else{
 		speaker = spr_com_alan;

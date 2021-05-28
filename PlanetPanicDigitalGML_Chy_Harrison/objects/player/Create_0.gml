@@ -10,3 +10,6 @@ healthbar_width = 100;
 healthbar_height = 12;
 healthbar_x = 10;
 healthbar_y = 10;
+
+incontrol = true;
+rm1 = true;

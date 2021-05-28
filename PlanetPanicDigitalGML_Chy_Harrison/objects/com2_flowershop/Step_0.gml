@@ -1,7 +1,7 @@
 //Flower Shop
 
 if counter = 1{
-	speaker = spr_com_citizen1;
+	speaker = spr_com_beau;
 	text = "Hey, Alan! Haven't seen you around these parts in a while!";
 }
 
@@ -11,12 +11,12 @@ if counter = 2{
 }
 
 if counter = 3{
-	speaker = spr_com_citizen1;
+	speaker = spr_com_beau;
 	text = "*eyes water* Thank you! I've been working really hard.";
 }
 
 if counter = 4{
-	speaker = spr_com_citizen1;
+	speaker = spr_com_beau;
 	text = "Hey, why don't you buy a flower!? I'm sure Alice would love one!";
 }
 
@@ -26,13 +26,13 @@ if counter = 5{
 }
 
 if counter = 6{
-	speaker = spr_com_citizen1;
+	speaker = spr_com_beau;
 	text = "Fine... If you're going to be like that...";
 }
 
 //decision
 if counter = 7{
-	speaker = spr_com_citizen1;
+	speaker = spr_com_beau;
 	text = "Fine... If you're going to be like that...";
 	decision = true;
 }
@@ -51,10 +51,10 @@ if counter = 8{
 
 if counter = 9{
 	if choice = false{
-		speaker = spr_com_citizen1;
+		speaker = spr_com_beau;
 		text = "Oh my god...! Alan- I'm so sorry!";
 	} else{
-		speaker = spr_com_citizen1;
+		speaker = spr_com_beau;
 		text = "Come again soon, okay? And tell Alice I said hi!";
 	}
 }
@@ -71,7 +71,7 @@ if counter = 10{
 }
 
 if counter = 11{
-	speaker = spr_com_citizen1;
+	speaker = spr_com_beau;
 	text = "Beau comes around the counter and hugs Alan.";
 }
 
@@ -86,7 +86,7 @@ if counter = 13{
 }
 
 if counter = 14{
-	speaker = spr_com_citizen1;
+	speaker = spr_com_beau;
 	text = "*lets go of Alan* If you ever need help or anything, I'm here for you- okay?";
 }
 

@@ -12,3 +12,4 @@ cp6 = false;
 
 //decisons
 ring = false;
+song_played = false;

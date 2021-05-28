@@ -6,7 +6,7 @@ if enemy_manager2.game_over = false{
 
 	if gagarin.x > 4000 && gagarin.x < 4100{
 		speaker = spr_com_glaucus;
-		text = "He's been pushing himself really hard lately. I'm worried that he might have gotten sick.";
+		text = "He's been pushing himself really hard lately. I'm worried that he might have caught ill.";
 	}
 
 	if gagarin.x > 7800 && gagarin.x < 7900{

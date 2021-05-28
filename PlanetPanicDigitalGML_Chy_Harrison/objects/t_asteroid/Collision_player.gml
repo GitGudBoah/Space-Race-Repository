@@ -1,5 +1,5 @@
 with(other){
-	hp -= 25;
+	hp -= 40;
 }
 
 audio_play_sound(snd_explosion_big, 1, false);

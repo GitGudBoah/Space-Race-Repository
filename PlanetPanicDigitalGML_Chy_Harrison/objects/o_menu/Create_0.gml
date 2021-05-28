@@ -1,6 +1,6 @@
 //shortcut: menu sends you to the specified room
 shortcut = true;
-shortcut_destination = black_screen2;
+shortcut_destination = rm_level3;
 
 menu_x = room_width/2;
 menu_y = 250;

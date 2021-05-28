@@ -13,8 +13,8 @@
   "soundFile": "placeholder_music4.mp3",
   "duration": 138.005,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "temp_music",
+    "path": "folders/Sounds/temp_music.yy",
   },
   "resourceVersion": "1.0",
   "name": "placeholder_music4",

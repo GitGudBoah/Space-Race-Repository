@@ -1,9 +1,10 @@
 incontrol = false;
-canTrigger = true;
 dodging = false;
 reverse = false;
 canDodge = true;
 dodgeCD = 0.4;
+
+canTrigger = false;
 
 // new hp bar
 hp = 200;
