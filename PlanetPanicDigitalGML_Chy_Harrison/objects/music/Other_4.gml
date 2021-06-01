@@ -95,6 +95,20 @@ if cp6{
 		audio_play_sound(placeholder_music1, 1, true);
 	}	
 }
+if cp9{
+	if room = rm_xenom2
+	{
+		audio_stop_all();
+		audio_play_sound(placeholder_music8, 1, true);
+	}	
+}
+if cp10{
+	if room = rm_xenom3
+	{
+		audio_stop_all();
+		audio_play_sound(placeholder_music8, 1, true);
+	}	
+}
 
 //checkpoints
 if room = rm_enemy{
@@ -120,4 +134,20 @@ if room = rm_settlement{
 if room = rm_believer{
 	cp5 = false;
 	cp6 = true;
+}
+if room = rm_level3{
+	cp6 = false;
+	cp7 = true;
+}
+if room = rm_xenom{
+	cp7 = false;
+	cp8 = true;
+}
+if room = rm_xenom2{
+	cp8 = false;
+	cp9 = true;
+}
+if room = rm_xenom3{
+	cp9 = false;
+	cp10 = true;
 }

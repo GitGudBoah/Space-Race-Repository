@@ -2,14 +2,14 @@
 
 if counter = 1{
 	speaker = spr_com_blank;
-	text = "Enter Hal-9?";
+	text = "Head to Hal-9?";
 	choice = false;
 }
 
 //decision
 if counter = 2{
 	speaker = spr_com_blank;
-	text = "Enter Hal-9?";
+	text = "Head to Hal-9?";
 	decision = true;
 }
 

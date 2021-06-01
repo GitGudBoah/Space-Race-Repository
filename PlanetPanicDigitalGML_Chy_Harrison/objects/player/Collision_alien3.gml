@@ -1,4 +1,4 @@
-hp -= 40;
+hp -= 50;
 
 audio_play_sound(snd_explosion_big, 1, false);
 

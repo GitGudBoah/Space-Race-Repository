@@ -3,5 +3,5 @@ speed = 0;
 
 pursuit = false;
 check = true;
-range = 3300;
+range = 2100;
 reloading = false;

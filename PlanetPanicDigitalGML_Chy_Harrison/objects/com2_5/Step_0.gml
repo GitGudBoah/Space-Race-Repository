@@ -62,7 +62,7 @@ if counter = 12{
 
 if counter = 13{
 	speaker = spr_com_demeter;
-	text = "I tested your blood after Glaucus said that you might be sick. It turns out, you're infected with something nasty.";
+	text = "I tested your blood after Glaucus said that you might be sick. It turns out, you're infected with a nasty virus.";
 }
 
 if counter = 14{

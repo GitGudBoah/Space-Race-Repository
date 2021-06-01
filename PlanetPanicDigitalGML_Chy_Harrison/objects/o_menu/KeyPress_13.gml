@@ -11,7 +11,16 @@ switch(menu_index) {
 			room_goto(shortcut_destination);
 		} else{
 			if music.cp{
-			room_goto(scene1);
+			//fade transition
+			if canTrigger{
+				canTrigger = false;
+				var inst = instance_create_depth(0, 0, -999, fader);
+				inst.destination_room = scene1;
+				inst.fadein_speed = 0.2;
+				inst.fadeout_speed = 0.2;
+				inst.room_swap_delay = 0.2;
+			}
+			//room_goto(scene1);
 			}
 			if music.cp1{
 			room_goto(rm_enemy);
@@ -30,6 +39,18 @@ switch(menu_index) {
 			}
 			if music.cp6{
 			room_goto(rm_believer);
+			}
+			if music.cp7{
+			room_goto(rm_level3);
+			}
+			if music.cp8{
+			room_goto(rm_xenom);
+			}
+			if music.cp9{
+			room_goto(rm_xenom2);
+			}
+			if music.cp10{
+			room_goto(rm_xenom3);
 			}
 		}
 		break;

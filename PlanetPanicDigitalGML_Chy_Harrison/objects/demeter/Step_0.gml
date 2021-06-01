@@ -34,6 +34,9 @@ if enemy_manager2.demeter_alive && following{
 			reloading = true;
 			alarm[0] = room_speed * firerate;
 			firing = true;
+			//cooldown indicator
+			cooldown_indicator = "POISON: 4";
+			alarm[1] = room_speed * 1;
 		}
 	}
 }

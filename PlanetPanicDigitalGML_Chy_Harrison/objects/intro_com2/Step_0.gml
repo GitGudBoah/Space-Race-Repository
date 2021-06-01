@@ -45,7 +45,7 @@ if counter = 9{
 
 if counter = 10{
 	speaker = spr_com_glaucus;
-	text = "I'll keep us in the air.";
+	text = "I'll keep the ship sailing.";
 }
 
 if counter = 11{

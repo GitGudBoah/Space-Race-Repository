@@ -25,6 +25,7 @@ if counter = 5{
 	talking = false;
 	jay2_2.incontrol = true;
 	demeter.reloading = false;
+	demeter.display_cooldown = true;
 	speaker = spr_com_blank;
 	text = "[Press E to fire a poison shot]";
 }

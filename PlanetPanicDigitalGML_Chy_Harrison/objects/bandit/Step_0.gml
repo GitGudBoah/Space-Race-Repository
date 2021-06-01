@@ -1,6 +1,7 @@
 //chase the player
 if (check) && (distance_to_object(player) <= range) {
 	pursuit = true;
+	audio_play_sound(snd_alarm_low, 1, false);
 	check = false;
 }
 
@@ -11,7 +12,7 @@ if enemy_manager3.game_over = false && pursuit
 	
 	//shooting
 	if reloading = false {
-		var inst = instance_create_layer(x, y, "Instances", o_boss_bullet);
+		var inst = instance_create_layer(x, y, "Instances", bandit_bullet);
 		inst.direction = direction;
 		audio_play_sound(snd_lasershot, 1, false);
 		reloading = true;
@@ -27,6 +28,7 @@ if direction < 90 or direction > 270{
 }
 
 if hp <= 0{
+	com3_intro.counter2 += 1;
 	audio_play_sound(snd_explosion_small, 1, false);
 
 	repeat(10){
