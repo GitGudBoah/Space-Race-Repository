@@ -23,30 +23,45 @@ if music.first_time{
 
 	if counter = 5{
 		speaker = spr_com_jay;
-		text = "Seems like a quarrel between lovers. Woah! She called him a f-";
+		text = "Seems like a quarrel between lovers. Yikes! She called him a f-";
 	}
 
 	if counter = 6{
 		speaker = spr_com_alan;
-		text = "Each of them has a key to the gate. *cough* They won't let each other leave, but they won't let each other near either...";
+		text = "Each of them has a key to the gate. They won't let each other leave, but they won't let each other near either...";
 	}
 
 	if counter = 7{
 		speaker = spr_com_demeter;
-		text = "Sounds about right.";
+		text = "*sigh* That's just how it is sometimes, isn't it?";
 	}
-	
+
 	if counter = 8{
+		speaker = spr_com_jay;
+		text = "Reminds me of my first date. Glaucus, have you dated any other androids?";
+	}
+
+	if counter = 9{
+		speaker = spr_com_glaucus;
+		text = "No. Androids are designed to feel affection only towards humans.";
+	}
+
+	if counter = 10{
+		speaker = spr_com_jay;
+		text = "...I see.";
+	}
+
+	if counter = 11{
 		speaker = spr_com_demeter;
 		text = "If I'm remembering correctly, there are two space stations nearby: Hal-9 to the north, and Xenom to the south.";
 	}
-	
-	if counter = 9{
+
+	if counter = 12{
 		speaker = spr_com_glaucus;
 		text = "Maybe we'll find one of these lovers there.";
 	}
 
-	if counter = 10{
+	if counter = 13{
 		counter = 0;
 		talking = false;
 		player.incontrol = true;

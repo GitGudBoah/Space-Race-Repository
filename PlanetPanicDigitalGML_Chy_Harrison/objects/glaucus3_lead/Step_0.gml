@@ -140,6 +140,45 @@ if knife_ammo = 1{
 if knife_ammo <= 0{
 	knife_ammo_indicator = "Knife: OUT";
 }
+//overload indicator
+if charged{
+	if overload = 100{
+		overload_indicator = "OVERLOAD: 0%";
+	}
+	if overload = 90{
+		overload_indicator = "OVERLOAD: 10%";
+	}
+	if overload = 80{
+		overload_indicator = "OVERLOAD: 20%";
+	}
+	if overload = 70{
+		overload_indicator = "OVERLOAD: 30%";
+	}
+	if overload = 60{
+		overload_indicator = "OVERLOAD: 40%";
+	}
+	if overload = 50{
+		overload_indicator = "OVERLOAD: 50%";
+	}
+	if overload = 40{
+		overload_indicator = "OVERLOAD: 60%";
+	}
+	if overload = 30{
+		overload_indicator = "OVERLOAD: 70%";
+	}
+	if overload = 20{
+		overload_indicator = "OVERLOAD: 80%";
+	}
+	if overload = 10{
+		overload_indicator = "OVERLOAD: 90%";
+	}
+	if overload = 0{
+		overload_indicator = "OVERLOAD: 100%";
+	}
+	if overload = -1{
+		overload_indicator = "OVERLOAD: ...";
+	}
+}
 
 //dodge
 if dodging{

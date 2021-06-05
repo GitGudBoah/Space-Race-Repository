@@ -1,8 +1,8 @@
 //fade transition
 canTrigger = true;
 //shortcut: menu sends you to the specified room
-shortcut = false;
-shortcut_destination = rm_xenom3;
+shortcut = true;
+shortcut_destination = beast_encounter;
 
 menu_x = room_width/2;
 menu_y = 250;

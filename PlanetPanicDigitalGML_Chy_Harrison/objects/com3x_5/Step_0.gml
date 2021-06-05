@@ -20,7 +20,7 @@ if counter = 2{
 
 if counter = 3{
 	speaker = spr_com_glaucus;
-	text = "I've cheered from the bleachers for long enough- why don't I take the lead for now?";
+	text = "I've cheered from the bleachers for long enough- why don't I lead the way for now?";
 }
 
 if counter = 4{

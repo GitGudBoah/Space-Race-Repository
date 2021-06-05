@@ -109,6 +109,13 @@ if cp10{
 		audio_play_sound(placeholder_music8, 1, true);
 	}	
 }
+if cp11{
+	if room = beast_fight
+	{
+		audio_stop_all();
+		audio_play_sound(placeholder_music9, 1, true);
+	}	
+}
 
 //checkpoints
 if room = rm_enemy{
@@ -150,4 +157,8 @@ if room = rm_xenom2{
 if room = rm_xenom3{
 	cp9 = false;
 	cp10 = true;
+}
+if room = beast_fight{
+	cp10 = false;
+	cp11 = true;
 }

@@ -7,7 +7,7 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_glaucus;
-	text = "Dr. Zhang... I remember when she put me together. I wonder if she still remembers me.";
+	text = "Dr. Zhang... I remember when she put me together; I wonder if she still remembers me.";
 }
 
 if counter = 3{
@@ -17,7 +17,7 @@ if counter = 3{
 
 if counter = 4{
 	speaker = spr_com_alan;
-	text = "The last lie, yes. Dahlia's agents are waiting for this shipment of minerals on Garinoka. It should be the final one.";
+	text = "The last lie, yes. Dahlia's agents are waiting for this shipment of minerals on Garinoka. It should be the last one.";
 }
 
 if counter = 5{

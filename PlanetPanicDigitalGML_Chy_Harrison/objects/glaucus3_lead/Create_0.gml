@@ -30,3 +30,8 @@ descending = false;
 descending2 = false;
 
 canTrigger = true;
+
+//overload
+overload = 100;
+overload_indicator = "OVERLOAD: 0%";
+charged = true;

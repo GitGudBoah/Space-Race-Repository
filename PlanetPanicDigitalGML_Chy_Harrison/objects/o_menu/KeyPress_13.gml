@@ -52,6 +52,9 @@ switch(menu_index) {
 			if music.cp10{
 			room_goto(rm_xenom3);
 			}
+			if music.cp11{
+			room_goto(beast_fight);
+			}
 		}
 		break;
 	case 1:

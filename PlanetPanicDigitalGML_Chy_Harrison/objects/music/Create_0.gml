@@ -13,6 +13,7 @@ cp7 = false;
 cp8 = false;
 cp9 = false;
 cp10 = false;
+cp11 = false;
 
 //decisons
 ring = false;

@@ -1,1 +1,2 @@
-greet = false;
+inrange = false;
+available = true;

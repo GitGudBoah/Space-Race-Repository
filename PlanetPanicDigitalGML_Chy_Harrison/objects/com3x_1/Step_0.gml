@@ -48,7 +48,7 @@ if counter = 9{
 
 if counter = 10{
 	speaker = spr_com_glaucus;
-	text = "Glaucus- How do you do?";
+	text = "Glaucus- Your outfit looks lovely!";
 }
 
 if counter = 11{

@@ -1,4 +1,4 @@
-hp = 150;
+hp = 100;
 speed = 0;
 
 pursuit = false;
