@@ -61,13 +61,14 @@ if counter = 7{
 	} else{
 		speaker = spr_com_jokester;
 		text = "Here! To thank you for making me laugh, I'll give my rarest trading card. Treat her well, would ya?";
+		music.rare_card = true;
 	}
 }
 
 if counter = 8{
 	if choice = false{
 		speaker = spr_com_jokester;
-		text = "That ruined my day.";
+		text = "That sucked, gramps.";
 	} else{
 		speaker = spr_com_alan;
 		text = "Sure thing, kid.";

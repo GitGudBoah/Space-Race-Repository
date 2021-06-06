@@ -4,7 +4,7 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_glaucus;
-	text = "Apologies if this is intrusive...but what was it that happened to the Terran people?";
+	text = "Apologies if this is intrusive, but...what was it that happened to the Terran people?";
 }
 
 if counter = 3{

@@ -1,6 +1,6 @@
 if counter = 1{
 	speaker = spr_com_demeter;
-	text = "Thanks.";
+	text = "I tried to poison a rival of mine- What do you think?";
 }
 if counter = 3{
 	speaker = spr_com_blank;

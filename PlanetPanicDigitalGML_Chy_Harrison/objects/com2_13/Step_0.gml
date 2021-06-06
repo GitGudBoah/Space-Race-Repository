@@ -77,7 +77,7 @@ if counter = 13{
 
 if counter = 14{
 	speaker = spr_com_alan;
-	text = "Don't just sit around waiting to die. There's so much more you can be doing!";
+	text = "Don't just sit around waiting to die when there's so much more you could be doing!";
 }
 
 if counter = 15{

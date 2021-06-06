@@ -18,6 +18,7 @@ cp11 = false;
 //decisons
 ring = false;
 song_played = false;
+rare_card = false;
 
 //first time interactions
 first_time = true;

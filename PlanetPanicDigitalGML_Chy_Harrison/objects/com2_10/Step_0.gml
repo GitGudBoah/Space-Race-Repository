@@ -5,7 +5,7 @@ if counter = 1 && canTrigger{
 	talking = true;
 	alarm[0] = room_speed * 2;
 	speaker = spr_com_jay;
-	text = "You're a good shot with that thing.";
+	text = "What's the story behind that little invention?";
 }
 
 if counter = 3 && canTrigger2{

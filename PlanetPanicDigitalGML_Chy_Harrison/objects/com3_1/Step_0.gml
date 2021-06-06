@@ -48,7 +48,7 @@ if music.first_time{
 
 	if counter = 10{
 		speaker = spr_com_jay;
-		text = "...I see.";
+		text = "Ah, I was just like you when I started out. You just haven't met the right android, yet.";
 	}
 
 	if counter = 11{

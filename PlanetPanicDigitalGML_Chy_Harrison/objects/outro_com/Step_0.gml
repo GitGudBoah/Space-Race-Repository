@@ -10,12 +10,12 @@ if counter = 2{
 
 if counter = 3{
 	speaker = spr_com_alan;
-	text = "Yes, by some miracle. *cough* But we aren't out of its shadow yet. Keep your finger on that trigger.";
+	text = "Yes. *cough* But we aren't out of its shadow yet. Keep your finger on that trigger.";
 }
 
 if counter = 4{
 	speaker = spr_com_jay;
-	text = "Monroe...? You hanging in there?";
+	text = "Monroe? You hanging in there?";
 }
 
 if counter = 5{

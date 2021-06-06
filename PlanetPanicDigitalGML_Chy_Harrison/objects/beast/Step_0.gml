@@ -12,5 +12,5 @@ if enemy_manager3.game_over = false && reloading = false{
 
 //die
 if tentacleb_hp.alive1 = false && tentacleb_hp.alive2 = false{
-	room_goto(Victory);
+	room_goto(beast_defeat);
 }

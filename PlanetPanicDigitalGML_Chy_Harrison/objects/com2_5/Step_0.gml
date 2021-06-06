@@ -72,7 +72,7 @@ if counter = 14{
 
 if counter = 15{
 	speaker = spr_com_alan;
-	text = "*grabs Demeter by her collar* Damn it, Monroe! That's my business, not yours!";
+	text = "*grabs Demeter by her shirt* Damn it, Monroe! That's my business, not yours!";
 }
 
 if counter = 16{
@@ -127,7 +127,7 @@ if counter = 25{
 
 if counter = 26{
 	speaker = spr_com_alan;
-	text = "I kept it secret so that we could keep working at our current speed. Our work will pay off soon, I promise.";
+	text = "I kept it a secret so that we could keep working at our current speed. Our work will pay off soon, I promise.";
 }
 
 if counter = 27{

@@ -14,13 +14,15 @@ draw_text(10, 80, knife_ammo_indicator);
 draw_set_halign(fa_middle);
 
 //overload indicator
-if overload = 0{
-	draw_sprite_ext(spr_black_pixel, 1, 5, 94, 145, 25, 0, c_white, 0.75);
-} else{
-	draw_sprite_ext(spr_black_pixel, 1, 5, 94, 140, 25, 0, c_white, 0.75);
+if charged{
+	if overload = 0{
+		draw_sprite_ext(spr_black_pixel, 1, 5, 94, 145, 25, 0, c_white, 0.75);
+	} else{
+		draw_sprite_ext(spr_black_pixel, 1, 5, 94, 140, 25, 0, c_white, 0.75);
+	}
+	draw_set_alpha(1);
+	draw_set_font(font_gametext);
+	draw_set_halign(fa_left);
+	draw_text(10, 110, overload_indicator);
+	draw_set_halign(fa_middle);
 }
-draw_set_alpha(1);
-draw_set_font(font_gametext);
-draw_set_halign(fa_left);
-draw_text(10, 110, overload_indicator);
-draw_set_halign(fa_middle);

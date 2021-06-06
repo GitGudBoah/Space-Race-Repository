@@ -30,7 +30,7 @@ if counter = 6{
 
 if counter = 7{
 	speaker = spr_com_glaucus;
-	text = "At the rate we've been going, even I could use a break. However, I'd agree that this is the best call. The station matters more.";
+	text = "At the rate we've been going, even I could use a break. However, I agree that this is the best call. The station matters more.";
 }
 
 if counter = 8{
@@ -50,17 +50,17 @@ if counter = 10{
 
 if counter = 11{
 	speaker = spr_com_demeter;
-	text = "Resident diplomat and linguist here. Could we perhaps get going? We've been working together for long enough to skip the formalities.";
+	text = "Resident diplomat and linguist here. We've been working together for long enough to skip the formalities, haven't we?";
 }
 
 if counter = 12{
 	speaker = spr_com_alan;
-	text = "You just couldn't wait your turn... We'll need your...expertise to make sure we get a good deal for our spoils.";
+	text = "You just couldn't wait your turn. We'll need your...expertise to make sure we get a good deal for our spoils.";
 }
 
 if counter = 13{
 	speaker = spr_com_demeter;
-	text = "If we make it to Garinoka...";
+	text = "If we even make it to Garinoka...";
 }
 
 if counter = 14{

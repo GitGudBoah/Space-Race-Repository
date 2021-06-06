@@ -125,7 +125,7 @@ if counter = 18{
 
 if counter = 19{
 	speaker = spr_com_kandar;
-	text = "Our last mechanic was swallowed up by a beast. We'll give you the key to the gate, but only if Glaucus stays here with us.";
+	text = "Our last mechanic was swallowed up by a beast one week ago. We'll give you the key to the gate, but only if Glaucus stays here with us.";
 }
 
 if counter = 20{
