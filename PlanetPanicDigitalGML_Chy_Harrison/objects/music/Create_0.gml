@@ -22,3 +22,6 @@ rare_card = false;
 
 //first time interactions
 first_time = true;
+
+//level 3 progression check
+stations = 0;

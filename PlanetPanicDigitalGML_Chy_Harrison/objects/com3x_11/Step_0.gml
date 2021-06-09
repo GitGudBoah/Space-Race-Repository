@@ -223,7 +223,14 @@ if counter = 39{
 
 if counter = 40{
 	counter = 0;
-	room_goto(Victory);
+	talking = false;
+	var inst = instance_create_depth(0, 0, -999, fader);
+	inst.destination_room = rm_level3;
+	inst.fadein_speed = 0.0075;
+	inst.fadeout_speed = 0.02;
+	inst.room_swap_delay = 2;
+	audio_sound_gain(placeholder_music6, 0, 2000);
+	music.stations = 1;
 }
 
 //decision: choosing

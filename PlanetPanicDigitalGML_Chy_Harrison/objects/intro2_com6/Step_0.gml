@@ -117,7 +117,7 @@ if counter = 19{
 if counter = 20 && canTrigger4{
 	canTrigger4 = false;
 	speaker = spr_com_alan;
-	text = "*rocks her back and forth* *blood spills through fingers* come on... come on...";
+	text = "*rocks her back and forth- blood spills through fingers* come on... come on, damnit...!";
 	robot.r_enter = true;
 	dahlia_move.d_enter = true;
 }

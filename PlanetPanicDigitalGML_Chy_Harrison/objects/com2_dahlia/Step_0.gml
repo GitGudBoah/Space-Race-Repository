@@ -173,7 +173,7 @@ if counter2 == 1{
 
 	if counter = 2{
 		speaker = spr_com_alan;
-		text = "I don't appreciate this, Dahlia. You and I aren't friends; I strongly prefer to keep it that way.";
+		text = "I don't appreciate this, Dahlia. You and I aren't friends, and I strongly prefer to keep it that way.";
 	}
 
 	if counter = 3{

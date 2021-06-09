@@ -7,12 +7,12 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_glaucus;
-	text = "Dr. Zhang... I remember when she put me together; I wonder if she still remembers me.";
+	text = "Dr. Zhang... I recall when she put me together; though I doubt that she remembers me.";
 }
 
 if counter = 3{
 	speaker = spr_com_demeter;
-	text = "Alan~ You said we were heading to Garinoka because we needed resources to keep Attis from croaking. Was that a lie?";
+	text = "Alan~ You said we were heading to Garinoka because we needed resources to keep Attis from dying. Was that a lie?";
 }
 
 if counter = 4{
@@ -46,7 +46,7 @@ if counter = 9{
 	counter = 10;
 }
 
-if counter2 = 2{
+if music.stations = 0 && counter2 = 2{
 	counter2 = 3;
 	player.incontrol = false;
 	player.speed = 0;

@@ -5,12 +5,12 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_jay;
-	text = "*wipes sweat from brow* How is everyone? Still in one piece?";
+	text = "Is everyone still in one piece?";
 }
 
 if counter = 3{
 	speaker = spr_com_alan;
-	text = "Yes. *cough* But we aren't out of its shadow yet. Keep your finger on that trigger.";
+	text = "Yes, but we aren't out of its shadow yet. *cough* Keep your finger on that trigger.";
 }
 
 if counter = 4{

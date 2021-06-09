@@ -15,11 +15,11 @@ if enemy_manager2.game_over = false{
 	}
 
 	if gagarin.x > 19600 && gagarin.x < 19700{
-		speaker = spr_com_demeter;
-		text = "...?";
+		talking = false;
 	}
 	
 	if gagarin.x > 18700 && gagarin.x < 18800{
+		talking = true;
 		speaker = spr_com_glaucus;
 		text = "Doesn't it remind you all of Earth?";
 	}
@@ -31,7 +31,7 @@ if enemy_manager2.game_over = false{
 	
 	if gagarin.x > 16700 && gagarin.x < 16800{
 		speaker = spr_com_glaucus;
-		text = "Why don't we go sight-seeing once we get back?";
+		text = "Why don't we go sight-seeing at the museum once we return?";
 	}
 	
 	if gagarin.x > 15500 && gagarin.x < 15600{

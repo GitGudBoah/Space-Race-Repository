@@ -11,8 +11,14 @@ if counter = 2{
 }
 
 if counter = 3{
-	speaker = spr_com_blank;
-	text = "2 KEYS REQUIRED";
+	if music.stations = 0{
+		speaker = spr_com_blank;
+		text = "2 KEYS REQUIRED";
+	}
+	if music.stations = 1{
+		speaker = spr_com_blank;
+		text = "1 KEY REQUIRED";
+	}
 }
 
 if music.first_time{
@@ -23,7 +29,7 @@ if music.first_time{
 
 	if counter = 5{
 		speaker = spr_com_jay;
-		text = "Seems like a quarrel between lovers. Yikes! She called him a f-";
+		text = "Seems like a quarrel between lovers. One of them works security... Name's Titania. Yikes! She called him a f-";
 	}
 
 	if counter = 6{
@@ -48,20 +54,25 @@ if music.first_time{
 
 	if counter = 10{
 		speaker = spr_com_jay;
-		text = "Ah, I was just like you when I started out. You just haven't met the right android, yet.";
+		text = "Ah, I was just like you when I started out- you just haven't met the right android, yet.";
+	}
+	
+	if counter = 11{
+		speaker = spr_com_glaucus;
+		text = "I suppose there's a chance...";
 	}
 
-	if counter = 11{
+	if counter = 12{
 		speaker = spr_com_demeter;
 		text = "If I'm remembering correctly, there are two space stations nearby: Hal-9 to the north, and Xenom to the south.";
 	}
 
-	if counter = 12{
-		speaker = spr_com_glaucus;
+	if counter = 13{
+		speaker = spr_com_alan;
 		text = "Maybe we'll find one of these lovers there.";
 	}
 
-	if counter = 13{
+	if counter = 14{
 		counter = 0;
 		talking = false;
 		player.incontrol = true;

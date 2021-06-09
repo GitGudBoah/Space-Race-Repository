@@ -9,6 +9,7 @@ if gagarin2_exit.inrange{
 		if gagarin2_exit.x < jay2_2.x{
 			jay2_2.image_xscale = -1;
 		}
+		alan.image_xscale = -1;
 	}
 }
 

@@ -11,7 +11,7 @@ if o_game.game_over = false{
 
 	if player.x > 2200 && player.x < 2300{
 		commlink.speaker = spr_com_glaucus;
-		commlink.text = "It's healthy to enjoy yourself, but try not to damage the ship again.";
+		commlink.text = "Control your bloodlust. Our top priority should be to escape.";
 	}
 
 	if player.x > 6500 && player.x < 6600{

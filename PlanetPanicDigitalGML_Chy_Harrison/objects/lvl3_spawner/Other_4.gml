@@ -1,4 +1,4 @@
-if room == rm_level3{
+if music.stations = 0{
 	//spawn bandits
 	instance_create_layer(2784, 640, "enemies", bandit);
 	instance_create_layer(5696, 1920, "enemies", bandit);
@@ -23,4 +23,21 @@ if room == rm_level3{
 	instance_create_layer(4544, 5440, "enemies", alien3);
 	instance_create_layer(6880, 6880, "enemies", alien3);
 	instance_create_layer(2176, 4832, "enemies", alien3);
+}
+
+if music.stations = 1{
+	//spawn bandits
+	instance_create_layer(10624, 1536, "enemies", bandit);
+	instance_create_layer(10848, 768, "enemies", bandit);
+	instance_create_layer(8864, 1280, "enemies", bandit);
+	instance_create_layer(9472, 1056, "enemies", bandit);
+	instance_create_layer(4128, 1856, "enemies", bandit);
+	instance_create_layer(6080, 2272, "enemies", bandit);
+	//spawn aliens
+	instance_create_layer(10304, 4800, "enemies", alien3);
+	instance_create_layer(11552, 4352, "enemies", alien3);
+	instance_create_layer(10976, 3872, "enemies", alien3);
+	instance_create_layer(11488, 3936, "enemies", alien3);
+	instance_create_layer(2464, 3392, "enemies", alien3);
+	instance_create_layer(2176, 4096, "enemies", alien3);
 }

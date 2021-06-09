@@ -31,7 +31,7 @@ if room = scene1
 	audio_stop_all();
 	audio_play_sound(placeholder_music0, 1, true);
 	audio_sound_gain(placeholder_music0, 0, 0);
-	audio_sound_gain(placeholder_music0, 1, 1000);
+	audio_sound_gain(placeholder_music0, 0.5, 1000);
 }
 
 if room = scene3
@@ -63,7 +63,7 @@ if room = scene9
 	audio_stop_all();
 	audio_play_sound(placeholder_music, 1, true);
 	audio_sound_gain(placeholder_music, 0, 0);
-	audio_sound_gain(placeholder_music, 1, 1000);
+	audio_sound_gain(placeholder_music, 0.25, 1000);
 	//reset_bg = false;
 }
 
@@ -144,6 +144,7 @@ if room = rm_believer{
 }
 if room = rm_level3{
 	cp6 = false;
+	cp11 = false;
 	cp7 = true;
 }
 if room = rm_xenom{

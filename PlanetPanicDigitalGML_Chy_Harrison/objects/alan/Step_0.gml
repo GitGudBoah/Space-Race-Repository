@@ -5,6 +5,6 @@ if distance_to_object(jay2_2) <= 70 && jay2_2.x < x{
 }
 
 //move
-if move && distance_to_object(gagarin2_exit) > stopping_distance{
+if move && x > 1250{
 	x -= 10;
 }

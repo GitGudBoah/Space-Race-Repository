@@ -35,7 +35,22 @@ if incontrol{
 		}
 	}
 	
-	//shooting
+	//shooting: pistol
+	if(keyboard_check_pressed(vk_space)) && pistol_reloading = false{
+		var pinst = instance_create_layer(x,y, "Instances", bullet3);
+		if image_xscale = 1{
+			pinst.direction = 0;
+		}
+		if image_xscale = -1{
+			pinst.direction = 180;
+		}
+		audio_play_sound(snd_lasershot, 1, false);
+		pistol_reloading = true;
+		alarm[4] = room_speed * pistol_firerate;
+		pistol_firing = true;
+		alarm[5] = room_speed * 1;
+	}
+	//knife
 	if(keyboard_check_pressed(ord("Q"))) && reloading = false{
 		if knife_ammo > 0{
 			var inst = instance_create_layer(x,y, "Instances", knife);
@@ -108,10 +123,16 @@ if descending2{
 	}
 }
 
-//shooting
-if firing{
+//attack animations
+if pistol_firing{
 	//firing sprite?
+	sprite_index = alan_shooting;
+} else if firing{
+	//firing sprite?
+} else{
+	sprite_index = alan_pistol;
 }
+
 //knife ammo indicator
 if knife_ammo = 13{
 	knife_ammo_indicator = "Knife: 13";

@@ -1,6 +1,6 @@
 //Alan swaps with Glaucus
 if enemy_manager3.game_over = false{
-	if alan3.x <= 1120 && counter = 0{
+	if alan3.x <= 935 && counter = 0{
 		counter = 1;
 		alan3.incontrol = false;
 		alan3.sprite_index = alan_kneeled;

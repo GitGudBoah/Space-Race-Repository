@@ -1,3 +1,11 @@
+if room = rm_level3{
+	if music.stations = 1{
+		x = 2464;
+		y = 7360;
+		image_angle = 90;
+	}
+}
+
 power_up_fr = false;
 power_up_ss = false;
 bullet_speed = 30;

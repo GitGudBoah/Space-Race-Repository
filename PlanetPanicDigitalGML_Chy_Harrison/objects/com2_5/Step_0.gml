@@ -53,6 +53,8 @@ if counter = 10{
 if counter = 11{
 	speaker = spr_com_alan;
 	text = "No need. *coughs and stumbles to feet* I'm coming with you.";
+	alan.x = 3050;
+	alan.sprite_index = alan_pistol;
 }
 
 if counter = 12{
@@ -132,7 +134,7 @@ if counter = 26{
 
 if counter = 27{
 	speaker = spr_com_demeter;
-	text = "This is our last mission together until you get this sorted out. I won't risk losing my life over your situation.";
+	text = "This is our last mission together until you get this sorted out. How could you hide something like this?";
 }
 
 if counter = 28{

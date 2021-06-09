@@ -13,7 +13,11 @@ healthbar_height = 12;
 healthbar_x = 10;
 healthbar_y = 10;
 
-//shooting
+//pistol
+pistol_reloading = false;
+pistol_firerate = 0.1;
+pistol_firing = false;
+//knife
 reloading = false;
 firerate = 0.3;
 firing = false;

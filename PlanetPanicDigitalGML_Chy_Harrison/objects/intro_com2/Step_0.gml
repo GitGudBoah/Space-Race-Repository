@@ -90,7 +90,7 @@ if counter = 18{
 
 if counter = 19{
 	speaker = spr_com_alan;
-	text = "And yes... After this, you can drink as much as you want.";
+	text = "And yes... After this, you can drink until you pass out.";
 }
 
 if counter = 20{
@@ -99,15 +99,10 @@ if counter = 20{
 }
 
 if counter = 21{
-	speaker = spr_com_jay;
-	text = "We'll have to try our best. We can't let Monroe down, or she won't ever shut up about it.";
-}
-
-if counter = 22{
 	speaker = spr_com_glaucus;
-	text = "Agreed. Let's finally set sail, shall we?";
+	text = "If that's all, then let us set sail.";
 }
 
-if counter >= 23{
+if counter >= 22{
 	room_goto(scene3);
 }
