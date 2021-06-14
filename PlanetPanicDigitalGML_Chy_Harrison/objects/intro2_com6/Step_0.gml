@@ -86,7 +86,7 @@ if counter = 14{
 if counter = 15 && canTrigger{
 	canTrigger = false;
 	speaker = spr_com_alan;
-	text = "*catches her in arms* JESUS - ALICE!";
+	text = "*catches her in arms* JESUS- ALICE!";
 	elroy_move.e_enter = true;
 	alan_move2.kneeling = true;
 }

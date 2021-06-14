@@ -26,7 +26,7 @@ if enemy_manager2.game_over = false{
 	
 	if gagarin.x > 18100 && gagarin.x < 18200{
 		speaker = spr_com_demeter;
-		text = "I had that thought as well. There are a few pictures and artistic renditions of our old home world back at Attis...";
+		text = "I had that thought as well. There are a few pictures and artistic renditions of our old home world back on Attis...";
 	}
 	
 	if gagarin.x > 16700 && gagarin.x < 16800{

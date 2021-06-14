@@ -14,6 +14,7 @@ cp8 = false;
 cp9 = false;
 cp10 = false;
 cp11 = false;
+cp12 = false;
 
 //decisons
 ring = false;
@@ -25,3 +26,8 @@ first_time = true;
 
 //level 3 progression check
 stations = 0;
+
+//upgrades
+pistol_upgrade = 0;
+knife_upgrade = 0;
+poison_upgrade = 0;

@@ -38,11 +38,15 @@ if incontrol{
 	//shooting: pistol
 	if(keyboard_check_pressed(vk_space)) && pistol_reloading = false{
 		var pinst = instance_create_layer(x,y, "Instances", bullet3);
-		if image_xscale = 1{
-			pinst.direction = 0;
-		}
-		if image_xscale = -1{
-			pinst.direction = 180;
+		if room = rm_hal9_2{
+			//do nothing
+		} else{
+			if image_xscale = 1{
+				pinst.direction = 0;
+			}
+			if image_xscale = -1{
+				pinst.direction = 180;
+			}
 		}
 		audio_play_sound(snd_lasershot, 1, false);
 		pistol_reloading = true;
@@ -54,11 +58,15 @@ if incontrol{
 	if(keyboard_check_pressed(ord("Q"))) && reloading = false{
 		if knife_ammo > 0{
 			var inst = instance_create_layer(x,y, "Instances", knife);
-			if image_xscale = 1{
-				inst.direction = 0;
-			}
-			if image_xscale = -1{
-				inst.direction = 180;
+			if room = rm_hal9_2{
+				//do nothing
+			} else{
+				if image_xscale = 1{
+					inst.direction = 0;
+				}
+				if image_xscale = -1{
+					inst.direction = 180;
+				}
 			}
 			audio_play_sound(snd_tentacle_attack, 1, false);
 			reloading = true;
@@ -124,13 +132,21 @@ if descending2{
 }
 
 //attack animations
-if pistol_firing{
-	//firing sprite?
-	sprite_index = alan_shooting;
-} else if firing{
-	//firing sprite?
-} else{
-	sprite_index = alan_pistol;
+if incontrol{
+	if pistol_firing{
+		//firing sprite?
+		if room = rm_hal9_2{
+			image_xscale = 1;
+		}
+		sprite_index = alan_shooting;
+	} else if firing{
+		//firing sprite?
+		if room = rm_hal9_2{
+			image_xscale = 1;
+		}
+	} else{
+		sprite_index = alan_pistol;
+	}
 }
 
 //knife ammo indicator

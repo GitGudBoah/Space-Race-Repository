@@ -197,31 +197,36 @@ if counter = 34{
 }
 
 if counter = 35{
-	speaker = spr_com_blank;
-	text = "I apologize for (name). He may not look it, but he's been through more than any of us have...";
+	speaker = spr_com_robot;
+	text = "That's a job that requires few. The majority of us will depart for Attis without delay. We'll rescue as many androids as we can and bring them back!";
 }
 
 if counter = 36{
 	speaker = spr_com_blank;
-	text = "I agree with what you said, Glaucus- I'll try to get (name) to see things differently, but I doubt it'll be easy. Anyway, I hope to see you again some day.";
+	text = "I apologize for (name). He may not look it, but he's been through more than any of us have...";
 }
 
 if counter = 37{
+	speaker = spr_com_blank;
+	text = "I agree with what you said, Glaucus- I'll try to get (name) to see things differently, but I doubt it'll be easy. Anyway, I hope to see you again some day.";
+}
+
+if counter = 38{
 	speaker = spr_com_glaucus;
 	text = "I hope so, too, gorgeous.";
 }
 
-if counter = 38{
+if counter = 39{
 	speaker = spr_com_blank;
 	text = "...";
 }
 
-if counter = 39{
+if counter = 40{
 	speaker = spr_com_demeter;
 	text = "Let's leave before you embarrass yourself anymore, yes?";
 }
 
-if counter = 40{
+if counter = 41{
 	counter = 0;
 	talking = false;
 	var inst = instance_create_depth(0, 0, -999, fader);

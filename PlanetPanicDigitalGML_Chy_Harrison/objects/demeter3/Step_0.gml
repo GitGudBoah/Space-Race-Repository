@@ -58,13 +58,17 @@ if enemy_manager3.game_over = false && following{
 	if enemy_manager3.target.incontrol{
 		if (keyboard_check(ord("E"))) && reloading = false{
 			var inst = instance_create_layer(x,y, "Instances", poison_shot);
-			if enemy_manager3.target.image_xscale = 1{
-				inst.direction = 0;
+			if room = rm_hal9_2{
 				face_r = true;
-			}
-			if enemy_manager3.target.image_xscale = -1{
-				inst.direction = 180;
-				face_r = false;
+			} else{
+				if enemy_manager3.target.image_xscale = 1{
+					inst.direction = 0;
+					face_r = true;
+				}
+				if enemy_manager3.target.image_xscale = -1{
+					inst.direction = 180;
+					face_r = false;
+				}
 			}
 			audio_play_sound(snd_lasershot, 1, false);
 			reloading = true;

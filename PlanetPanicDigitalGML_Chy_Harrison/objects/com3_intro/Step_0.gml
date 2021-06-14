@@ -27,23 +27,28 @@ if counter = 5{
 
 if counter = 6{
 	speaker = spr_com_believer;
-	text = "*flails body back and forth* The keeper- Your child is HERE! The key- our destroyer, cleansed in filth!";
+	text = "*flails back and forth* The keeper- Your child is HERE! The key- our destroyer, cleansed in filth!";
 }
 
 if counter = 7{
 	speaker = spr_com_demeter;
-	text = "Should we gag him?";
+	text = "That slug is Nalthuraas' child? You called it our destroyer... Does that include Nalthuraas as well?";
 }
 
 if counter = 8{
+	speaker = spr_com_jay;
+	text = "He's completely lost his mind. Should we gag him?";
+}
+
+if counter = 9{
 	speaker = spr_com_alan;
 	text = "Just leave him tied up... Garinoka isn't far beyond this point.";
 }
 
-if counter = 9{
+if counter = 10{
 	talking = false;
 	player.incontrol = true;
-	counter = 10;
+	counter = 11;
 }
 
 if music.stations = 0 && counter2 = 2{

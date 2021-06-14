@@ -7,12 +7,12 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_blank;
-	text = "Glaucus works hard at repairing the ship. Demeter sits by Alan, who lies on the ground unconscious. She smiles as she speaks to someone on the radio.";
+	text = "Glaucus works hard at repairing the ship. Demeter sits beside Alan, who lies on the ground unconscious. She smiles as she speaks to someone on the radio.";
 }
 
 if counter = 3{
 	speaker = spr_com_demeter;
-	text = "I'll be home soon. Good luck on your performance!";
+	text = "Be strong, dear- I haven't given up on you. I'll be home soon.";
 }
 
 if counter = 4{
@@ -104,7 +104,7 @@ if counter = 20{
 
 if counter = 21{
 	speaker = spr_com_demeter;
-	text = "*fixes her shirt*";
+	text = "*fixes shirt*";
 }
 
 if counter = 22{

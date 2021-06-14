@@ -126,7 +126,7 @@ if counter = 18{
 
 if counter = 19{
 	speaker = spr_com_dahlia;
-	text = "You'll harness materials from moons across the galaxy and sell them to me and my team.";
+	text = "You'll harness materials from moons across the galaxy and sell them to me and my team...secretly.";
 }
 
 if counter = 20{

@@ -108,7 +108,7 @@ if counter = 20{
 
 if counter = 21{
 	speaker = spr_com_believer;
-	text = "*turns to the glowing slug in his hand* Ah - What did you say?";
+	text = "*turns to the glowing slug in his hand* Ah- What did you say?";
 }
 
 if counter = 22{

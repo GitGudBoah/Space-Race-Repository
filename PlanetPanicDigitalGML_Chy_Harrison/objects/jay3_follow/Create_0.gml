@@ -2,6 +2,14 @@ following = true;
 stop_distance = 130;
 catchup_distance = 900;
 
+//shoot poison
+reloading = false;
+face_r = true;
+firerate = 8;
+firing = false;
+//cooldown indicator
+cooldown_indicator = "BURST: READY";
+
 //verticality
 water_floor = 1536;
 neutral_floor = 1024;

@@ -53,6 +53,32 @@ if enemy_manager3.game_over = false && following{
 		canTrigger2 = true;
 		canTrigger3 = false;
 	}
+	
+	//shoot poison
+	if enemy_manager3.target.incontrol{
+		if (keyboard_check(ord("R"))) && reloading = false{
+			var inst = instance_create_layer(x,y, "Instances", burst_shot);
+			if room = rm_hal9_2{
+				face_r = true;
+			} else{
+				if enemy_manager3.target.image_xscale = 1{
+					inst.direction = 0;
+					face_r = true;
+				}
+				if enemy_manager3.target.image_xscale = -1{
+					inst.direction = 180;
+					face_r = false;
+				}
+			}
+			audio_play_sound(snd_lasershot, 1, false);
+			reloading = true;
+			alarm[0] = room_speed * firerate;
+			firing = true;
+			//cooldown indicator
+			cooldown_indicator = "BURST: 8";
+			alarm[1] = room_speed * 1;
+		}
+	}
 }
 
 //verticality
@@ -86,5 +112,14 @@ if descending2{
 	} else{
 		y = neutral_floor;
 		descending2 = false;
+	}
+}
+
+//shooting
+if firing{
+	if face_r{
+		image_xscale = 1;
+	} else{
+		image_xscale = -1;
 	}
 }

@@ -14,3 +14,7 @@ if room = rm_hal9{
 	audio_sound_gain(placeholder_music6, 1, 0);
 	audio_play_sound(placeholder_music10, 1, true);
 }
+
+if room = rm_hal9_2{
+	audio_play_sound(snd_space_race_intro, 1, true);
+}

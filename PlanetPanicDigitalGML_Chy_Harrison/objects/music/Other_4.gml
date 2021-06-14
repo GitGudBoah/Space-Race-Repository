@@ -163,3 +163,7 @@ if room = beast_fight{
 	cp10 = false;
 	cp11 = true;
 }
+if room = rm_hal9_2{
+	cp7 = false;
+	cp12 = true;
+}
