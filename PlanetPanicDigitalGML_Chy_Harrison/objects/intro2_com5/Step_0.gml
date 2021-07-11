@@ -22,12 +22,12 @@ if counter = 4{
 
 if counter = 5{
 	speaker = spr_com_citizen2;
-	text = "The station scientists said that it grows like a cancer. It could be the death of the universe.";
+	text = "The station scientists said that Nalthuraas grows like a cancer- that soon, it will wipe out all life the universe!";
 }
 
 if counter = 6{
 	speaker = spr_com_alan;
-	text = "What are you all so worried about? The goddamn thing is too far away.";
+	text = "What are you all so worried about? The damn monster is too far away.";
 }
 
 if counter = 7{
@@ -52,17 +52,17 @@ if counter = 10{
 
 if counter = 11{
 	speaker = spr_com_elroy;
-	text = "On the topic of cancer, don't you think you've been smoking too much? What'll happen to that kid of yours if you get sick?";
+	text = "Speaking of cancer, you've been smoking like you're trying to catch it, Alan. What'll happen to that kid of yours if you get sick?";
 }
 
 if counter = 12{
 	speaker = spr_com_alan;
-	text = "Elroy, not this again.";
+	text = "I've been through hell and back. I'll be damned if a cigarette is what kills me.";
 }
 
 if counter = 13{
 	speaker = spr_com_elroy;
-	text = "At least spend some more time with her, man. You're the only family she's got left.";
+	text = "But it's always the people around you that suffer, ain't it? At least spend some more time with her, man. You're the only family she's got left.";
 }
 
 if counter = 14{

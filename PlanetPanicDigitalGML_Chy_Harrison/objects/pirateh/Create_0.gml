@@ -15,3 +15,6 @@ access4 = false;
 
 //explosion - collision check
 hit9 = true;
+
+//poison knife-strike
+poison_target = false;

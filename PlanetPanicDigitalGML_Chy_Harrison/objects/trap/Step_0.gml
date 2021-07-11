@@ -11,12 +11,12 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_demeter;
-	text = "It appears our friend here isn't in the mood for visitors.";
+	text = "It appears our friend here is a bit of an introvert.";
 }
 
 if counter = 3{
 	speaker = spr_com_jay;
-	text = "*chuckle* Whoever made this should have tried to hide it a little better.";
+	text = "*chuckle* Whoever made this should learn a thing or two about subtlety.";
 	jay2_2.sprite_index = alan_kneeled;
 }
 

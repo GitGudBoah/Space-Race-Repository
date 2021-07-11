@@ -154,7 +154,7 @@ if counter = 19{
 if counter = 20{
 	if choice = 0{
 		speaker = spr_com_alan;
-		text = "There are four races- four planets that create a sort of coalition in the system to battle threats to massive for anyone to handle alone.";
+		text = "Aside from us, there are four other known races in the universe- four planets that have formed a coalition to battle threats to large for any of them to handle alone:";
 	}
 	if choice = 1{
 		speaker = spr_com_alan;
@@ -186,11 +186,11 @@ if counter = 21{
 if counter = 22{
 	if choice = 0{
 		speaker = spr_com_alan;
-		text = "As an officer, I helped our people take steps to become the next race in the Coalition, and eventually";
+		text = "As an officer, I helped the Terran take steps to become the next race in the Coalition, and eventually";
 	}
 	if choice = 1{
 		speaker = spr_com_alan;
-		text = "Unknown to the Terran, the Oninaki planned to assassinate Ralaxia. Their attempt failed.";
+		text = "Unknown to our people, the Oninaki planned to assassinate Ralaxia. Their attempt failed.";
 	}
 	if choice = 2{
 		speaker = spr_com_kandar;
@@ -205,7 +205,7 @@ if counter = 23{
 	}
 	if choice = 1{
 		speaker = spr_com_alan;
-		text = "The Terran and the Oninaki had to escape the pirate planet, which had turned hostile against them.";
+		text = "We had to escape the pirate planet, which had turned hostile against us. The air was so thick with bloody mist during that time, you could choke on it.";
 	}
 	if choice = 2{
 		speaker = spr_com_demeter;
@@ -266,7 +266,7 @@ if counter = 27{
 	}
 	if choice = 1{
 		speaker = spr_com_alan;
-		text = "It seems like tragedy is the only companion that can survive being by my side.";
+		text = "It seems that tragedy is the only companion that can survive by my side.";
 	}
 	if choice = 2{
 		speaker = spr_com_alan;

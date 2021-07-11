@@ -36,8 +36,8 @@ if counter = 7{
 }
 
 if counter = 8{
-	speaker = spr_com_jay;
-	text = "They might have information about your missing son, Monroe.";
+	speaker = spr_com_demeter;
+	text = "If so, I may have a couple of questions to ask them.";
 }
 
 if counter = 9{

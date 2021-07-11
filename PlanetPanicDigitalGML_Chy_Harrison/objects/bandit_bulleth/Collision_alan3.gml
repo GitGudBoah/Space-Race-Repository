@@ -1,5 +1,5 @@
 if other.dodging = false{
-	other.hp -= 20;
+	other.hp -= 18;
 
 	audio_play_sound(snd_explosion_small, 1, false);
 

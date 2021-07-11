@@ -1,8 +1,8 @@
 //fade transition
 canTrigger = true;
 //shortcut: menu sends you to the specified room
-shortcut = false;
-shortcut_destination = rm_hal9_2;
+shortcut = true;
+shortcut_destination = rm_to_museum;
 
 menu_x = room_width/2;
 menu_y = 250;

@@ -54,9 +54,12 @@ if enemy_manager3.game_over = false && following{
 		canTrigger3 = false;
 	}
 	
-	//shoot poison
+	//shoot burst
 	if enemy_manager3.target.incontrol{
-		if (keyboard_check(ord("R"))) && reloading = false{
+		if (keyboard_check(ord("R"))) && burst_early{
+			burst_early = false;
+			burst_early_trigger = true;
+		} else if (keyboard_check(ord("R"))) && reloading = false{
 			var inst = instance_create_layer(x,y, "Instances", burst_shot);
 			if room = rm_hal9_2{
 				face_r = true;
@@ -75,7 +78,7 @@ if enemy_manager3.game_over = false && following{
 			alarm[0] = room_speed * firerate;
 			firing = true;
 			//cooldown indicator
-			cooldown_indicator = "BURST: 8";
+			cooldown_indicator = "D-ZONE: 8";
 			alarm[1] = room_speed * 1;
 		}
 	}

@@ -117,6 +117,13 @@ if cp11{
 	}	
 }
 
+if cp13{
+	if room = rm_hal9_3{
+		audio_stop_all();
+		audio_play_sound(snd_space_race_intro, 1, true);
+	}
+}
+
 //checkpoints
 if room = rm_enemy{
 	cp = false;
@@ -166,4 +173,8 @@ if room = beast_fight{
 if room = rm_hal9_2{
 	cp7 = false;
 	cp12 = true;
+}
+if room = rm_hal9_3{
+	cp12 = false;
+	cp13 = true;
 }

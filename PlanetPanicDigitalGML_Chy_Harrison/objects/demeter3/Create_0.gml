@@ -8,6 +8,10 @@ reloading = false;
 face_r = true;
 firerate = 4;
 firing = false;
+//knife-strike
+target_stunned = false;
+target_x = 0;
+target_y = 0;
 //cooldown indicator
 cooldown_indicator = "POISON: READY";
 

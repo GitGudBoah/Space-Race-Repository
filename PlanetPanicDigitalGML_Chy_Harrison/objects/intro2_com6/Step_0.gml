@@ -48,7 +48,7 @@ if counter = 8{
 
 if counter = 9{
 	speaker = spr_com_alan;
-	text = "Sure. Why not.";
+	text = "Hm... Sure. Why not.";
 }
 
 if counter = 10{
@@ -154,7 +154,7 @@ if counter = 26{
 
 if counter = 27{
 	speaker = spr_com_alan;
-	text = "*draws pistol, eyes locked on alice* get back...";
+	text = "*draws pistol* get back...";
 }
 
 if counter = 28{

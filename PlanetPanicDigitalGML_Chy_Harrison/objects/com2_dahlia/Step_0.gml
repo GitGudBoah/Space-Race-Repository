@@ -18,7 +18,7 @@ if counter2 == 0{
 
 	if counter = 4{
 		speaker = spr_com_dahlia;
-		text = "Your situation has been very useful to my research. You deserve to know what I've learned over the years.";
+		text = "Your tragedy has been very useful to my research. You deserve to know what I've learned over the years.";
 	}
 
 	if counter = 5{
@@ -41,10 +41,10 @@ if counter2 == 0{
 	if counter = 8{
 		if choice = false{
 			speaker = spr_com_alan;
-			text = "Tell me what happened to my daughter.";
+			text = "Tell me what happened to my daughter. I want to hear your explanation for burning a nine year-old girl alive.";
 		} else{
 			speaker = spr_com_alan;
-			text = "No. I couldn't care less about your research.";
+			text = "I couldn't care less about your research.";
 		}
 		decision = false;
 	}
@@ -104,7 +104,7 @@ if counter2 == 0{
 
 	if counter = 15{
 		speaker = spr_com_dahlia;
-		text = "No. She was already infected. You are, and so am I.";
+		text = "No. She was already infected. We all are.";
 	}
 
 	if counter = 16{
@@ -114,46 +114,41 @@ if counter2 == 0{
 
 	if counter = 17{
 		speaker = spr_com_dahlia;
-		text = "Thank you, Alan. However, it's true that I am infected.";
+		text = "Thank you, Alan. However, this is no joking matter.";
 	}
 
 	if counter = 18{
 		speaker = spr_com_dahlia;
-		text = "All Terran people alive right now are infected with a dormant strain of the virus.";
+		text = "All living beings in the universe have been infected with a dormant strain of the virus. It just so happened to reach Earth last, yet it's unknown how it activated among the early Terran.";
 	}
 
 	if counter = 19{
 		speaker = spr_com_dahlia;
-		text = "It only activates when you come into contact with Nalthuraas- the universe's inevitable doom...";
+		text = "We know now that the virus activates when in contact with Nalthuraas- a cancer growing within the universe...an intruder.";
 	}
 
 	if counter = 20{
-		speaker = spr_com_alan;
-		text = "Nalthuraas...? I've heard you say that name before.";
-	}
-
-	if counter = 21{
-		speaker = spr_com_dahlia;
-		text = "An alien life form...or perhaps a force of nature we don't yet have the tools to understand. That's a discussion for another time...if you'd like.";
-	}
-
-	if counter = 22{
 		speaker = spr_com_dahlia;
 		text = "The slug that your daughter found on that day... It was a piece of Nalthuraas that the station had been researching.";
 	}
 
-	if counter = 23{
+	if counter = 21{
+		speaker = spr_com_dahlia;
+		text = "Unfortunately for her, we hadn't yet discovered that an activated virus isn't contagious. Immediate incineration was the best call to avoid a potential outbreak throughout the station.";
+	}
+
+	if counter = 22{
 		speaker = spr_com_alan;
 		text = "...And that's supposed to make me feel better? What a joke.";
 	}
 
-	if counter = 24{
+	if counter = 23{
 		speaker = spr_com_dahlia;
 		text = "I haven't gotten to your case yet. Walk with me, would you kindly?";
 	}
 
-	if counter = 25{
-		counter = 26;
+	if counter = 24{
+		counter = 25;
 		talking = false;
 		alan2.incontrol = true;
 		dahlia2.walk = true;
@@ -173,18 +168,18 @@ if counter2 == 1{
 
 	if counter = 2{
 		speaker = spr_com_alan;
-		text = "I don't appreciate this, Dahlia. You and I aren't friends, and I strongly prefer to keep it that way.";
+		text = "Silence.";
 	}
 
 	if counter = 3{
 		speaker = spr_com_dahlia;
-		text = "If it embarasses you that much, you don't have to tell me. But set the mood, will you?";
+		text = "If it embarasses you that much, you don't have to tell me. But lighten the mood, will you?";
 	}
 
 //decision
 	if counter = 4{
 		speaker = spr_com_dahlia;
-		text = "If it embarasses you that much, you don't have to tell me. But set the mood, will you?";
+		text = "If it embarasses you that much, you don't have to tell me. But lighten the mood, will you?";
 		text1 = "*Play a song*";
 		text2 = "I prefer silence.";
 		decision = true;
@@ -203,7 +198,7 @@ if counter2 == 1{
 			music.song_played = true;
 		} else{
 			speaker = spr_com_alan;
-			text = "I prefer silence.";
+			text = "The mood fits perfectly.";
 		}
 		decision = false;
 	}
@@ -232,7 +227,7 @@ if counter2 == 2{
 		}
 		if m_counter = 2{
 			speaker = spr_com_dahlia;
-			text = "These lyrics are quite blunt, yet they empower you with confidence.";
+			text = "These lyrics are quite blunt, yet they empower you with such confidence.";
 		}
 		if m_counter = 3{
 			speaker = spr_com_dahlia;
@@ -271,12 +266,12 @@ if counter2 == 2{
 	
 	if counter = 7{
 		speaker = spr_com_alan;
-		text = "Do you feel any remorse for killing those people?";
+		text = "Do you feel any remorse at all for killing those people?";
 	}
 	
 	if counter = 8{
 		speaker = spr_com_dahlia;
-		text = "They were death row inmates.";
+		text = "If it's for a greater cause, does it matter? *grin* They were on death row, if that helps.";
 	}
 	
 	if counter = 9{
@@ -322,7 +317,7 @@ if counter2 == 2{
 			text = "*smiles*";
 		} else{
 			speaker = spr_com_dahlia;
-			text = "I am. But I'm not the one who killed her, am I? Why don't you point that hostility towards yourself?";
+			text = "Of course I am. Many will benefit at the cost of one girl whose only family neglected her.";
 		}
 	}
 
@@ -331,8 +326,8 @@ if counter2 == 2{
 			speaker = spr_com_dahlia;
 			text = "Then we are on the same page.";
 		} else{
-			speaker = spr_com_alan;
-			text = "You had them burn her alive when she was already suffering...! I can still see her melted eyes...!";
+			speaker = spr_com_dahlia;
+			text = "Don't fool yourself into thinking that I'm the one who killed her. If you have anymore hate, direct it towards yourself.";
 		}
 	}
 
@@ -342,7 +337,7 @@ if counter2 == 2{
 			text = "Come. Let's find a suitable place to discuss business.";
 		} else{
 			speaker = spr_com_alan;
-			text = "Looking at you makes me sick!";
+			text = "You had them burn her alive when she was already suffering...! I can still see her melted eyes...!";
 		}
 	}
 
@@ -356,23 +351,28 @@ if counter2 == 2{
 			alan2.canTrigger = true;
 			o_Wall3.solid = false;
 		} else{
-			speaker = spr_com_dahlia;
-			text = "You won't have to look at me for much longer.";
+			speaker = spr_com_alan;
+			text = "Looking at you makes me sick!";
 		}
 	}
 
 	if counter = 18{
 		speaker = spr_com_dahlia;
-		text = "Come. Let's find a suitable place to discuss business.";
+		text = "You won't have to look at me for much longer.";
 	}
 	
 	if counter = 19{
+		speaker = spr_com_dahlia;
+		text = "Come. Let's find a suitable place to discuss business.";
+	}
+	
+	if counter = 20{
 		speaker = spr_com_alan;
 		text = "...";
 	}
 
-	if counter = 20{
-		counter = 21;
+	if counter = 21{
+		counter = 22;
 		talking = false;
 		alan2.incontrol = true;
 		dahlia2.image_xscale = -1;

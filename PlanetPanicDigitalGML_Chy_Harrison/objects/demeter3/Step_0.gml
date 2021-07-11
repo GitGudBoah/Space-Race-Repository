@@ -56,7 +56,22 @@ if enemy_manager3.game_over = false && following{
 	
 	//shoot poison
 	if enemy_manager3.target.incontrol{
-		if (keyboard_check(ord("E"))) && reloading = false{
+		if (keyboard_check(ord("E"))) && target_stunned{
+			//knife-strike from target's position
+			if alan3.reloading = false && alan3.knife_ammo > 0{
+				var inst = instance_create_layer(target_x, target_y, "Instances", poison_knife);
+				if alan3.image_xscale = 1{
+					inst.direction = 0;
+				}
+				if alan3.image_xscale = -1{
+					inst.direction = 180;
+				}
+				audio_play_sound(snd_tentacle_attack, 1, false);
+				alan3.reloading = true;
+				alan3.alarm[2] = room_speed * alan3.firerate;
+				alan3.knife_ammo -= 1;
+			}
+		} else if (keyboard_check(ord("E"))) && reloading = false{
 			var inst = instance_create_layer(x,y, "Instances", poison_shot);
 			if room = rm_hal9_2{
 				face_r = true;

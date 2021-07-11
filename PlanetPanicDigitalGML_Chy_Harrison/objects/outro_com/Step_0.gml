@@ -5,12 +5,12 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_jay;
-	text = "Is everyone still in one piece?";
+	text = "I was calm that whole time, by the way.";
 }
 
 if counter = 3{
 	speaker = spr_com_alan;
-	text = "Yes, but we aren't out of its shadow yet. *cough* Keep your finger on that trigger.";
+	text = "We aren't out of its shadow yet. *cough* Keep your finger on that trigger.";
 }
 
 if counter = 4{
@@ -30,7 +30,7 @@ if counter = 6{
 
 if counter = 7{
 	speaker = spr_com_demeter;
-	text = "Is now really the time for terrible jokes?";
+	text = "I can't tell if you're stupid or joking. No, Glaucus!";
 }
 
 if counter = 8{
@@ -55,7 +55,7 @@ if counter = 11{
 
 if counter = 12{
 	speaker = spr_com_demeter;
-	text = "*smiles nervously* You're right! ...What's gotten into me?";
+	text = "*smiles nervously* You're right! ...What's gotten into me? Screw you, you Cthulu wannabe- you thought this would be the day you caught Demeter Monroe-!";
 }
 
 if counter >= 13{

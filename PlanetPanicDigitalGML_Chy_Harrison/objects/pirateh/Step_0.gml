@@ -144,6 +144,10 @@ if hp <= 0{
 		access4 = false;
 	}
 
+	if poison_target{
+		poison_target = false;
+		demeter3.target_stunned = false;
+	}
 	//die
 	audio_play_sound(snd_explosion_small, 1, false);
 	repeat(10){

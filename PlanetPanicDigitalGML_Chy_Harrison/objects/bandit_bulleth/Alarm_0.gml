@@ -1,1 +1,1 @@
-instance_destroy();
+speed = 12;

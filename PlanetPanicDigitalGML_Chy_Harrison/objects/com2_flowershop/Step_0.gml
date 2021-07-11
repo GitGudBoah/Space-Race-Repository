@@ -12,7 +12,7 @@ if counter = 2{
 
 if counter = 3{
 	speaker = spr_com_beau;
-	text = "*eyes water* Thank you! I've been working really hard.";
+	text = "*eyes water* Thank you! I've been working really hard and business has actually been really poor and I'm being picked on at school and and-";
 }
 
 if counter = 4{
@@ -27,13 +27,13 @@ if counter = 5{
 
 if counter = 6{
 	speaker = spr_com_beau;
-	text = "Fine... If you're going to be like that...";
+	text = "Fine... If you're going to be like that... Feeling stingy today, or is it just me?";
 }
 
 //decision
 if counter = 7{
 	speaker = spr_com_beau;
-	text = "Fine... If you're going to be like that...";
+	text = "Fine... If you're going to be like that... Feeling stingy today, or is it just me?";
 	decision = true;
 }
 
@@ -72,12 +72,12 @@ if counter = 10{
 
 if counter = 11{
 	speaker = spr_com_beau;
-	text = "Beau comes around the counter and hugs Alan.";
+	text = "*comes around the counter and hugs Alan*";
 }
 
 if counter = 12{
 	speaker = spr_com_alan;
-	text = "*struggles to hold back tears* Damnit...!";
+	text = "*struggles to hold back tears* Ah, damnit!";
 }
 
 if counter = 13{

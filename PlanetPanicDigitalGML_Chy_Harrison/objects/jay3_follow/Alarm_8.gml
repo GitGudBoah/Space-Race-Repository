@@ -1,2 +1,2 @@
 //cooldown indicator
-cooldown_indicator = "BURST: READY";
+cooldown_indicator = "D-ZONE: READY";

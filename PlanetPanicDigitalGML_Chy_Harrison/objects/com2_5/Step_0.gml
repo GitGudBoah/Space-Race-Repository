@@ -7,152 +7,157 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_blank;
-	text = "Glaucus works hard at repairing the ship. Demeter sits beside Alan, who lies on the ground unconscious. She smiles as she speaks to someone on the radio.";
+	text = "Glaucus works hard at repairing the ship. Demeter sits beside Alan, who lies on the ground unconscious. She sighs as she speaks to someone on the radio.";
 }
 
 if counter = 3{
 	speaker = spr_com_demeter;
-	text = "Be strong, dear- I haven't given up on you. I'll be home soon.";
+	text = "I haven't forgotten about him, but I have my own problems as well... Yes, I know that you love me.";
 }
 
 if counter = 4{
 	speaker = spr_com_jay;
-	text = "Who was that to? A lover?";
+	text = "A lover's quarrel, I presume?";
 }
 
 if counter = 5{
 	speaker = spr_com_demeter;
-	text = "*smiles proudly* It was to my son. He's a singer, though you couldn't tell by looking at him.";
+	text = "Oof- that was to my nagging old dad... He doesn't think I want to find my older brother now that he's gone missing.";
 }
 
 if counter = 6{
-	speaker = spr_com_glaucus;
-	text = "I'd like to hear him one day.";
+	speaker = spr_com_demeter;
+	text = "Of course I want to find him... I just wish my old man cared about me half as much.";
 }
 
 if counter = 7{
+	speaker = spr_com_glaucus;
+	text = "If it helps, my creator told me that she never loved me. Several times, in fact.";
+}
+
+if counter = 8{
 	speaker = spr_com_blank;
 	text = "Alan rises from his slumber - coughing suddenly.";
 }
 
-if counter = 8{
+if counter = 9{
 	speaker = spr_com_alan;
 	text = "...What? Where are we?";
 }
 
-if counter = 9{
+if counter = 10{
 	speaker = spr_com_glaucus;
 	text = "We crashed onto the surface of a wooded planet.";
 }
 
-if counter = 10{
+if counter = 11{
 	speaker = spr_com_jay;
 	text = "Demeter and I are about to explore a nearby settlement while Glaucus patches up the ship. You should get some rest, Alan.";
 }
 
-if counter = 11{
+if counter = 12{
 	speaker = spr_com_alan;
 	text = "No need. *coughs and stumbles to feet* I'm coming with you.";
 	alan.x = 3050;
 	alan.sprite_index = alan_pistol;
 }
 
-if counter = 12{
+if counter = 13{
 	speaker = spr_com_blank;
 	text = "Jay, Demeter, and Glaucus exchange glances.";
 }
 
-if counter = 13{
+if counter = 14{
 	speaker = spr_com_demeter;
 	text = "I tested your blood after Glaucus said that you might be sick. It turns out, you're infected with a nasty virus.";
 }
 
-if counter = 14{
+if counter = 15{
 	speaker = spr_com_demeter;
 	text = "Be honest, Alan. Are you dying?";
 }
 
-if counter = 15{
+if counter = 16{
 	speaker = spr_com_alan;
-	text = "*grabs Demeter by her shirt* Damn it, Monroe! That's my business, not yours!";
+	text = "*grabs Demeter by her shirt* Damn it, Monroe! That's none of your goddamn business!";
 }
 
-if counter = 16{
+if counter = 17{
 	speaker = spr_com_jay;
 	text = "*places hand on Alan's shoulder* Alan, calm down!";
 }
 
-if counter = 17{
+if counter = 18{
 	speaker = spr_com_demeter;
 	text = "Our lives depend on each other. I won't risk dying over some simple privacy!";
 }
 
-if counter = 18{
-	speaker = spr_com_glaucus;
-	text = "We're a team... Isn't it our jobs to look out for each other?";
-}
-
 if counter = 19{
-	speaker = spr_com_alan;
-	text = "...";
+	speaker = spr_com_glaucus;
+	text = "We're a team, Alan. Think- isn't it our jobs to look out for each other?";
 }
 
 if counter = 20{
 	speaker = spr_com_alan;
-	text = "*lets go of Demeter* Sorry...";
+	text = "...";
 }
 
 if counter = 21{
+	speaker = spr_com_alan;
+	text = "*lets go of Demeter* Sorry... Damnit!";
+}
+
+if counter = 22{
 	speaker = spr_com_demeter;
 	text = "*fixes shirt*";
 }
 
-if counter = 22{
+if counter = 23{
 	speaker = spr_com_alan;
-	text = "My daughter became sick after touching a piece of that behemoth seven years ago. I caught a bit of it as well.";
+	text = "My daughter became sick after she touched a piece of that behemoth seven years ago. I caught a bit of it as well.";
 }
 
-if counter = 23{
+if counter = 24{
 	speaker = spr_com_alan;
 	text = "I don't have much time left.";
 }
 
-if counter = 24{
+if counter = 25{
 	speaker = spr_com_jay;
 	text = "Jesus, Alan...";
 }
 
-if counter = 25{
+if counter = 26{
 	speaker = spr_com_demeter;
-	text = "That was crucial information. Now we know that we can't risk being touched by even a sliver of that monster.";
+	text = "I had a feeling that monster was Nalthuraas. It's closer to Attis than they make it seem- so it seems none of us have much time left.";
 }
 
-if counter = 26{
+if counter = 27{
 	speaker = spr_com_alan;
 	text = "I kept it a secret so that we could keep working at our current speed. Our work will pay off soon, I promise.";
 }
 
-if counter = 27{
+if counter = 28{
 	speaker = spr_com_demeter;
-	text = "This is our last mission together until you get this sorted out. How could you hide something like this?";
+	text = "And you knew that no one would want to work alongside a ticking time bomb. This is our last mission together until you get this sorted out.";
 }
 
-if counter = 28{
+if counter = 29{
 	speaker = spr_com_alan;
 	text = "*grimaces painfully* ...I understand.";
 }
 
-if counter = 29{
+if counter = 30{
 	speaker = spr_com_jay;
 	text = "Monroe. We should get going before it gets dark.";
 }
 
-if counter = 30{
+if counter = 31{
 	speaker = spr_com_demeter;
 	text = "*heavy sigh* Okay. Lead the way.";
 }
 
-if counter = 31{
+if counter = 32{
 	talking = false;
 	if canTrigger{
 		canTrigger = false;

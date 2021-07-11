@@ -27,7 +27,7 @@ if counter = 4{
 if counter = 5{
 	if choice = false{
 		speaker = spr_com_alan;
-		text = "Do you have a plan? I'm willing to help...however I can.";
+		text = "I think I've neglected my duties for long enough. Do you have a plan?";
 	} else{
 		speaker = spr_com_alan;
 		text = "You should care more about the people who are alive right now.";
@@ -53,12 +53,12 @@ if counter = 7{
 
 if counter = 8{
 	speaker = spr_com_dahlia;
-	text = "In a decade, the Terran will be no more.";
+	text = "In less than a decade, the Terran will be no more.";
 }
 
 if counter = 9{
 	speaker = spr_com_dahlia;
-	text = "I've been working on a project for the last several years. It's a machine that will tear out the soul from every Terran on this station and use them to create a race of sentient androids.";
+	text = "I've been working on a project for the last several years. It's a machine that will tear out the soul from every human on this station and use them to create a race of sentient androids.";
 }
 
 if counter = 10{
@@ -87,7 +87,7 @@ if counter = 13{
 		text = "*scoffs* Maybe they'll create a time machine. Be careful. If you keep thinking like that, one of them might show up and give us the secret to immortality.";
 	} else{
 		speaker = spr_com_alan;
-		text = "You're delusional, Dahlia. If humanity dies, then that will be the end of us. Your android race will likely be crushed by Nalthuraas as well.";
+		text = "You're delusional, Dahlia. If humanity dies, then that will be the end of us. Your android race will likely be crushed by Nalthuraas along with us.";
 	}
 	decision = false;
 }
@@ -105,7 +105,7 @@ if counter = 14{
 
 if counter = 15{
 	speaker = spr_com_dahlia;
-	text = "We can create future generations of the Terran - who may not be connected by blood, but who's existence alone gives ours more purpose.";
+	text = "We can create future generations of the Terran- who may not be connected by blood, but who's existence alone gives ours more purpose.";
 }
 
 if counter = 16{

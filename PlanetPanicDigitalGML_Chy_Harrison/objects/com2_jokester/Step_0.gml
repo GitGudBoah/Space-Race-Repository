@@ -60,7 +60,7 @@ if counter = 7{
 		text = "*sweats nervously*";
 	} else{
 		speaker = spr_com_jokester;
-		text = "Here! To thank you for making me laugh, I'll give my rarest trading card. Treat her well, would ya?";
+		text = "Here! To thank you for making me laugh, I'll give you my rarest trading card. Treat her well, would ya?";
 		music.rare_card = true;
 	}
 }
