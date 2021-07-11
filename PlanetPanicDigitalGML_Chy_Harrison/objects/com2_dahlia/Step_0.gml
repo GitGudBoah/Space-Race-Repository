@@ -8,7 +8,7 @@ if counter2 == 0{
 
 	if counter = 2{
 		speaker = spr_com_alan;
-		text = "You cleared out the whole museum? Why not call me some place private, instead?";
+		text = "I didn't miss that cocky attitude of yours. Did you clear out the whole museum? You could have called me some place private, instead.";
 	}
 
 	if counter = 3{
@@ -18,12 +18,12 @@ if counter2 == 0{
 
 	if counter = 4{
 		speaker = spr_com_dahlia;
-		text = "Your tragedy has been very useful to my research. You deserve to know what I've learned over the years.";
+		text = "Your tragedy has been very useful to my research, Alan. Before we get to business, you deserve to know what I've learned over the years.";
 	}
 
 	if counter = 5{
 		speaker = spr_com_dahlia;
-		text = "Perhaps it will help you feel better after everything that's happened.";
+		text = "More than that though, you deserve an explanation. I want to give you closure before we begin working together.";
 	}
 
 	if counter = 6{
@@ -44,7 +44,7 @@ if counter2 == 0{
 			text = "Tell me what happened to my daughter. I want to hear your explanation for burning a nine year-old girl alive.";
 		} else{
 			speaker = spr_com_alan;
-			text = "I couldn't care less about your research.";
+			text = "If it will ease the pain, keep your explanation until after I've earned it.";
 		}
 		decision = false;
 	}
@@ -66,7 +66,7 @@ if counter2 == 0{
 			text = "They called it COVID-19. The coronavirus.";
 		} else{
 			speaker = spr_com_dahlia;
-			text = "*frowns disappointedly* Very well.";
+			text = "Wow, Alan. You don't need to try to impress me. There are still some things you need to know, though.";
 		}
 	}
 
@@ -256,7 +256,7 @@ if counter2 == 2{
 	
 	if counter = 5{
 		speaker = spr_com_dahlia;
-		text = "Your strain of COVID-19 is activating at an extremely slow rate- but a consistent rate nonetheless.";
+		text = "Your strain of COVID-19 is activating at an extremely slow rate, in fact- but a consistent rate nonetheless.";
 	}
 	
 	if counter = 6{
@@ -294,7 +294,7 @@ if counter2 == 2{
 	if counter = 12{
 		speaker = spr_com_dahlia;
 		text = "So? Does that make the wound sting a little less?";
-		text1 = "Yes";
+		text1 = "*Question*";
 		text2 = "No";
 		decision = true;
 	}
@@ -302,7 +302,7 @@ if counter2 == 2{
 	if counter = 13{
 		if choice = false{
 			speaker = spr_com_alan;
-			text = "A little- yes. But I want her death to mean more than that.";
+			text = "Why do you care? I'm trying to think of what else you could possibly want from me.";
 		} else{
 			speaker = spr_com_alan;
 			text = "No. You must be glad that she's dead though, huh?";
@@ -314,7 +314,7 @@ if counter2 == 2{
 	if counter = 14{
 		if choice = false{
 			speaker = spr_com_dahlia;
-			text = "*smiles*";
+			text = "*smiles* I want you to stop hating me before we work together.";
 		} else{
 			speaker = spr_com_dahlia;
 			text = "Of course I am. Many will benefit at the cost of one girl whose only family neglected her.";
@@ -323,8 +323,8 @@ if counter2 == 2{
 
 	if counter = 15{
 		if choice = false{
-			speaker = spr_com_dahlia;
-			text = "Then we are on the same page.";
+			speaker = spr_com_alan;
+			text = "You're asking for too much. And don't get ahead of yourself- I haven't accepted to anything yet.";
 		} else{
 			speaker = spr_com_dahlia;
 			text = "Don't fool yourself into thinking that I'm the one who killed her. If you have anymore hate, direct it towards yourself.";
@@ -334,7 +334,7 @@ if counter2 == 2{
 	if counter = 16{
 		if choice = false{
 			speaker = spr_com_dahlia;
-			text = "Come. Let's find a suitable place to discuss business.";
+			text = "Right- I'm jumping ahead of myself! Let's find a suitable place to discuss business.";
 		} else{
 			speaker = spr_com_alan;
 			text = "You had them burn her alive when she was already suffering...! I can still see her melted eyes...!";
