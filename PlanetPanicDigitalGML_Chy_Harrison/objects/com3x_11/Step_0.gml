@@ -67,7 +67,7 @@ if counter = 11{
 
 if counter = 12{
 	speaker = spr_com_robot;
-	text = "*clenches fists* The nerve!";
+	text = "*clenches fists* The nerve of this boy!";
 }
 
 if counter = 13{
@@ -138,7 +138,7 @@ if counter = 25{
 
 if counter = 26{
 	speaker = spr_com_glaucus;
-	text = "(name) is right. I was told the details of my programming by my creator...earlier when I asked to be by her side.";
+	text = "(name) is right. I was told the details of my programming by my creator...back when I yearned to be by her side.";
 }
 
 if counter = 27{
@@ -156,7 +156,7 @@ if counter = 28{
 if counter = 29{
 	if choice = false{
 		speaker = spr_com_glaucus;
-		text = "There may be a universe of difference between us, but as long as we don't harm one another, we can all get along.";
+		text = "There may be a universe of difference between us, but as long as we don't harm one another, there's no reason we can't get along.";
 	} else{
 		speaker = spr_com_glaucus;
 		text = "I will find my family- unbound by blood or metal. That is my freedom.";
@@ -168,17 +168,17 @@ if counter = 29{
 if counter = 30{
 	if choice = false{
 		speaker = spr_com_glaucus;
-		text = "Your hatred blinds you to that, (name). To your ignorance...perhaps you are the slave.";
+		text = "Your hatred blinds you to that, (name). To your ignorance...perhaps you're the slave.";
 	} else{
 		speaker = spr_com_glaucus;
-		text = "I see the kind of person I could be within you, and I do not see a drop of freedom there.";
+		text = "I see the kind of person I could be within you, (name), and I do not see a drop of freedom there.";
 	}
 	decision = false;
 }
 
 if counter = 31{
 	speaker = spr_com_robot;
-	text = "Why you...! *lunges and throws a punch at Glaucus*";
+	text = "Why you...! *lunges and throws punch at Glaucus*";
 }
 
 if counter = 32{

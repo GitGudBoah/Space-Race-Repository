@@ -2,7 +2,7 @@
 
 if counter = 1{
 	speaker = spr_com_glaucus;
-	text = "*subtle trembling* Right.";
+	text = "*trembles* Right.";
 }
 
 if counter = 2{

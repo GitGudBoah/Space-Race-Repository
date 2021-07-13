@@ -20,7 +20,7 @@ if counter = 2{
 
 if counter = 3{
 	speaker = spr_com_glaucus;
-	text = "I've cheered from the bleachers for long enough- why don't I lead the way for now?";
+	text = "I've cheered from the sidelines for long enough- why don't I lead the way for now?";
 }
 
 if counter = 4{
@@ -41,7 +41,7 @@ if counter = 6{
 
 if counter = 7{
 	speaker = spr_com_demeter;
-	text = "I can't understand why you're so against people helping you. If anything will get us killed, it's that attitude of yours.";
+	text = "Shit, Alan- let somebody help you for once. If anything will get us killed, it's that attitude of yours.";
 }
 
 if counter = 8{

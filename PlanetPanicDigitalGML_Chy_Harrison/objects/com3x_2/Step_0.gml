@@ -14,7 +14,7 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_glaucus;
-	text = "I...don't think she likes me.";
+	text = "I hoped to test the fallibility of my coding... So this is how Jay must have felt.";
 }
 
 if counter = 3{

@@ -48,17 +48,17 @@ if counter = 9{
 
 if counter = 10{
 	speaker = spr_com_glaucus;
-	text = "Glaucus- Your outfit looks lovely!";
+	text = "Glaucus. I must say, you look too gorgeous to be without company.";
 }
 
 if counter = 11{
 	speaker = spr_com_alan;
-	text = "How many passengers are on this station?";
+	text = "How many passengers are on this station? We need the key to the gate.";
 }
 
 if counter = 12{
 	speaker = spr_com_kandar;
-	text = "Now that the two of you are here, there are only three.";
+	text = "Only one passenger remained since the evacuation- they might have what you're looking for.";
 }
 
 if counter = 13{
@@ -73,7 +73,7 @@ if counter = 14{
 
 if counter = 15{
 	speaker = spr_com_demeter;
-	text = "Alright, let's go get that key.";
+	text = "Alright, let's go see if they have that key.";
 }
 
 if counter = 16{

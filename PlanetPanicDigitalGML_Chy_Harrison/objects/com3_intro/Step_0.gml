@@ -32,12 +32,12 @@ if counter = 6{
 
 if counter = 7{
 	speaker = spr_com_demeter;
-	text = "That slug is Nalthuraas' child? You called it our destroyer... Does that include Nalthuraas as well?";
+	text = "That slug you're cradling- it's Nalthuraas' child?";
 }
 
 if counter = 8{
 	speaker = spr_com_jay;
-	text = "He's completely lost his mind. Should we gag him?";
+	text = "He's completely lost his mind to be touching something so dangerous.";
 }
 
 if counter = 9{

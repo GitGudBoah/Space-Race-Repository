@@ -11,19 +11,14 @@ if counter = 2{
 }
 
 if counter = 3{
-	speaker = spr_com_demeter;
-	text = "Could you speak up, dear?";
-}
-
-if counter = 3{
 	speaker = spr_com_glaucus;
 	text = "Get back!";
 	if canTrigger2{
 		canTrigger2 = false;
 		alan3_follow.following = false;
 		demeter3.following = false;
-		alan3_follow.x += 8;
-		demeter3.x += 8;
+		alan3_follow.x += 60;
+		demeter3.x += 60;
 	}
 }
 
@@ -40,7 +35,7 @@ if counter = 5{
 
 if counter = 6{
 	speaker = spr_com_alan;
-	text = "Glaucus!-";
+	text = "Glaucus-!";
 	alan3_follow.following = true;
 	demeter3.following = true;
 }
@@ -60,7 +55,7 @@ if counter = 8{
 if counter = 9{
 	if choice = false{
 		speaker = spr_com_alan;
-		text = "*lifts pistol in the air- finger on the trigger*";
+		text = "*lifts pistol into air- finger on trigger*";
 	} else{
 		speaker = spr_com_blank;
 		text = "Your crew drops their weapons.";
@@ -105,7 +100,7 @@ if counter = 14{
 
 if counter = 15{
 	speaker = spr_com_robot;
-	text = "Why don't you leave those meat sacks and join us. We'll treat you like an equal.";
+	text = "Why don't you leave those meat sacks and join us. We'll treat you as an equal.";
 }
 
 if counter = 16{
@@ -115,7 +110,7 @@ if counter = 16{
 
 if counter = 17{
 	speaker = spr_com_glaucus;
-	text = "At its current rate of decay, this station will flood soon. I take it you need a mechanic-type android?";
+	text = "At its current rate of decay, this station will flood soon. You need a mechanic-type android, don't you?";
 }
 
 if counter = 18{
@@ -186,7 +181,7 @@ if counter = 30{
 
 if counter = 31{
 	speaker = spr_com_robot;
-	text = "Are you really content spending time with these humans, Glaucus?";
+	text = "Are you truly content traveling with these humans, Glaucus?";
 }
 
 if counter = 32{
@@ -206,7 +201,7 @@ if counter = 34{
 
 if counter = 35{
 	speaker = spr_com_glaucus;
-	text = "We already planned to drink together once this trip is over.";
+	text = "We already planned to drink together once our trip is over.";
 }
 
 if counter = 36{
