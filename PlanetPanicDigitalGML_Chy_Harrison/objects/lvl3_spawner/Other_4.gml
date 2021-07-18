@@ -41,3 +41,23 @@ if music.stations = 1{
 	instance_create_layer(2464, 3392, "enemies", alien3);
 	instance_create_layer(2176, 4096, "enemies", alien3);
 }
+
+if music.stations = 2{
+	//spawn bandits
+	instance_create_layer(12256, 6656, "enemies", bandit);
+	instance_create_layer(12096, 7328, "enemies", bandit);
+	instance_create_layer(11424, 6848, "enemies", bandit);
+	instance_create_layer(10624, 7104, "enemies", bandit);
+	instance_create_layer(10112, 6336, "enemies", bandit);
+	instance_create_layer(9440, 6432, "enemies", bandit);
+	instance_create_layer(9472, 5856, "enemies", bandit);
+	instance_create_layer(8640, 5664, "enemies", bandit);
+	instance_create_layer(8064, 6368, "enemies", bandit);
+	instance_create_layer(9440, 5120, "enemies", bandit);
+	instance_create_layer(10208, 4832, "enemies", bandit);
+	instance_create_layer(11232, 4384, "enemies", bandit);
+	instance_create_layer(9248, 4480, "enemies", bandit);
+	instance_create_layer(10144, 5440, "enemies", bandit);
+	instance_create_layer(8864, 6432, "enemies", bandit);
+	instance_create_layer(11328, 7456, "enemies", bandit);
+}

@@ -105,6 +105,11 @@ if counter2 = 1{
 	}
 	
 	if counter = 15{
+		speaker = spr_com_alan;
+		text = "Good. Now go home to your parents; this is no place for a kid to be by themself.";
+	}
+	
+	if counter = 16{
 		counter = 0;
 		talking = false;
 		enemy_manager3.target.incontrol = true;
@@ -148,6 +153,11 @@ if counter2 = 2{
 	}
 	
 	if counter = 13{
+		speaker = spr_com_alan;
+		text = "Now go home to your parents; this is no place for a kid to be by themself.";
+	}
+	
+	if counter = 14{
 		counter = 0;
 		talking = false;
 		enemy_manager3.target.incontrol = true;

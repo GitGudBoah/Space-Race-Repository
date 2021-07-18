@@ -22,22 +22,22 @@ if counter = 4{
 
 if counter = 5{
 	speaker = spr_com_demeter;
-	text = "Where are the believers? Do you know?";
+	text = "Pathways... Are you talking about human sacrifices?";
 }
 
 if counter = 6{
 	speaker = spr_com_believer;
-	text = "On this station. In the den. In the basement. The pathways are tied up- they're being sliced open as we speak!";
+	text = "There is one who shares your blood- a Monroe. The believers have him!";
 }
 
 if counter = 7{
 	speaker = spr_com_demeter;
-	text = "The pirate gang on this station. They could be a part of this Nalthuraas cult.";
+	text = "*clenches fist* Where are the sacrifices being kept?";
 }
 
 if counter = 8{
-	speaker = spr_com_demeter;
-	text = "If so, I may have a couple of questions to ask them.";
+	speaker = spr_com_believer;
+	text = "In the museum. In the basement. The pathways are tied up- they're being sliced open as we speak!";
 }
 
 if counter = 9{
@@ -46,6 +46,16 @@ if counter = 9{
 }
 
 if counter = 10{
+	speaker = spr_com_demeter;
+	text = "I'll save them. Don't worry.";
+}
+
+if counter = 11{
+	speaker = spr_com_jay;
+	text = "I don't have a good feeling about this.";
+}
+
+if counter = 12{
 	counter = 0;
 	talking = false;
 	enemy_manager3.target.incontrol = true;

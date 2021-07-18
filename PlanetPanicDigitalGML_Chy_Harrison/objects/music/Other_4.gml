@@ -7,6 +7,7 @@ if room = Menu
 		audio_play_sound(snd_space_race_intro, 1, true);
 	}
 	reset_bg = true;
+	o_game.pausable = false;
 }
 if room = Controls
 {
@@ -17,12 +18,14 @@ if room = Victory
 	audio_stop_all();
 	audio_play_sound(snd_space_race_intro, 1, true);
 	reset_bg = false;
+	o_game.pausable = false;
 }
 if room = Game_Over
 {
 	audio_stop_all();
 	audio_play_sound(snd_space_race_intro, 1, true);
 	reset_bg = false;
+	o_game.pausable = false;
 }
 
 if room = scene1
@@ -117,13 +120,6 @@ if cp11{
 	}	
 }
 
-if cp13{
-	if room = rm_hal9_3{
-		audio_stop_all();
-		audio_play_sound(snd_space_race_intro, 1, true);
-	}
-}
-
 //checkpoints
 if room = rm_enemy{
 	cp = false;
@@ -152,6 +148,7 @@ if room = rm_believer{
 if room = rm_level3{
 	cp6 = false;
 	cp11 = false;
+	cp12 = false;
 	cp7 = true;
 }
 if room = rm_xenom{
@@ -173,8 +170,4 @@ if room = beast_fight{
 if room = rm_hal9_2{
 	cp7 = false;
 	cp12 = true;
-}
-if room = rm_hal9_3{
-	cp12 = false;
-	cp13 = true;
 }

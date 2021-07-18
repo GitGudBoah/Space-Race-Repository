@@ -4,6 +4,11 @@ if room = rm_level3{
 		y = 7360;
 		image_angle = 90;
 	}
+	if music.stations = 2{
+		x = 12800;
+		y = 1700;
+		image_angle = 180;
+	}
 }
 
 power_up_fr = false;

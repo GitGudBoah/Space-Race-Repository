@@ -1,2 +1,5 @@
 inrange = false;
-available = true;
+available = false;
+if music.stations < 2{
+	available = true;
+}

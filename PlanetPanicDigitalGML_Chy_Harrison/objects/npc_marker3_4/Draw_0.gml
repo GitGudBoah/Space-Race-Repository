@@ -14,6 +14,14 @@ if weapon_shop.inrange && weapon_shop.available{
 	draw_text(weapon_shop.x, weapon_shop.y - 400, "Enter")
 }
 
+if t_booth.inrange && t_booth.available{
+	draw_set_font(font_marker);
+	draw_set_alpha(0.75);
+	draw_sprite(spr_npc_marker, 1, t_booth.x - 2.5, t_booth.y - 405)
+	draw_set_alpha(1);
+	draw_text(t_booth.x, t_booth.y - 400, "Enter")
+}
+
 if bar.inrange && bar.available{
 	draw_set_font(font_marker);
 	draw_set_alpha(0.75);

@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "placeholder_music10.mp3",
-  "duration": 162.6695,
+  "duration": 162.66449,
   "parent": {
     "name": "temp_music",
     "path": "folders/Sounds/temp_music.yy",

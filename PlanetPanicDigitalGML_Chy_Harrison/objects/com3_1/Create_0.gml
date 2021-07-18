@@ -8,3 +8,7 @@ stringHeight = string_height(text);
 
 talking = false;
 counter = 0;
+
+//decision
+decision = false;
+choice = false;

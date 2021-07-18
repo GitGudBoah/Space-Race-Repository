@@ -2,9 +2,11 @@
 //corresponds with the current, active checkpoint (cp).
 //The checkpoint system is held within the music object,
 //because it's persistent since the game starts.
+o_game.paused = false;
 
 switch(menu_index) {
 	case 0:
+		o_game.pausable = true;
 		score = 0;
 		if shortcut{
 			audio_stop_all();
@@ -57,9 +59,6 @@ switch(menu_index) {
 			}
 			if music.cp12{
 			room_goto(rm_hal9_2);
-			}
-			if music.cp13{
-			room_goto(rm_hal9_3);
 			}
 		}
 		break;

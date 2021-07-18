@@ -105,7 +105,7 @@ if counter = 14{
 	}
 	if choice = 1{
 		speaker = spr_com_alan;
-		text = "Let's go find Titania.";
+		text = "Let's go deal with those cultists.";
 	}
 }
 
@@ -154,7 +154,7 @@ if counter = 19{
 if counter = 20{
 	if choice = 0{
 		speaker = spr_com_alan;
-		text = "Aside from us, there are four other known races in the universe- four planets that have formed a coalition to battle threats to large for any of them to handle alone:";
+		text = "Aside from us, there are four known races in the universe- four planets that have formed a coalition to battle threats too large for any of them to handle alone:";
 	}
 	if choice = 1{
 		speaker = spr_com_alan;
@@ -162,7 +162,7 @@ if counter = 20{
 	}
 	if choice = 2{
 		speaker = spr_com_alan;
-		text = "Let's go find Titania.";
+		text = "Let's go deal with those cultists.";
 	}
 	decision = false;
 }
@@ -179,7 +179,7 @@ if counter = 21{
 	}
 	if choice = 2{
 		speaker = spr_com_jay;
-		text = "And turn some pirate brains to mush.";
+		text = "And hope the police don't get in our way.";
 	}
 }
 
@@ -240,7 +240,7 @@ if counter = 25{
 	}
 	if choice = 2{
 		speaker = spr_com_alan;
-		text = "Let's go find Titania.";
+		text = "Let's go deal with the cultists.";
 	}
 }
 
@@ -255,7 +255,7 @@ if counter = 26{
 	}
 	if choice = 2{
 		speaker = spr_com_alan;
-		text = "Let's go find Titania.";
+		text = "Let's go deal with the cultists.";
 	}
 }
 
@@ -270,7 +270,7 @@ if counter = 27{
 	}
 	if choice = 2{
 		speaker = spr_com_alan;
-		text = "Let's go find Titania.";
+		text = "Let's go deal with the cultists.";
 	}
 }
 
@@ -285,7 +285,7 @@ if counter = 28{
 	}
 	if choice = 2{
 		speaker = spr_com_alan;
-		text = "Let's go find Titania.";
+		text = "Let's go deal with the cultists.";
 	}
 }
 
