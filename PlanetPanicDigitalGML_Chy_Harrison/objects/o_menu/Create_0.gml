@@ -2,7 +2,7 @@
 canTrigger = true;
 //shortcut: menu sends you to the specified room
 shortcut = false;
-shortcut_destination = rm_hal9;
+shortcut_destination = rm_hal9_2;
 
 menu_x = room_width/2;
 menu_y = 250;

@@ -1,7 +1,7 @@
 //only used in level 1
 game_over = false;
 
-
+//hud currently deactivated
 score = 0;
 //pause menu
 paused = false;

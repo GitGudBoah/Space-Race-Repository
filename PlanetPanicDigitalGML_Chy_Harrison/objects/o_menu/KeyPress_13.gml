@@ -22,7 +22,6 @@ switch(menu_index) {
 				inst.fadeout_speed = 0.2;
 				inst.room_swap_delay = 0.2;
 			}
-			//room_goto(scene1);
 			}
 			if music.cp1{
 			room_goto(rm_enemy);
