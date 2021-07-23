@@ -13,10 +13,11 @@ if room = rm_level3{
 
 //shooting
 reloading = false;
-firerate = 0.25;
-ammo = 16;
+firerate = 0.15;
+ammo = 20;
 ammo_max = ammo;
-reload_speed = 1.5;
+reload_speed = 1;
+reload_buff = false;
 power_up_fr = false;
 power_up_ss = false;
 bullet_speed = 30;

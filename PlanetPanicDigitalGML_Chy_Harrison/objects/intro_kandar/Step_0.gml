@@ -20,6 +20,7 @@ if direction < 90 or direction > 270{
 }
 
 if hp <= 0{
+	intro_spawner.kandar_defeated = true;
 	audio_play_sound(snd_explosion_big, 1, false);
 	
 	repeat(10){

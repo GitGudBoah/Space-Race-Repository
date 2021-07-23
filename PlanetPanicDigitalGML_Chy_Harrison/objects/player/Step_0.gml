@@ -39,6 +39,9 @@ if incontrol{
 				audio_play_sound(snd_menu_switch, 1, false);
 				image_blend = c_red;
 				alarm[3] = room_speed * reload_speed;
+				if reload_buff{
+					firerate = 0.15;
+				}
 			}
 			alarm[2] = room_speed * firerate;
 		}

@@ -1,6 +1,9 @@
 if o_game.game_over = false
 {
 	direction=point_direction(x,y,player.x,player.y);
+	if intro_spawner.kandar_defeated = true{
+		speed = 8;
+	}
 	
 	//shooting
 	if reloading = false {
