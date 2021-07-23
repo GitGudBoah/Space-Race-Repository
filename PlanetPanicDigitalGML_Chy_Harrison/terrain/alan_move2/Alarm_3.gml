@@ -1,0 +1,2 @@
+shooting = false;
+firing = false;

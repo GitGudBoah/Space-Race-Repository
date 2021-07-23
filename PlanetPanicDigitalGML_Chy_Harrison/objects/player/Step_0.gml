@@ -32,21 +32,39 @@ if incontrol{
 	}
 
 	if(keyboard_check(ord("W"))){
-		motion_add(image_angle, 0.15);
+		motion_add(image_angle, 0.25);
 	}
 	if(keyboard_check(ord("S"))){
-		motion_add(image_angle, -0.15);
+		motion_add(image_angle, -0.25);
 	}
 
-	if(keyboard_check_pressed(vk_space)){
-		var inst = instance_create_layer(x,y, "Instances", o_bullet);
-		inst.direction = image_angle;
-		audio_play_sound(snd_lasershot, 1, false);
+	if(keyboard_check(vk_space)) && reloading = false{
+		if ammo > 0{
+			var inst = instance_create_layer(x,y, "Instances", o_bullet);
+			inst.direction = image_angle;
+			audio_play_sound(snd_lasershot, 1, false);
+			reloading = true;
+			ammo -= 1;
+			if ammo = 0{
+				audio_play_sound(snd_menu_switch, 1, false);
+				image_blend = c_red;
+				alarm[3] = room_speed * reload_speed;
+			}
+			alarm[2] = room_speed * firerate;
+		}
 	}
 
 	if(keyboard_check(vk_shift)){
 		speed = 0;
 	}
+}
+
+//speed cap and decay
+if speed > 25{
+	speed = 25;
+}
+if speed > 10{
+	speed -= 0.1;
 }
 
 // health system

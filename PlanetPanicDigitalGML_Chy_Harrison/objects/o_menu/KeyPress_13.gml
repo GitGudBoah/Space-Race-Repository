@@ -17,7 +17,7 @@ switch(menu_index) {
 			if canTrigger{
 				canTrigger = false;
 				var inst = instance_create_depth(0, 0, -999, fader);
-				inst.destination_room = scene1;
+				inst.destination_room = intro;
 				inst.fadein_speed = 0.2;
 				inst.fadeout_speed = 0.2;
 				inst.room_swap_delay = 0.2;
