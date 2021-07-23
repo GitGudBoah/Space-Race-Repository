@@ -1,4 +1,4 @@
-hp = 1000;
+hp = 2250;
 speed = 4;
 
 reloading = false;

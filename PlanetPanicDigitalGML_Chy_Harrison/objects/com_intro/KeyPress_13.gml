@@ -3,7 +3,12 @@ if attis_entrance.inrange{
 		attis_entrance.available = false;
 		player.incontrol = false;
 		player.speed = 0;
-		talking = true;
+		if intro_spawner.kandar_defeated{
+			var inst = instance_create_depth(0, 0, -999, fader);
+			inst.destination_room = scene1;
+		} else{
+			talking = true;
+		}
 	}
 }
 

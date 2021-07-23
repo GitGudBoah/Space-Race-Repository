@@ -1,7 +1,7 @@
 audio_play_sound(snd_alarm_low, 1, false);
 
 instance_create_layer(3648, 480, "enemies", intro_bandit);
-instance_create_layer(576, 2272, "enemies", intro_bandit);
+instance_create_layer(1000, 2272, "enemies", intro_bandit);
 instance_create_layer(3616, 3616, "enemies", intro_bandit);
 instance_create_layer(2112, 608, "enemies", intro_bandit);
 instance_create_layer(2368, 3424, "enemies", intro_bandit);

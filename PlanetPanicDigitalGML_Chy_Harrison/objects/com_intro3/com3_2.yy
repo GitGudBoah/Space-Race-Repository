@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_boss_bullet",
-    "path": "sprites/spr_boss_bullet/spr_boss_bullet.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -22,19 +19,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"player","path":"objects/player/player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":13,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/level3/enemies.yy",
+    "name": "commlink",
+    "path": "folders/Objects/level3/commlink.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bandit_bullet",
+  "name": "com3_2",
   "tags": [],
   "resourceType": "GMObject",
 }
