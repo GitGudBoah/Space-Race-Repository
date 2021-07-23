@@ -10,16 +10,6 @@ if collision_point(x, y, o_Wall2, true, true){
 if collision_point(x, y, o_Wall4, true, true){
 	hspeed *= -1;
 }
-if collision_point(x, y, boss, false, true){
-	hp -= 25;
-	hspeed *= -1;
-	vspeed *= -1;
-	speed = 10;
-	audio_play_sound(snd_explosion_big, 1, false);
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-}
 
 //controls
 if incontrol{
