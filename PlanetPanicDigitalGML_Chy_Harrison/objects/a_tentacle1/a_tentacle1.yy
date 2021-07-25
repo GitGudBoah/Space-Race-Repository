@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "obstacles",
-    "path": "folders/Objects/level1/obstacles.yy",
+    "name": "Nal_fight",
+    "path": "folders/Objects/level1/enemies/Nal_fight.yy",
   },
   "resourceVersion": "1.0",
   "name": "a_tentacle1",

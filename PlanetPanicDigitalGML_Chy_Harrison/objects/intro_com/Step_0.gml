@@ -1,11 +1,11 @@
 if counter = 1{
 	speaker = spr_com_demeter;
-	text = "Yet if it weren't for this station's walls, we'd all be dead. Ironic, isn't it?";
+	text = "Yet if it weren't for this station's walls, we'd all be dead.";
 }
 
 if counter = 2{
 	speaker = spr_com_glaucus;
-	text = "That's correct. Attis is one of the last safe places for the remnants of your people, though I'd estimate that this old space station hasn't got much time left.";
+	text = "That's correct. Attis is one of the last safe places for the remnants of your people, though I'd estimate that this station hasn't got much time left.";
 }
 
 if counter = 3{
@@ -45,7 +45,7 @@ if counter = 9{
 
 if counter = 10{
 	speaker = spr_com_demeter;
-	text = "This calls for celebration drinks! Ah - sorry, Glaucas.";
+	text = "This calls for celebration drinks! Ah- sorry, Glaucus.";
 }
 
 if counter = 11{

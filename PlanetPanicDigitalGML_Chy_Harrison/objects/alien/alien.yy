@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/level1/enemies.yy",
+    "name": "Nal_fight",
+    "path": "folders/Objects/level1/enemies/Nal_fight.yy",
   },
   "resourceVersion": "1.0",
   "name": "alien",

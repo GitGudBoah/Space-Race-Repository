@@ -1,7 +1,3 @@
-if power_up_fr = false{
-	bullet_speed = 30;
-}
-
 //wallstuck fix && tentacle bounce
 move_bounce_solid(false);
 if collision_point(x, y, o_Wall2, true, true){

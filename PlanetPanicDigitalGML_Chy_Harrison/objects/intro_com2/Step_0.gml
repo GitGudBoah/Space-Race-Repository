@@ -75,12 +75,12 @@ if counter = 15{
 
 if counter = 16{
 	speaker = spr_com_alan;
-	text = "Some day, Attis' old body will give out - but humanity must live on.";
+	text = "Some day, the universe will throw something at us that we aren't equipped to defeat- but humanity must live on somehow.";
 }
 
 if counter = 17{
 	speaker = spr_com_alan;
-	text = "We risk our lives so that when that day comes, those who inherit the burden of humanity may live a more secure and carefree life than ours.";
+	text = "We risk our lives now so that when the fateful day arrives, those who inherit our legacy may stand a better chance against oblivion.";
 }
 
 if counter = 18{

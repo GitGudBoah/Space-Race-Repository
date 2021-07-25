@@ -7,16 +7,16 @@ if o_game.game_over = false{
 	if player.x > 1100 && player.x < 1200{
 		commlink.speaker = spr_com_demeter;
 		commlink.text = "Yes!... Finally, let's blow this big bastard to bits!";
-	}
-
-	if player.x > 2200 && player.x < 2300{
-		commlink.speaker = spr_com_glaucus;
-		commlink.text = "Control your bloodlust. Our top priority should be to escape.";
+		if canTrigger3{
+			canTrigger3 = false;
+			alarm[1] = room_speed * 4;
+		}
 	}
 
 	if player.x > 6500 && player.x < 6600{
 		commlink.speaker = spr_com_jay;
 		commlink.text = "Hope this stings!";
+		talking = true;
 	}
 
 	if player.x > 7400 && player.x < 7500{

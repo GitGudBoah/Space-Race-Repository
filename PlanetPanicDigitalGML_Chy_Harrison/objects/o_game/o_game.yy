@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level1",
-    "path": "folders/Objects/level1.yy",
+    "name": "menus",
+    "path": "folders/Objects/level1/menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_game",

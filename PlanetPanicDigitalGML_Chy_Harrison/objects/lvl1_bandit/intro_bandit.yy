@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pirate_drone_flipped",
-    "path": "sprites/spr_pirate_drone_flipped/spr_pirate_drone_flipped.yy",
+    "name": "spr_pirate_drone_flipped2",
+    "path": "sprites/spr_pirate_drone_flipped2/spr_pirate_drone_flipped2.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,15 +23,16 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/level1/enemies.yy",
+    "name": "intro",
+    "path": "folders/Objects/intro.yy",
   },
   "resourceVersion": "1.0",
-  "name": "pirate_drone_flipped",
+  "name": "intro_bandit",
   "tags": [],
   "resourceType": "GMObject",
 }

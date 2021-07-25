@@ -1,1 +1,2 @@
-speed = 1;
+hp = 50;
+speed = 6;

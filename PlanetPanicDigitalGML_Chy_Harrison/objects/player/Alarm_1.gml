@@ -1,1 +1,0 @@
-power_up_ss = false;

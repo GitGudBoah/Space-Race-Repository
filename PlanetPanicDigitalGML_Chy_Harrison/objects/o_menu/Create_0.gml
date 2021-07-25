@@ -1,7 +1,7 @@
 //fade transition
 canTrigger = true;
 //shortcut: menu sends you to the specified room
-shortcut = false;
+shortcut = true;
 shortcut_destination = rm_enemy;
 
 menu_x = room_width/2;

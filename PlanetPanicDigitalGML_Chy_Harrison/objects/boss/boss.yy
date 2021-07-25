@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/level1/enemies.yy",
+    "name": "obstacles",
+    "path": "folders/Objects/level1/obstacles.yy",
   },
   "resourceVersion": "1.0",
   "name": "boss",

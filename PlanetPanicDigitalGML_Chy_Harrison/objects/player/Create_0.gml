@@ -18,8 +18,6 @@ ammo = 20;
 ammo_max = ammo;
 reload_speed = 0.5;
 reload_buff = false;
-power_up_fr = false;
-power_up_ss = false;
 bullet_speed = 30;
 
 //collision cooldown
