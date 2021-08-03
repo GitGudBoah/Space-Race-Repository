@@ -9,22 +9,24 @@ if collision_point(x, y, o_Wall4, true, true){
 
 //controls
 if incontrol{
+	image_angle = point_direction(x, y, mouse_x, mouse_y);
+	
 	if(keyboard_check(ord("A"))){
-		image_angle = image_angle + 5;
+		motion_add(180, 0.5);
 	}
 
 	if(keyboard_check(ord("D"))){
-		image_angle = image_angle - 5;
+		motion_add(0, 0.5);
 	}
 
 	if(keyboard_check(ord("W"))){
-		motion_add(image_angle, 0.25);
+		motion_add(90, 0.5);
 	}
 	if(keyboard_check(ord("S"))){
-		motion_add(image_angle, -0.25);
+		motion_add(270, 0.5);
 	}
 
-	if(keyboard_check(vk_space)) && reloading = false{
+	if(mouse_check_button(mb_left)) && reloading = false{
 		if ammo > 0{
 			var inst = instance_create_layer(x,y, "Instances", o_bullet);
 			inst.direction = image_angle;
@@ -53,7 +55,7 @@ if speed > 25{
 	speed = 25;
 }
 if speed > 10{
-	speed -= 0.1;
+	speed -= 0.35;
 }
 
 // health system

@@ -1,7 +1,11 @@
-//chase the player
 if o_game.game_over = false
 {
 	direction=point_direction(x,y,player.x,player.y);
+	if distance_to_object(player) > slowing_distance{
+		speed = 12;
+	} else{
+		speed = 6;
+	}
 }
 
 //rotate sprite

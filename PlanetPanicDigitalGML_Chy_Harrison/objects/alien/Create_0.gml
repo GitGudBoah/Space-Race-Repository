@@ -1,2 +1,2 @@
-hp = 50;
-speed = 6;
+hp = 75;
+slowing_distance = 800;
