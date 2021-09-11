@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "menus",
-    "path": "folders/Objects/level1/menus.yy",
+    "path": "folders/Objects/menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_victory",
