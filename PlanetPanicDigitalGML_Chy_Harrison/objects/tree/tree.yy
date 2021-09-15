@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obstacles",
-    "path": "folders/Objects/level2/obstacles.yy",
+    "path": "folders/Objects/level2/old work/obstacles.yy",
   },
   "resourceVersion": "1.0",
   "name": "tree",

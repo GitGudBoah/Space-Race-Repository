@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "commlink",
-    "path": "folders/Objects/level2/commlink.yy",
+    "path": "folders/Objects/level2/old work/commlink.yy",
   },
   "resourceVersion": "1.0",
   "name": "com2_dahlia",

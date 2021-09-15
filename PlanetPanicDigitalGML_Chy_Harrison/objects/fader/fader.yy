@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level2",
-    "path": "folders/Objects/level2.yy",
+    "name": "intro",
+    "path": "folders/Objects/intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "fader",

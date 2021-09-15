@@ -47,7 +47,7 @@
   },
   "parent": {
     "name": "level1",
-    "path": "folders/Rooms/level1.yy",
+    "path": "folders/Rooms/old work/level1.yy",
   },
   "resourceVersion": "1.0",
   "name": "scene6",

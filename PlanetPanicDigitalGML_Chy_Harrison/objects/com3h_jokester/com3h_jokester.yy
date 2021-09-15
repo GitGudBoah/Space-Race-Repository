@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "commlink",
-    "path": "folders/Objects/level3/commlink.yy",
+    "path": "folders/Objects/level3/old work/commlink.yy",
   },
   "resourceVersion": "1.0",
   "name": "com3h_jokester",

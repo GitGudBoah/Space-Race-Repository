@@ -47,7 +47,7 @@
   },
   "parent": {
     "name": "level2",
-    "path": "folders/Rooms/level2.yy",
+    "path": "folders/Rooms/old work/level2.yy",
   },
   "resourceVersion": "1.0",
   "name": "black_screen3",

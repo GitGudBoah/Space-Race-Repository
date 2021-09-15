@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obstacles",
-    "path": "folders/Objects/level3/obstacles.yy",
+    "path": "folders/Objects/level3/old work/obstacles.yy",
   },
   "resourceVersion": "1.0",
   "name": "poison_zone",

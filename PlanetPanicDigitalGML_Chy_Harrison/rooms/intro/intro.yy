@@ -75,8 +75,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "intro sequence",
+    "path": "folders/Rooms/intro sequence.yy",
   },
   "resourceVersion": "1.0",
   "name": "intro",

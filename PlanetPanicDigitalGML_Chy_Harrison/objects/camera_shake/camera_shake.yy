@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level3",
-    "path": "folders/Objects/level3.yy",
+    "name": "level1",
+    "path": "folders/Objects/level1.yy",
   },
   "resourceVersion": "1.0",
   "name": "camera_shake",

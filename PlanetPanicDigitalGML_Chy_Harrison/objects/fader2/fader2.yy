@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level3",
-    "path": "folders/Objects/level3.yy",
+    "name": "old work",
+    "path": "folders/Objects/level3/old work.yy",
   },
   "resourceVersion": "1.0",
   "name": "fader2",

@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "objects",
-    "path": "folders/Objects/level2/objects.yy",
+    "path": "folders/Objects/level2/old work/objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "museum_entrance",

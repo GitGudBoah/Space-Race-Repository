@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "npc",
-    "path": "folders/Objects/level3/npc.yy",
+    "path": "folders/Objects/level3/old work/npc.yy",
   },
   "resourceVersion": "1.0",
   "name": "cultist3",

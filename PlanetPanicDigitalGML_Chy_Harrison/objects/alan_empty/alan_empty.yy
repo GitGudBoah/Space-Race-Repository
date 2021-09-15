@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "background",
-    "path": "folders/Objects/level3/background.yy",
+    "path": "folders/Objects/level3/old work/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "alan_empty",

@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "objects",
-    "path": "folders/Objects/level3/objects.yy",
+    "path": "folders/Objects/level3/old work/objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "barricade",

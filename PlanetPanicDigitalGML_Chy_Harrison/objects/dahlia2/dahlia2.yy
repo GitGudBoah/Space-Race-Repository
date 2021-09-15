@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "npc",
-    "path": "folders/Objects/level2/npc.yy",
+    "path": "folders/Objects/level2/old work/npc.yy",
   },
   "resourceVersion": "1.0",
   "name": "dahlia2",

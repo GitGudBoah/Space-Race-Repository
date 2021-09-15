@@ -1,8 +1,8 @@
 //fade transition
 canTrigger = true;
 //shortcut: menu sends you to the specified room
-shortcut = false;
-shortcut_destination = intro;
+shortcut = true;
+shortcut_destination = chamber1_1;
 
 menu_x = room_width/2;
 menu_y = 250;

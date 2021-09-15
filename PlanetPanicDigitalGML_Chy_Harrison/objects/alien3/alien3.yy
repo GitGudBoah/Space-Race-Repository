@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "enemies",
-    "path": "folders/Objects/level3/enemies.yy",
+    "path": "folders/Objects/level3/old work/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "alien3",

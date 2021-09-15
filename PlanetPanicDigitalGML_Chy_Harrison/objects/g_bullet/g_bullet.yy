@@ -33,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level2",
-    "path": "folders/Objects/level2.yy",
+    "name": "old work",
+    "path": "folders/Objects/level2/old work.yy",
   },
   "resourceVersion": "1.0",
   "name": "g_bullet",
