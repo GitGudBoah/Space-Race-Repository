@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "enemies",
-    "path": "folders/Objects/level1/enemies.yy",
+    "path": "folders/Objects/level1/old work/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "t_asteroid2",

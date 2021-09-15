@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "backgrounds",
-    "path": "folders/Sprites/backgrounds.yy",
+    "name": "background",
+    "path": "folders/Sprites/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "attis",

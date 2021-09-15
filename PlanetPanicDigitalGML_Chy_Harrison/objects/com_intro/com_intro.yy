@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "intro",
-    "path": "folders/Objects/intro.yy",
+    "name": "battle",
+    "path": "folders/Objects/intro/battle.yy",
   },
   "resourceVersion": "1.0",
   "name": "com_intro",

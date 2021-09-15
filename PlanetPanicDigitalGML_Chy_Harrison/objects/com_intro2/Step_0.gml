@@ -33,7 +33,7 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_demeter;
-	text = "Who pissed in his cereal?";
+	text = "Who pissed him off?";
 }
 
 if counter = 3{

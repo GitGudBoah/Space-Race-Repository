@@ -6,6 +6,10 @@ if o_game.game_over = false
 	if reloading = false {
 		var inst = instance_create_layer(x, y, "Instances", kandar_bullet);
 		inst.direction = direction;
+		var inst1 = instance_create_layer(x, y, "Instances", kandar_bullet);
+		inst1.direction = direction - 10;
+		var inst2 = instance_create_layer(x, y, "Instances", kandar_bullet);
+		inst2.direction = direction + 10;
 		audio_play_sound(snd_explosion_small, 1, false);
 		reloading = true;
 		alarm[0] = room_speed * firerate;

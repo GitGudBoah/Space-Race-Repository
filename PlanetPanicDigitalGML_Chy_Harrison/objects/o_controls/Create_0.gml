@@ -9,7 +9,7 @@ yy = room_height/2 - 50;
 c_h = 32;
 
 c_line[0] = "Move: WASD";
-c_line[1] = "Aim & Shoot: Mouse + Right-click";
+c_line[1] = "Aim & Shoot: Mouse + Left-click";
 c_line[2] = "Quickfire: Q";
 c_line[3] = "Break: Shift";
 c_line[4] = "Pause Game: P";

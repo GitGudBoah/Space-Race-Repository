@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_space_race_intro.wav",
-  "duration": 102.405,
+  "duration": 102.4,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

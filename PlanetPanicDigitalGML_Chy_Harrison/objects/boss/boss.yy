@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obstacles",
-    "path": "folders/Objects/level1/obstacles.yy",
+    "path": "folders/Objects/level1/old work/obstacles.yy",
   },
   "resourceVersion": "1.0",
   "name": "boss",

@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "background",
-    "path": "folders/Objects/level1/background.yy",
+    "path": "folders/Objects/level1/old work/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "Nal_boss",

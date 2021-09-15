@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "beast",
-    "path": "folders/Sprites/backgrounds/beast.yy",
+    "path": "folders/Sprites/old work/backgrounds/beast.yy",
   },
   "resourceVersion": "1.0",
   "name": "beast_dead",

@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Nal_fight",
-    "path": "folders/Objects/level1/enemies/Nal_fight.yy",
+    "path": "folders/Objects/level1/old work/enemies/Nal_fight.yy",
   },
   "resourceVersion": "1.0",
   "name": "a_tentacle1",

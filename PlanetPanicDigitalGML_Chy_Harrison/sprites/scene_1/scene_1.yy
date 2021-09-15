@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "backgrounds",
-    "path": "folders/Sprites/backgrounds.yy",
+    "path": "folders/Sprites/old work/backgrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "scene_1",

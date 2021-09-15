@@ -11,13 +11,13 @@ if counter = 1{
 
 if counter = 2{
 	speaker = spr_com_kandar;
-	text = "[Challenges Alan to a rematch]";
+	text = "[Appears and challenges Alan to a rematch]";
 }
 
 //decision
 if counter = 3{
 	speaker = spr_com_kandar;
-	text = "[Challenges Alan to a rematch]";
+	text = "[Appears and challenges Alan to a rematch]";
 	decision = true;
 }
 

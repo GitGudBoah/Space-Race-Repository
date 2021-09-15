@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "object art",
-    "path": "folders/Sprites/object art.yy",
+    "path": "folders/Sprites/old work/object art.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_skeleton",

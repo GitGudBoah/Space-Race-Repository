@@ -28,14 +28,6 @@ if room = Game_Over
 	o_game.pausable = false;
 }
 
-if room = scene1
-{
-	//fade in bg music
-	audio_stop_all();
-	audio_play_sound(placeholder_music0, 1, true);
-	audio_sound_gain(placeholder_music0, 0, 0);
-	audio_sound_gain(placeholder_music0, 0.5, 1000);
-}
 if room = intro
 {
 	//fade in bg music
@@ -44,6 +36,13 @@ if room = intro
 	audio_sound_gain(placeholder_music0, 0, 0);
 	audio_sound_gain(placeholder_music0, 0.5, 1000);
 }
+
+if room = intro_cutscene
+{
+	audio_stop_all();
+	audio_play_sound(placeholder_music11, 1, true);
+}
+
 
 if room = scene3
 {

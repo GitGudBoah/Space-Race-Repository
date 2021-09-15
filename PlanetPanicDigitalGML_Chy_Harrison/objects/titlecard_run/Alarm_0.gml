@@ -1,0 +1,1 @@
+audio_play_sound(blastoff, 0, false);

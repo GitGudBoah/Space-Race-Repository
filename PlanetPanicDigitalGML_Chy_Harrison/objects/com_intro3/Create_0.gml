@@ -2,7 +2,7 @@
 speaker = spr_com_glaucus;
 
 //text
-text = "I detect multiple heartbeats. There are hostiles hiding in the nearby dust clouds.";
+text = "The sonar is picking up several attack ships. There are hostiles hiding in the nearby dust clouds.";
 boxWidth = sprite_get_width(spr_textbox);
 stringHeight = string_height(text);
 

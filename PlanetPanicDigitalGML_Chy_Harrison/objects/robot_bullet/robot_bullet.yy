@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level1",
-    "path": "folders/Objects/level1.yy",
+    "name": "old work",
+    "path": "folders/Objects/level1/old work.yy",
   },
   "resourceVersion": "1.0",
   "name": "robot_bullet",

@@ -5,7 +5,7 @@ if attis_entrance.inrange{
 		player.speed = 0;
 		if intro_spawner.kandar_defeated{
 			var inst = instance_create_depth(0, 0, -999, fader);
-			inst.destination_room = scene1;
+			inst.destination_room = intro_cutscene;
 		} else{
 			talking = true;
 		}

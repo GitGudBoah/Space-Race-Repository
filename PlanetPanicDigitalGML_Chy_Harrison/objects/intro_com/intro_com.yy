@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "commlink",
-    "path": "folders/Objects/level1/commlink.yy",
+    "path": "folders/Objects/level1/old work/commlink.yy",
   },
   "resourceVersion": "1.0",
   "name": "intro_com",

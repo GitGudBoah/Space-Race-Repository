@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "com_art",
-    "path": "folders/Sprites/com_art.yy",
+    "path": "folders/Sprites/old work/com_art.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_com_repairman",

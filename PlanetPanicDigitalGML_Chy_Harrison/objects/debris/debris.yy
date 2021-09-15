@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level1",
-    "path": "folders/Objects/level1.yy",
+    "name": "intro",
+    "path": "folders/Objects/intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "debris",

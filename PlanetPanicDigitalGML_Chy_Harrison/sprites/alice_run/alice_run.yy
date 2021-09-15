@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "alice",
-    "path": "folders/Sprites/character_sprites/alice.yy",
+    "path": "folders/Sprites/old work/character_sprites/alice.yy",
   },
   "resourceVersion": "1.0",
   "name": "alice_run",

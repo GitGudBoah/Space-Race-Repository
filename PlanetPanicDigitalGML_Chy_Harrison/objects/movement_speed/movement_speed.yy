@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "powerups",
-    "path": "folders/Objects/level1/powerups.yy",
+    "path": "folders/Objects/level1/old work/powerups.yy",
   },
   "resourceVersion": "1.0",
   "name": "movement_speed",

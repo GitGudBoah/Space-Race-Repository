@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Attis2",
-    "path": "folders/Sprites/character_sprites/Attis2.yy",
+    "path": "folders/Sprites/old work/character_sprites/Attis2.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_jokester",

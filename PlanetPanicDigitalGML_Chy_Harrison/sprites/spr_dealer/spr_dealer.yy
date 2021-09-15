@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Attis1",
-    "path": "folders/Sprites/character_sprites/Attis1.yy",
+    "path": "folders/Sprites/old work/character_sprites/Attis1.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_dealer",

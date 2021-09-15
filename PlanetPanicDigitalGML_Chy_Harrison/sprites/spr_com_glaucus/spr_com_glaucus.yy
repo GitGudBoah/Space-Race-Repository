@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "com_art",
-    "path": "folders/Sprites/com_art.yy",
+    "name": "commlink",
+    "path": "folders/Sprites/HUD/commlink.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_com_glaucus",

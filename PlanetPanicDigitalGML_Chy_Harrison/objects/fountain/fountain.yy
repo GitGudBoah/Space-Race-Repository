@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "objects",
-    "path": "folders/Objects/level1/background/objects.yy",
+    "path": "folders/Objects/level1/old work/background/objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "fountain",

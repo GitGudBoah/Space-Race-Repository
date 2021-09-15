@@ -1,7 +1,14 @@
-hp -= 50;
-other.hp -= 100;
-audio_play_sound(snd_explosion_big, 1, false);
+if invulnerable = false{
+	invulnerable = true;
+	image_blend = c_gray;
+	alarm[0] = room_speed * 1;
+	hp -= 50;
 
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
+	audio_play_sound(snd_explosion_big, 1, false);
+
+	repeat(10){
+		instance_create_layer(x,y,"Instances",debris);
+	}
+
+	instance_destroy(other);
 }

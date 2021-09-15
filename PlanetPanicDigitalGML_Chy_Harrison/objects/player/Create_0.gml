@@ -19,9 +19,8 @@ ammo_max = ammo;
 reload_speed = 0.5;
 reload_buff = false;
 bullet_speed = 30;
-
-//collision cooldown
-collision_cooldown = false;
+spray = 0;
+invulnerable = false;
 
 // hp bar
 hp = 200;
