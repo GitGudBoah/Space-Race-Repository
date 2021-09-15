@@ -1,12 +1,3 @@
-//wall bounce
-//move_bounce_solid(false);
-//if collision_point(x, y, o_Wall2, true, true){
-//	vspeed *= -1;
-//}
-//if collision_point(x, y, o_Wall4, true, true){
-//	hspeed *= -1;
-//}
-
 //controls
 if incontrol{
 	image_angle = point_direction(x, y, mouse_x, mouse_y);
@@ -86,15 +77,15 @@ if hp <= 0
 }
 
 //Wall Collision: obj_wall
-if (place_meeting(x + speed, y, obj_wall)){
-	while(!place_meeting(x + sign(speed), y, obj_wall))
-		x += sign(speed);
-	speed = 0;
+if (place_meeting(x + hspeed, y, obj_wall)){
+	while(!place_meeting(x + sign(hspeed), y, obj_wall))
+		x += sign(hspeed);
+	hspeed = 0;
 }
-if (place_meeting(x, y + speed, obj_wall)){
-	while(!place_meeting(x, y + sign(speed), obj_wall))
-		y += sign(speed);
-	speed = 0;
+if (place_meeting(x, y + vspeed, obj_wall)){
+	while(!place_meeting(x, y + sign(vspeed), obj_wall))
+		y += sign(vspeed);
+	vspeed = 0;
 }
 if (place_meeting(x, y, obj_wall)){
 	for (var i = 0; i < 1000; ++i){
