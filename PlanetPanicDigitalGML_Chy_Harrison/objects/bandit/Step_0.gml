@@ -4,7 +4,7 @@ if o_game.game_over = false{
 		direction = point_direction(x,y,player.x,player.y);
 		if attacking = false{
 			if  distance_to_object(player) > stopping_distance{
-				speed = 8;
+				speed = move_speed;
 			} else{
 				speed = 0;
 			}
@@ -99,15 +99,15 @@ if (place_meeting(x, y, obj_wall)){
 	}
 }
 //Wall Collision: bandit
-if (place_meeting(x + speed, y, bandit)){
-	while(!place_meeting(x + sign(speed), y, bandit))
-		x += sign(speed);
-	speed = 0;
+if (place_meeting(x + hspeed, y, bandit)){
+	while(!place_meeting(x + sign(hspeed), y, bandit))
+		x += sign(hspeed);
+	hspeed = 0;
 }
-if (place_meeting(x, y + speed, bandit)){
-	while(!place_meeting(x, y + sign(speed), bandit))
-		y += sign(speed);
-	speed = 0;
+if (place_meeting(x, y + vspeed, bandit)){
+	while(!place_meeting(x, y + sign(vspeed), bandit))
+		y += sign(vspeed);
+	vspeed = 0;
 }
 if (place_meeting(x, y, bandit)){
 	for (var i = 0; i < 1000; ++i){
@@ -151,6 +151,65 @@ if (place_meeting(x, y, bandit)){
 		}
 		//bottom left
 		if (!place_meeting(x - i, y + i, bandit)){
+			x -= i;
+			y += i;
+			break;
+		}
+	}
+}
+//Wall Collision: hull_breaker
+if (place_meeting(x + hspeed, y, hull_breaker)){
+	while(!place_meeting(x + sign(hspeed), y, hull_breaker))
+		x += sign(hspeed);
+	hspeed = 0;
+}
+if (place_meeting(x, y + vspeed, hull_breaker)){
+	while(!place_meeting(x, y + sign(vspeed), hull_breaker))
+		y += sign(vspeed);
+	vspeed = 0;
+}
+if (place_meeting(x, y, hull_breaker)){
+	for (var i = 0; i < 1000; ++i){
+		//right
+		if (!place_meeting(x + i, y, hull_breaker)){
+			x += i;
+			break;
+		}
+		//left
+		if (!place_meeting(x - i, y, hull_breaker)){
+			x -= i;
+			break;
+		}
+		//up
+		if (!place_meeting(x, y - i, hull_breaker)){
+			y -= i;
+			break;
+		}
+		//down
+		if (!place_meeting(x, y + i, hull_breaker)){
+			y += i;
+			break;
+		}
+		//top right
+		if (!place_meeting(x + i, y - i, hull_breaker)){
+			x += i;
+			y -= i;
+			break;
+		}
+		//top left
+		if (!place_meeting(x - i, y - i, hull_breaker)){
+			x -= i;
+			y -= i;
+			break;
+		}
+		//bottom right
+		if (!place_meeting(x + i, y + i, hull_breaker)){
+			x += i;
+			y += i;
+			break;
+		}
+		//bottom left
+		if (!place_meeting(x - i, y + i, hull_breaker)){
 			x -= i;
 			y += i;
 			break;

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "old work",
-    "path": "folders/Sprites/old work.yy",
+    "name": "enemies",
+    "path": "folders/Sprites/units/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pirate_drone_flipped2",

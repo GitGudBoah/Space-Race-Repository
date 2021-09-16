@@ -1,4 +1,5 @@
 hp = 100;
+move_speed = 8;
 speed = 0;
 
 reloading = true;
