@@ -1,3 +1,10 @@
+if room = blackhole_city{
+	if com_bcity.second_phase && canTrigger{
+		canTrigger = false;
+		alarm[0] = room_speed * random_range(0.5, 1.5);
+	}
+}
+
 path_speed = move_speed;
 
 if o_game.game_over = false{
@@ -37,7 +44,12 @@ if hp <= 0{
 	repeat(10){
 		instance_create_layer(x,y,"Instances",debris);
 	}
-	spawner_chamber1_1.kill_count += 1;
+	if room = chamber1_1{
+		spawner_chamber1_1.kill_count += 1;
+	}
+	if room = blackhole_city{
+		com_bcity.kill_count2 += 1;
+	}
 	instance_destroy();
 }
 

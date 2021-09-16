@@ -11,7 +11,11 @@ knockback = false;
 knockback_duration = 0.5;
 knockback_speed = 30;
 
-alarm[0] = room_speed * random_range(0.5, 1.5);
+if room = blackhole_city{
+	//do nothing
+} else{
+	alarm[0] = room_speed * random_range(0.5, 1.5);
+}
 
 //unique property: armor
 armored = true;
@@ -19,3 +23,5 @@ armored = true;
 //Create a path
 path = path_add();
 alarm[5] = room_speed * 0.5;
+
+canTrigger = true;
