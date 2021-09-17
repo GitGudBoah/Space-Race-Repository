@@ -1,1 +1,1 @@
-audio_play_sound(blastoff, 0, false);
+audio_play_sound(snd_blastoff, 0, false);

@@ -26,22 +26,22 @@ if counter = 5{
 }
 
 if counter = 6{
-	speaker = spr_com_blank;
+	speaker = spr_com_rhea;
 	text = "I have a job for you, then. Your last moon mining mission was a success, yes?";
 }
 
 if counter = 7{
-	speaker = spr_com_blank;
+	speaker = spr_com_rhea;
 	text = "I need you to sail to Garinoka and bring me your last haul of moon minerals. In exchange for supplies to keep Attis safe.";
 }
 
 if counter = 8{
-	speaker = spr_com_blank;
+	speaker = spr_com_rhea;
 	text = "And regardless, you may still be able live out your childhood dream of being a hero. Nalthuraas has grown to our side of the galaxy.";
 }
 
 if counter = 9{
-	speaker = spr_com_blank;
+	speaker = spr_com_rhea;
 	text = "Soon, we'll have something far worse to worry about than The United Pirate Fleet.";
 }
 
@@ -54,12 +54,12 @@ if counter = 10{
 }
 
 if counter = 11{
-	speaker = spr_com_blank;
+	speaker = spr_com_alan;
 	text = "A trade run as my last good deed for humanity? *chuckle* Maybe I have finally lost my edge.";
 }
 
 if counter = 12{
-	speaker = spr_com_blank;
+	speaker = spr_com_alan;
 	text = "I'll take the job, Rhea. I haven't forgotten your contributions to Attis and humanity as a whole; I respect you, even if your inventions are sometimes concerning in nature.";
 }
 
@@ -71,22 +71,22 @@ if counter = 13{
 }
 
 if counter = 14{
-	speaker = spr_com_blank;
+	speaker = spr_com_rhea;
 	text = "Alan, know this. The centuries-long war between The Coalition and The United Pirate Fleet is reaching yet another climax-- the state of space is rapidly changing.";
 }
 
 if counter = 15{
-	speaker = spr_com_blank;
+	speaker = spr_com_rhea;
 	text = "You'll need to worry about surviving first, then you can worry about doing what's right or wrong.";
 }
 
 if counter = 16{
-	speaker = spr_com_blank;
+	speaker = spr_com_rhea;
 	text = "I want my package to arrive in good condition, sure, but I also believe that despite your previous efforts for humanity, your most important work has yet to come.";
 }
 
 if counter = 17{
-	speaker = spr_com_blank;
+	speaker = spr_com_rhea;
 	text = "I'm counting on you, officer.";
 }
 
@@ -246,7 +246,7 @@ if counter = 44{
 }
 
 if counter = 45{
-	speaker = spr_com_blank;
+	speaker = spr_com_demeter;
 	text = "[insert cool name here]: The site of a failed terraforming operation. No one has been there since a battle with Ralaxia made it inhospitable.";
 }
 
@@ -257,7 +257,7 @@ if counter = 46{
 }
 
 if counter = 47{
-	speaker = spr_com_blank;
+	speaker = spr_com_glaucus;
 	text = "[insert cool name here]: One of Tartau's moons. It is a graveyard of starships.";
 }
 
@@ -268,7 +268,7 @@ if counter = 48{
 }
 
 if counter = 49{
-	speaker = spr_com_blank;
+	speaker = spr_com_jay;
 	text = "Tartau: The home planet of Ralaxia and The United Pirate Fleet.";
 }
 
@@ -279,7 +279,7 @@ if counter = 50{
 }
 
 if counter = 51{
-	speaker = spr_com_blank;
+	speaker = spr_com_rhea;
 	text = "Garinoka: One of the most powerful planets within the galaxy, its continent-sized cities are a hub for trade and exchange of knowledge between different species and cultures.";
 }
 

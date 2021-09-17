@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 7,
-  "bbox_right": 228,
-  "bbox_top": 107,
-  "bbox_bottom": 348,
+  "bbox_left": 38,
+  "bbox_right": 231,
+  "bbox_top": 14,
+  "bbox_bottom": 179,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 270,
-  "height": 350,
+  "width": 271,
+  "height": 194,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1e960cf3-3e0d-4aef-9512-ffdd9f6e6572","path":"sprites/spr_com_ralaxia/spr_com_ralaxia.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1e960cf3-3e0d-4aef-9512-ffdd9f6e6572","path":"sprites/spr_com_ralaxia/spr_com_ralaxia.yy",},"LayerId":{"name":"f5b0dd47-9197-4d18-8e3a-e28e94e6f379","path":"sprites/spr_com_ralaxia/spr_com_ralaxia.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_com_ralaxia","path":"sprites/spr_com_ralaxia/spr_com_ralaxia.yy",},"resourceVersion":"1.0","name":"1e960cf3-3e0d-4aef-9512-ffdd9f6e6572","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f409430e-4828-436d-94a4-6777041f3b4c","path":"sprites/spr_com_rhea/spr_com_rhea.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f409430e-4828-436d-94a4-6777041f3b4c","path":"sprites/spr_com_rhea/spr_com_rhea.yy",},"LayerId":{"name":"f04c77ef-56a8-420e-acaf-4724e386bb40","path":"sprites/spr_com_rhea/spr_com_rhea.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_com_rhea","path":"sprites/spr_com_rhea/spr_com_rhea.yy",},"resourceVersion":"1.0","name":"f409430e-4828-436d-94a4-6777041f3b4c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_com_ralaxia","path":"sprites/spr_com_ralaxia/spr_com_ralaxia.yy",},
+    "spriteId": {"name":"spr_com_rhea","path":"sprites/spr_com_rhea/spr_com_rhea.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ce0a06ec-868f-47ad-926c-c893f0803668","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1e960cf3-3e0d-4aef-9512-ffdd9f6e6572","path":"sprites/spr_com_ralaxia/spr_com_ralaxia.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"37442b63-fbca-4d29-b687-b0c7832abb4d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f409430e-4828-436d-94a4-6777041f3b4c","path":"sprites/spr_com_rhea/spr_com_rhea.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,17 +55,17 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 135,
-    "yorigin": 175,
+    "yorigin": 97,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_com_ralaxia","path":"sprites/spr_com_ralaxia/spr_com_ralaxia.yy",},
+    "parent": {"name":"spr_com_rhea","path":"sprites/spr_com_rhea/spr_com_rhea.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_com_ralaxia",
+    "name": "spr_com_rhea",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f5b0dd47-9197-4d18-8e3a-e28e94e6f379","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f04c77ef-56a8-420e-acaf-4724e386bb40","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/HUD/commlink.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_com_ralaxia",
+  "name": "spr_com_rhea",
   "tags": [],
   "resourceType": "GMSprite",
 }
