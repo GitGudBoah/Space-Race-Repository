@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "commlink",
-    "path": "folders/Sprites/HUD/commlink.yy",
+    "name": "comlink",
+    "path": "folders/Sprites/HUD/comlink.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_com_alan",

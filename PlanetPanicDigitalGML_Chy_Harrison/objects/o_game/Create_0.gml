@@ -13,3 +13,6 @@ paused = false;
 paused_surf = -1;
 pausable = false;
 was_animating = false;
+
+//menu system
+global.current_room = intro;

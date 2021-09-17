@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 53,
-  "bbox_right": 211,
-  "bbox_top": 107,
-  "bbox_bottom": 242,
+  "bbox_left": 31,
+  "bbox_right": 224,
+  "bbox_top": 14,
+  "bbox_bottom": 179,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 270,
-  "height": 350,
+  "width": 271,
+  "height": 194,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5484ef90-fc8e-43f1-acd0-fe40cdacc5b0","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5484ef90-fc8e-43f1-acd0-fe40cdacc5b0","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},"LayerId":{"name":"ebe6fec9-3eef-4ce7-93b9-f7db9abfc3dd","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_com_kandar","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},"resourceVersion":"1.0","name":"5484ef90-fc8e-43f1-acd0-fe40cdacc5b0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cc78f8c9-ede3-4b43-b96d-36a1ca4ab5d5","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cc78f8c9-ede3-4b43-b96d-36a1ca4ab5d5","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},"LayerId":{"name":"ee63ee72-5fd0-4f88-b8ed-e629de4c98ee","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_com_kandar","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},"resourceVersion":"1.0","name":"cc78f8c9-ede3-4b43-b96d-36a1ca4ab5d5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_com_kandar","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"79ac97d2-fb20-47bb-b448-da1051921b6c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5484ef90-fc8e-43f1-acd0-fe40cdacc5b0","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1b96aedd-ddb1-4857-97dc-2d900102011e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cc78f8c9-ede3-4b43-b96d-36a1ca4ab5d5","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 135,
-    "yorigin": 175,
+    "yorigin": 97,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_com_kandar","path":"sprites/spr_com_kandar/spr_com_kandar.yy",},
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ebe6fec9-3eef-4ce7-93b9-f7db9abfc3dd","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ee63ee72-5fd0-4f88-b8ed-e629de4c98ee","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "commlink",
-    "path": "folders/Sprites/HUD/commlink.yy",
+    "name": "comlink",
+    "path": "folders/Sprites/HUD/comlink.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_com_kandar",

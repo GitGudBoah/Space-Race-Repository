@@ -1,5 +1,5 @@
 //DO NOT TOUCH BELOW
-if room = Map or room = Upgrades or room = Index{
+if room = Map or room = Upgrades or room = Index or room = Menu or room = Controls or room = Game_Over or room = Victory{
 	//do nothing
 } else{
 	if keyboard_check_pressed(ord("P")){
@@ -55,6 +55,7 @@ if paused == true{
 		}
 		
 		room_persistent = true;
+		global.current_room = room;
 		room_goto(Map);
 	}
 }
