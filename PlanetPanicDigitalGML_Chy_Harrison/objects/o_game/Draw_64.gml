@@ -23,7 +23,8 @@ if pausable{
 		    draw_set_halign(fa_center);
 		    draw_text_transformed_colour(475, 250, "PAUSED", 2, 2, 0, c_aqua, c_aqua, c_aqua, c_aqua, 1);
 		    draw_text(475, 300, "Press P to resume game.");
-			draw_text(475, 330, "Press ESCAPE to return to menu.");
+			draw_text(475, 330, "Press O for Map/Upgrades/Index.");
+			draw_text(475, 360, "Press ESCAPE to return to menu.");
 			//skip cutscenes indicator
 			switch(room){
 				case scene1:
