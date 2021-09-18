@@ -1,1 +1,1 @@
-display = map;
+display = map1;
