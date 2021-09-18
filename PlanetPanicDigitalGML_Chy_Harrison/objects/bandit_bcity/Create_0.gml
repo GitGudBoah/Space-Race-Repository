@@ -15,3 +15,6 @@ aggro = false;
 
 //Create a path
 path = path_add();
+
+//explosion collision
+can_explode = true;

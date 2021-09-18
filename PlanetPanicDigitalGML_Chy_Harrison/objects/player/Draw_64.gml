@@ -5,7 +5,7 @@ draw_sprite(spr_healthbar3,0,healthbar_x,healthbar_y);
 draw_sprite_stretched(spr_healthbar,0,healthbar_x,healthbar_y,min((hp/hp_max) * healthbar_width, healthbar_width), healthbar_height);
 draw_sprite(spr_healthbar2,0,healthbar_x,healthbar_y);
 
-// old health bar
-//draw_sprite(spr_healthbar_boarder2,0,healthbar_x,healthbar_y);
-//draw_sprite_stretched(spr_healthbar,0,healthbar_x,healthbar_y,min((hp/hp_max) * healthbar_width, healthbar_width), healthbar_height);
-//draw_sprite(spr_healthbar_boarder2,0,healthbar_x,healthbar_y);
+//UPGRADES: Volley
+if o_game.Volley{
+	draw_text(52.5, 40, "Charges: " + string(volley_charges));
+}

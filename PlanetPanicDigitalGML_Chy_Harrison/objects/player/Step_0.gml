@@ -44,6 +44,20 @@ if incontrol{
 				alarm[2] = room_speed * firerate;
 			}
 		}
+		
+		//UPGRADES: Volley
+		if o_game.Volley{
+			if mouse_wheel_down() && volley_charges > 0{
+				var inst1 = instance_create_layer(x, y, "Instances", o_bullet);
+				inst1.direction = image_angle;
+				var inst2 = instance_create_layer(x, y, "Instances", o_bullet);
+				inst2.direction = image_angle - 10;
+				var inst3 = instance_create_layer(x, y, "Instances", o_bullet);
+				inst3.direction = image_angle + 10;
+				audio_play_sound(snd_explosion_small, 2, false);
+				volley_charges -= 1;
+			}
+		}
 	}
 	
 	//Break
@@ -51,6 +65,14 @@ if incontrol{
 		mid_dash = false;
 		alarm[1] = false;
 		speed = 0;
+	}
+	
+	//UPGRADES: Armor
+	if o_game.Armor and armored{
+		if mouse_wheel_up(){
+			armored = false;
+			alarm[4] = true;
+		}
 	}
 }
 

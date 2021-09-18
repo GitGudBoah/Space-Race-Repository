@@ -46,6 +46,12 @@ if hp <= 0{
 		instance_create_layer(x,y,"Instances",debris);
 	}
 	com_bcity.kill_count += 1;
+	//UPGRADES: Volley
+	if o_game.game_over = false and o_game.Volley{
+		if player.volley_charges < o_game.volley_max{
+			player.volley_charges += 1;
+		}
+	}
 	instance_destroy();
 }
 

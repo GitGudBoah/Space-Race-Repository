@@ -50,6 +50,12 @@ if hp <= 0{
 	if room = blackhole_city{
 		com_bcity.kill_count2 += 1;
 	}
+	//UPGRADES: Volley
+	if o_game.game_over = false and o_game.Volley{
+		if player.volley_charges < o_game.volley_max{
+			player.volley_charges += 1;
+		}
+	}
 	instance_destroy();
 }
 

@@ -12,6 +12,7 @@ counter = 0;
 alarm[0] = room_speed * 2;
 
 kill_count = 0;
+canTrigger = true;
 kill_count2 = 0;
 second_phase = false;
 

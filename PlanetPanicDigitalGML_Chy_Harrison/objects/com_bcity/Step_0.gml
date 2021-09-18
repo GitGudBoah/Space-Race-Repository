@@ -16,13 +16,13 @@ if counter = 3{
 }
 
 //spawn reinforcements
-if kill_count = 1{
-	kill_count += 1;
+if kill_count > 0 && canTrigger{
+	canTrigger = false;
 	alarm[1] = true;
 }
 //defeat first wave
-if kill_count = 9{
-	kill_count = 10;
+if kill_count = 8{
+	kill_count = 9;
 	counter = 4;
 	alarm[0] = room_speed * 1;
 }

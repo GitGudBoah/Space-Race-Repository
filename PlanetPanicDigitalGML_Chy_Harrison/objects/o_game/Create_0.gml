@@ -17,5 +17,11 @@ was_animating = false;
 //menu system
 global.current_room = intro;
 
-//UPGRADES
-Dash = false;
+//UPGRADES: Dash
+Dash = true;
+//UPGRADES: Volley
+Volley = true;
+volley_max = 3;
+//UPGRADES: Armor (only against bullets)
+Armor = true;
+armor_regen_delay = 6;

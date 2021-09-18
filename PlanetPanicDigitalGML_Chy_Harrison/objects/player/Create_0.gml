@@ -34,6 +34,11 @@ healthbar_y = 10;
 incontrol = true;
 rm1 = true;
 
-//UPGRADES
+//UPGRADES: Dash
 mid_dash = false;
 dash_duration = 1;
+//UPGRADES: Volley
+volley_charges = 0;
+//UPGRADES: Armor
+armored = true;
+armor_burst_delay = 2;

@@ -25,3 +25,5 @@ path = path_add();
 alarm[5] = room_speed * 0.5;
 
 canTrigger = true;
+//explosion collision
+can_explode = true;
