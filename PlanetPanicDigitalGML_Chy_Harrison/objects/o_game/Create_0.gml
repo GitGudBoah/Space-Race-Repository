@@ -16,3 +16,6 @@ was_animating = false;
 
 //menu system
 global.current_room = intro;
+
+//UPGRADES
+Dash = false;

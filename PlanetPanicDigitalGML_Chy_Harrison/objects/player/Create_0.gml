@@ -33,3 +33,7 @@ healthbar_y = 10;
 
 incontrol = true;
 rm1 = true;
+
+//UPGRADES
+mid_dash = false;
+dash_duration = 1;
