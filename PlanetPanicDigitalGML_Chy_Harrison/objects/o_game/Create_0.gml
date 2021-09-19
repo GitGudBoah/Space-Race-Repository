@@ -25,3 +25,6 @@ volley_max = 3;
 //UPGRADES: Armor (only against bullets)
 Armor = true;
 armor_regen_delay = 6;
+//UPGRADES: Remote Drone
+Remote_Drone = true;
+Rdrone_cooldown = 6;

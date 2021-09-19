@@ -42,3 +42,5 @@ volley_charges = 0;
 //UPGRADES: Armor
 armored = true;
 armor_burst_delay = 2;
+//UPGRADES: Remote Drone
+drone_cooldown = false;

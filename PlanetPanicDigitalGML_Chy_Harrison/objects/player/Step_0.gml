@@ -58,6 +58,16 @@ if incontrol{
 				volley_charges -= 1;
 			}
 		}
+		
+		//UPGRADES: Remote Drone
+		if o_game.Remote_Drone{
+			if keyboard_check_pressed(vk_space) && drone_cooldown = false{
+				drone_cooldown = true;
+				var inst4 = instance_create_layer(x, y, "Instances", remote_drone);
+				inst4.direction = image_angle;
+				inst4.image_angle = image_angle;
+			}
+		}
 	}
 	
 	//Break
