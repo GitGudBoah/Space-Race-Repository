@@ -18,13 +18,13 @@ was_animating = false;
 global.current_room = intro;
 
 //UPGRADES: Dash
-Dash = true;
+Dash = false;
 //UPGRADES: Volley
-Volley = true;
+Volley = false;
 volley_max = 3;
 //UPGRADES: Armor (only against bullets)
-Armor = true;
+Armor = false;
 armor_regen_delay = 6;
 //UPGRADES: Remote Drone
-Remote_Drone = true;
+Remote_Drone = false;
 Rdrone_cooldown = 6;

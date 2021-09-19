@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "menu system",
-    "path": "folders/Objects/menus/menu system.yy",
+    "name": "upgrades",
+    "path": "folders/Objects/menus/menu system/upgrades.yy",
   },
   "resourceVersion": "1.0",
   "name": "upgrades_run",

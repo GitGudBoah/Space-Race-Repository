@@ -27,7 +27,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "buttons",
-    "path": "folders/Objects/menus/menu system/buttons.yy",
+    "path": "folders/Objects/menus/menu system/index/buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "button3",

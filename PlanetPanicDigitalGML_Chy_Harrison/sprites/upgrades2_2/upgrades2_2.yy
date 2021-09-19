@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"327f18f1-a87d-41d6-a114-8587c9e74b44","path":"sprites/upgrades/upgrades.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"327f18f1-a87d-41d6-a114-8587c9e74b44","path":"sprites/upgrades/upgrades.yy",},"LayerId":{"name":"d813a2a9-7e7d-412c-9ac1-33b7f90fec3d","path":"sprites/upgrades/upgrades.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"upgrades","path":"sprites/upgrades/upgrades.yy",},"resourceVersion":"1.0","name":"327f18f1-a87d-41d6-a114-8587c9e74b44","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1b7533b1-0965-4d19-b8b8-3c8e72dd77fa","path":"sprites/upgrades2_2/upgrades2_2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1b7533b1-0965-4d19-b8b8-3c8e72dd77fa","path":"sprites/upgrades2_2/upgrades2_2.yy",},"LayerId":{"name":"d0b20705-4581-4f66-8b3e-15ade4bc01eb","path":"sprites/upgrades2_2/upgrades2_2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"upgrades2_2","path":"sprites/upgrades2_2/upgrades2_2.yy",},"resourceVersion":"1.0","name":"1b7533b1-0965-4d19-b8b8-3c8e72dd77fa","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"upgrades","path":"sprites/upgrades/upgrades.yy",},
+    "spriteId": {"name":"upgrades2_2","path":"sprites/upgrades2_2/upgrades2_2.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c9d845bc-72f8-4639-a7e3-8715ee476d3c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"327f18f1-a87d-41d6-a114-8587c9e74b44","path":"sprites/upgrades/upgrades.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1e88d081-5df5-466e-adca-92c1d7b53d68","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1b7533b1-0965-4d19-b8b8-3c8e72dd77fa","path":"sprites/upgrades2_2/upgrades2_2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"upgrades","path":"sprites/upgrades/upgrades.yy",},
+    "parent": {"name":"upgrades2_2","path":"sprites/upgrades2_2/upgrades2_2.yy",},
     "resourceVersion": "1.3",
-    "name": "upgrades",
+    "name": "upgrades2_2",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d813a2a9-7e7d-412c-9ac1-33b7f90fec3d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d0b20705-4581-4f66-8b3e-15ade4bc01eb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "menu system",
-    "path": "folders/Sprites/HUD/menu system.yy",
+    "name": "upgrades",
+    "path": "folders/Sprites/HUD/menu system/upgrades.yy",
   },
   "resourceVersion": "1.0",
-  "name": "upgrades",
+  "name": "upgrades2_2",
   "tags": [],
   "resourceType": "GMSprite",
 }
