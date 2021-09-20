@@ -2,7 +2,7 @@
 canTrigger = true;
 //shortcut: menu sends you to the specified room
 shortcut = true;
-shortcut_destination = blackhole_city;
+shortcut_destination = open_space;
 
 menu_x = room_width/2;
 menu_y = 250;
