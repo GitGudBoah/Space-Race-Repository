@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "FX",
-    "path": "folders/Sprites/FX.yy",
+    "name": "VFX",
+    "path": "folders/Sprites/VFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_explosion",

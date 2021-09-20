@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "commlink",
-    "path": "folders/Objects/level2/old work/commlink.yy",
+    "path": "folders/Objects/old work/level2/old work/commlink.yy",
   },
   "resourceVersion": "1.0",
   "name": "npc_marker2_4",

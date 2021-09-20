@@ -35,7 +35,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "npc",
-    "path": "folders/Objects/level2/old work/npc.yy",
+    "path": "folders/Objects/old work/level2/old work/npc.yy",
   },
   "resourceVersion": "1.0",
   "name": "demeter",

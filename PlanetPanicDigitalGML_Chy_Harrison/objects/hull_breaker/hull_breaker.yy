@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pirate_drone_flipped2",
-    "path": "sprites/spr_pirate_drone_flipped2/spr_pirate_drone_flipped2.yy",
+    "name": "spr_hull_breaker",
+    "path": "sprites/spr_hull_breaker/spr_hull_breaker.yy",
   },
   "solid": false,
   "visible": true,
@@ -36,8 +36,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level1",
-    "path": "folders/Objects/level1.yy",
+    "name": "outskirts",
+    "path": "folders/Objects/level1/outskirts.yy",
   },
   "resourceVersion": "1.0",
   "name": "hull_breaker",

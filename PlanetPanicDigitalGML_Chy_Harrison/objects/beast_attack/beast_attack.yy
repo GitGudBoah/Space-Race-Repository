@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "boss fight",
-    "path": "folders/Objects/level3/old work/boss fight.yy",
+    "path": "folders/Objects/old work/level3/old work/boss fight.yy",
   },
   "resourceVersion": "1.0",
   "name": "beast_attack",

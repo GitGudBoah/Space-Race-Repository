@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "enemies",
-    "path": "folders/Objects/level3/old work/enemies.yy",
+    "path": "folders/Objects/old work/level3/old work/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "bandit_bulleth",

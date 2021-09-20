@@ -12,7 +12,7 @@ if o_game.game_over = false{
 	inst4.direction = point_direction(x,y,player.x,player.y) + 30;
 	var inst5 = instance_create_layer(x, y, "Instances", bandit_bullet);
 	inst5.direction = point_direction(x,y,player.x,player.y) - 30;
-	audio_play_sound(snd_lasershot, 1, false);
+	audio_play_sound(snd_enemy_light, 1, false);
 }
 
 alarm[1] = room_speed * post_attack_immobile;

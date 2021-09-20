@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "background",
-    "path": "folders/Objects/level2/old work/background.yy",
+    "path": "folders/Objects/old work/level2/old work/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "dino_skeleton",

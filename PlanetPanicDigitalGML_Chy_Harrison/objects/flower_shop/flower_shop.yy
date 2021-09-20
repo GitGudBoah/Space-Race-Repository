@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "objects",
-    "path": "folders/Objects/level2/old work/objects.yy",
+    "path": "folders/Objects/old work/level2/old work/objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "flower_shop",

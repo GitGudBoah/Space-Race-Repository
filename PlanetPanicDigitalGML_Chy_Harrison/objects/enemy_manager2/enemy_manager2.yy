@@ -26,7 +26,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "old work",
-    "path": "folders/Objects/level2/old work.yy",
+    "path": "folders/Objects/old work/level2/old work.yy",
   },
   "resourceVersion": "1.0",
   "name": "enemy_manager2",

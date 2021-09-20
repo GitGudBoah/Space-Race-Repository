@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "enemies",
-    "path": "folders/Objects/level2/old work/enemies.yy",
+    "path": "folders/Objects/old work/level2/old work/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "wailing_horror2",

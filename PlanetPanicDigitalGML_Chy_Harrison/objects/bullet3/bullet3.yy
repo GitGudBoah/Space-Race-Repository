@@ -33,7 +33,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "old work",
-    "path": "folders/Objects/level3/old work.yy",
+    "path": "folders/Objects/old work/level3/old work.yy",
   },
   "resourceVersion": "1.0",
   "name": "bullet3",

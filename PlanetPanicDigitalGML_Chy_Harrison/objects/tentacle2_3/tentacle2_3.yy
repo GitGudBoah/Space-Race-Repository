@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obstacles",
-    "path": "folders/Objects/level2/old work/obstacles.yy",
+    "path": "folders/Objects/old work/level2/old work/obstacles.yy",
   },
   "resourceVersion": "1.0",
   "name": "tentacle2_3",

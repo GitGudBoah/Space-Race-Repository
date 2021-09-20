@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "obstacles",
-    "path": "folders/Objects/level3/old work/obstacles.yy",
+    "path": "folders/Objects/old work/level3/old work/obstacles.yy",
   },
   "resourceVersion": "1.0",
   "name": "landmines",

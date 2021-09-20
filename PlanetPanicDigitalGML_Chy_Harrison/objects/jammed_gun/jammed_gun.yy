@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "powerups & debuffs",
-    "path": "folders/Objects/level2/old work/powerups & debuffs.yy",
+    "path": "folders/Objects/old work/level2/old work/powerups & debuffs.yy",
   },
   "resourceVersion": "1.0",
   "name": "jammed_gun",

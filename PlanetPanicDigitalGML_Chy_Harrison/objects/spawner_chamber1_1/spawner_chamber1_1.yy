@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level1",
-    "path": "folders/Objects/level1.yy",
+    "name": "space",
+    "path": "folders/Objects/level1/space.yy",
   },
   "resourceVersion": "1.0",
   "name": "spawner_chamber1_1",

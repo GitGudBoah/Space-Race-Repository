@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "background",
-    "path": "folders/Objects/level3/old work/background.yy",
+    "path": "folders/Objects/old work/level3/old work/background.yy",
   },
   "resourceVersion": "1.0",
   "name": "citizen_r",

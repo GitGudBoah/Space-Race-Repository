@@ -29,13 +29,9 @@ if o_game.game_over = false{
 	} else{
 		move_speed = 0;
 	}
-}
-
-//rotate sprite
-if direction < 90 or direction > 270{
-	image_xscale = -1;
-} else {
-	image_xscale = 1;
+	
+	//rotate sprite
+	image_angle = point_direction(x, y, player.x, player.y) + 270;
 }
 
 if hp <= 0{
