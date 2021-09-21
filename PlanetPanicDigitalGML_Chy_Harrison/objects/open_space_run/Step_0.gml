@@ -57,11 +57,53 @@ if killcount = 14 && counter = 3{
 if killcount = 23 && counter = 4{
 	//spawn next enemies
 	chamber_start = false;
-	
+	instance_create_layer(3872, 3616, "enemies", blood_hound_space1);
+	instance_create_layer(6880, 1312, "enemies", hull_breaker_space1);
+	instance_create_layer(1024, 6112, "enemies", hull_breaker_space1);
+	instance_create_layer(5344, 544, "enemies", bandit_space1);
+	instance_create_layer(7328, 2272, "enemies", bandit_space1);
+	instance_create_layer(4512, 512, "enemies", bandit_space1);
+	instance_create_layer(960, 1568, "enemies", bandit_space1);
+	instance_create_layer(576, 1984, "enemies", bandit_space1);
+	instance_create_layer(704, 5536, "enemies", bandit_space1);
 	
 	//create exit
 	instance_destroy(inst_CB142B5);
 	audio_play_sound(snd_static, 2, false);
 	
 	counter = 5;
+}
+
+//trigger chamber 3
+if o_game.game_over = false{
+	if counter = 5 && player.y <= chamber3_ystart{
+		chamber_start = true;
+		var wall3 = instance_create_layer(6848, 8256, "blackhole", obj_wall_spawn);
+		wall3.image_xscale = 8.75;
+		audio_play_sound(snd_alarm_low, 2, false);
+		instance_create_layer(0, 0, "Instances", asteroid_manager);
+		counter = 6;
+	}
+}
+
+//exit chamber 3
+if killcount = 32 && counter = 6{
+	instance_destroy(asteroid_manager);
+	instance_destroy(inst_453AED61);
+	audio_play_sound(snd_static, 2, false);
+	
+	counter = 7;
+}
+
+//leave room
+if o_game.game_over = false{
+	if counter = 7 && player.y <= 0{
+		player.incontrol = false;
+		player.speed = 0;
+		var inst = instance_create_depth(0, 0, -999, fader);
+		inst.destination_room = Victory;
+		audio_sound_gain(placeholder_music12, 0, 2000);
+		
+		counter = 8;
+	}
 }

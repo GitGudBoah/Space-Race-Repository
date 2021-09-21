@@ -39,23 +39,44 @@ if paused == true{
 	}
 	// Menu system
 	if keyboard_check_pressed(ord("O")){
-		//unpause to move around the menus- REMEMBER to repause when you return to the game
-		paused = false;
-        instance_activate_all();
-        surface_free(paused_surf);
-        paused_surf = -1;
+		if room = intro_cutscene or room = intro_title{
+			//unpause to move around the menus- REMEMBER to repause when you return to the game
+			paused = false;
+	        instance_activate_all();
+	        surface_free(paused_surf);
+	        paused_surf = -1;
 		
-		//animation speed
-		var lay_id = layer_get_id("Background");
-		var back_id = layer_background_get_id(lay_id);
-		if was_animating{
-			layer_background_speed(back_id, 1);
+			//old work: animation speed
+			var lay_id = layer_get_id("Background");
+			var back_id = layer_background_get_id(lay_id);
+			if was_animating{
+				layer_background_speed(back_id, 1);
+			} else{
+				layer_background_speed(back_id, 0);
+			}
+			
+			//skip cutscene
+			audio_stop_all();
+			room_goto(blackhole_city);
 		} else{
-			layer_background_speed(back_id, 0);
-		}
+			//unpause to move around the menus- REMEMBER to repause when you return to the game
+			paused = false;
+	        instance_activate_all();
+	        surface_free(paused_surf);
+	        paused_surf = -1;
 		
-		room_persistent = true;
-		global.current_room = room;
-		room_goto(Map);
+			//old work: animation speed
+			var lay_id = layer_get_id("Background");
+			var back_id = layer_background_get_id(lay_id);
+			if was_animating{
+				layer_background_speed(back_id, 1);
+			} else{
+				layer_background_speed(back_id, 0);
+			}
+		
+			room_persistent = true;
+			global.current_room = room;
+			room_goto(Map);
+		}
 	}
 }

@@ -1,6 +1,7 @@
 //music
 reset_bg = true;
 
+/// OLD WORK BELOW--
 //checkpoints
 cp = true;
 cp1 = false;

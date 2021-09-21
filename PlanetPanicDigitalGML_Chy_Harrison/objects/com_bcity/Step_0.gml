@@ -13,6 +13,7 @@ if counter = 3{
 	counter = 0;
 	talking = false;
 	player.incontrol = true;
+	com_bcity_instruction.alarm[0] = room_speed * 2;
 }
 
 //spawn reinforcements

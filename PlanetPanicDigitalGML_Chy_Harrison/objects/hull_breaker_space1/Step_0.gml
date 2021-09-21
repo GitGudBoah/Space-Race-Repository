@@ -286,3 +286,121 @@ if (place_meeting(x, y, blood_hound_space1)){
 		}
 	}
 }
+//Wall Collision: obj_wall_spawn
+if (place_meeting(x + hspeed, y, obj_wall_spawn)){
+	while(!place_meeting(x + sign(hspeed), y, obj_wall_spawn))
+		x += sign(hspeed);
+	hspeed = 0;
+}
+if (place_meeting(x, y + vspeed, obj_wall_spawn)){
+	while(!place_meeting(x, y + sign(vspeed), obj_wall_spawn))
+		y += sign(vspeed);
+	vspeed = 0;
+}
+if (place_meeting(x, y, obj_wall_spawn)){
+	for (var i = 0; i < 1000; ++i){
+		//right
+		if (!place_meeting(x + i, y, obj_wall_spawn)){
+			x += i;
+			break;
+		}
+		//left
+		if (!place_meeting(x - i, y, obj_wall_spawn)){
+			x -= i;
+			break;
+		}
+		//up
+		if (!place_meeting(x, y - i, obj_wall_spawn)){
+			y -= i;
+			break;
+		}
+		//down
+		if (!place_meeting(x, y + i, obj_wall_spawn)){
+			y += i;
+			break;
+		}
+		//top right
+		if (!place_meeting(x + i, y - i, obj_wall_spawn)){
+			x += i;
+			y -= i;
+			break;
+		}
+		//top left
+		if (!place_meeting(x - i, y - i, obj_wall_spawn)){
+			x -= i;
+			y -= i;
+			break;
+		}
+		//bottom right
+		if (!place_meeting(x + i, y + i, obj_wall_spawn)){
+			x += i;
+			y += i;
+			break;
+		}
+		//bottom left
+		if (!place_meeting(x - i, y + i, obj_wall_spawn)){
+			x -= i;
+			y += i;
+			break;
+		}
+	}
+}
+//Wall Collision: obj_wall_destroy
+if (place_meeting(x + hspeed, y, obj_wall_destroy)){
+	while(!place_meeting(x + sign(hspeed), y, obj_wall_destroy))
+		x += sign(hspeed);
+	hspeed = 0;
+}
+if (place_meeting(x, y + vspeed, obj_wall_destroy)){
+	while(!place_meeting(x, y + sign(vspeed), obj_wall_destroy))
+		y += sign(vspeed);
+	vspeed = 0;
+}
+if (place_meeting(x, y, obj_wall_destroy)){
+	for (var i = 0; i < 1000; ++i){
+		//right
+		if (!place_meeting(x + i, y, obj_wall_destroy)){
+			x += i;
+			break;
+		}
+		//left
+		if (!place_meeting(x - i, y, obj_wall_destroy)){
+			x -= i;
+			break;
+		}
+		//up
+		if (!place_meeting(x, y - i, obj_wall_destroy)){
+			y -= i;
+			break;
+		}
+		//down
+		if (!place_meeting(x, y + i, obj_wall_destroy)){
+			y += i;
+			break;
+		}
+		//top right
+		if (!place_meeting(x + i, y - i, obj_wall_destroy)){
+			x += i;
+			y -= i;
+			break;
+		}
+		//top left
+		if (!place_meeting(x - i, y - i, obj_wall_destroy)){
+			x -= i;
+			y -= i;
+			break;
+		}
+		//bottom right
+		if (!place_meeting(x + i, y + i, obj_wall_destroy)){
+			x += i;
+			y += i;
+			break;
+		}
+		//bottom left
+		if (!place_meeting(x - i, y + i, obj_wall_destroy)){
+			x -= i;
+			y += i;
+			break;
+		}
+	}
+}

@@ -12,7 +12,7 @@ switch(menu_index) {
 			audio_stop_all();
 			room_goto(shortcut_destination);
 		} else{
-			if music.cp{
+			if checkpoints.checkpoint_counter = 0{
 			//fade transition
 			if canTrigger{
 				canTrigger = false;
@@ -23,12 +23,14 @@ switch(menu_index) {
 				inst.room_swap_delay = 0.2;
 			}
 			}
-			if music.cp1{
-			room_goto(rm_enemy);
+			if checkpoints.checkpoint_counter = 1{
+			room_goto(blackhole_city);
 			}
-			if music.cp2{
-			room_goto(scene9);
+			if checkpoints.checkpoint_counter = 2{
+			room_goto(open_space);
 			}
+			
+			//old work
 			if music.cp3{
 			room_goto(rm_forest2);
 			}

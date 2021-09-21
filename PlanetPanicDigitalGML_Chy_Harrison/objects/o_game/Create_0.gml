@@ -3,9 +3,9 @@ window_set_size(1050, 750)
 alarm[2] = true;
 surface_resize(application_surface, 1050, 750);
 
-//only used in level 1
+//
 game_over = false;
-
+bullet_speed = 11;
 //hud currently deactivated
 score = 0;
 //pause menu
@@ -15,7 +15,7 @@ pausable = false;
 was_animating = false;
 
 //menu system
-global.current_room = intro;
+global.current_room = Menu;
 
 //UPGRADES: Dash
 Dash = false;

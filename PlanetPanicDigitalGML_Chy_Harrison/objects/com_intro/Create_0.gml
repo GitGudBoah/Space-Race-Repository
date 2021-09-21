@@ -11,7 +11,7 @@ counter = 0;
 //decision
 decision = false;
 choice = false;
-text1 = "*Challenge*";
-text2 = "*Reject*";
+text1 = "Hardcore";
+text2 = "Casual";
 
 canTrigger = true;

@@ -16,12 +16,23 @@ if counter = 2{
 
 //decision
 if counter = 3{
-	speaker = spr_com_kandar;
-	text = "[Appears and challenges Alan to a rematch]";
+	speaker = spr_com_blank;
+	text = "Do you want a casual or hardcore experience?";
 	decision = true;
 }
 
 if counter = 4{
+	if choice = false{
+		//do nothing
+	} else{
+		o_game.bullet_speed = 9;
+	}
+	decision = false;
+	counter = 5;
+}
+//
+
+if counter = 5{
 	if choice = false{
 		speaker = spr_com_alan;
 		text = "I warned you not to show your face here again, Kandar. Let's settle this once and for all!";
@@ -29,16 +40,14 @@ if counter = 4{
 		speaker = spr_com_alan;
 		text = "Not now, Kandar... I'm busy.";
 	}
-	decision = false;
 }
-//
 
-if counter = 5{
+if counter = 6{
 	speaker = spr_com_kandar;
 	text = "[Commands assault on Alan's ship]";
 }
 
-if counter = 6{
+if counter = 7{
 	counter = 0;
 	if choice = false{
 		intro_spawner.challenged = true;

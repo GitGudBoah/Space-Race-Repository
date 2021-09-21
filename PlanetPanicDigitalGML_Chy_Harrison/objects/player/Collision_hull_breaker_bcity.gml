@@ -2,7 +2,6 @@ if invulnerable = false{
 	invulnerable = true;
 	image_blend = c_gray;
 	alarm[0] = room_speed * 1;
-	hp -= 10;
 
 	audio_play_sound(snd_explosion_small, 1, false);
 

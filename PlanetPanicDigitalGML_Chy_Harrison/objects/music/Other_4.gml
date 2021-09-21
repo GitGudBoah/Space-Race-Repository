@@ -30,11 +30,16 @@ if room = Game_Over
 
 if room = intro
 {
-	//fade in bg music
-	audio_stop_all();
-	audio_play_sound(placeholder_music0, 1, true);
-	audio_sound_gain(placeholder_music0, 0, 0);
-	audio_sound_gain(placeholder_music0, 0.5, 1000);
+	//don't replay room_start events after returning from menu system
+	if global.current_room = intro{
+		//do nothing
+	} else{
+		//fade in bg music
+		audio_stop_all();
+		audio_play_sound(placeholder_music0, 1, true);
+		audio_sound_gain(placeholder_music0, 0, 0);
+		audio_sound_gain(placeholder_music0, 0.5, 1000);
+	}
 }
 
 if room = intro_cutscene
@@ -43,7 +48,29 @@ if room = intro_cutscene
 	audio_play_sound(placeholder_music11, 1, true);
 }
 
+if room = blackhole_city{
+	//don't replay room_start events after returning from menu system
+	if global.current_room = blackhole_city{
+		//do nothing
+	} else{
+		audio_stop_all();
+		audio_play_sound(placeholder_music13, 2, true);
+	}
+}
 
+if room == open_space{
+	//don't replay room_start events after returning from menu system
+	if global.current_room = open_space{
+		//do nothing
+	} else{
+		audio_stop_all();
+		audio_sound_gain(placeholder_music13, 1, 0);
+		audio_play_sound(placeholder_music12, 2, true);
+	}
+}
+
+
+/// OLD WORK BELOW--
 if room = scene3
 {
 	//fade in bg music

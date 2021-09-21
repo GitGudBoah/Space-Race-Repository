@@ -1,0 +1,1 @@
+checkpoint_counter = 0;
