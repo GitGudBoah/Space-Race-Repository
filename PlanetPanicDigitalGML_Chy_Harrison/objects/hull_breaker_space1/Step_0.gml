@@ -6,7 +6,6 @@ if o_game.game_over = false{
 		aggro = true;
 		alarm[0] = room_speed * random_range(0.5, 1.5);
 		alarm[5] = room_speed * 0.5;
-		audio_play_sound(snd_alarm_low, 2, false);
 	}
 	
 	if knockback = false{
