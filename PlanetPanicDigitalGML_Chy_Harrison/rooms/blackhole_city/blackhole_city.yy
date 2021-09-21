@@ -16,7 +16,9 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"player","path":"objects/player/player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":3744.0,"resourceVersion":"1.0","name":"inst_3C0CACDC","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"com_bcity","path":"objects/com_bcity/com_bcity.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":3520.0,"resourceVersion":"1.0","name":"inst_18D84649","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"grid_chamber1_1","path":"objects/grid_chamber1_1/grid_chamber1_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":3616.0,"resourceVersion":"1.0","name":"inst_305FC6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"grid1","path":"objects/grid1/grid1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":3616.0,"resourceVersion":"1.0","name":"inst_305FC6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"bcity_exit","path":"objects/bcity_exit/bcity_exit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5792.0,"y":416.0,"resourceVersion":"1.0","name":"inst_69BF13C7","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"npc_marker_bcity","path":"objects/npc_marker_bcity/npc_marker_bcity.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5888.0,"y":352.0,"resourceVersion":"1.0","name":"inst_73BF6F83","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"bandit_bcity","path":"objects/bandit_bcity/bandit_bcity.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7072.0,"y":448.0,"resourceVersion":"1.0","name":"inst_757DA270","tags":[],"resourceType":"GMRInstance",},
@@ -87,6 +89,8 @@
     {"name":"inst_49D9E4BB","path":"rooms/blackhole_city/blackhole_city.yy",},
     {"name":"inst_7BD4CE16","path":"rooms/blackhole_city/blackhole_city.yy",},
     {"name":"inst_305FC6","path":"rooms/blackhole_city/blackhole_city.yy",},
+    {"name":"inst_69BF13C7","path":"rooms/blackhole_city/blackhole_city.yy",},
+    {"name":"inst_73BF6F83","path":"rooms/blackhole_city/blackhole_city.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

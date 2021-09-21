@@ -34,8 +34,8 @@ if counter = 4{
 
 if counter = 5{
 	counter = 6;
-	instance_create_layer(4000, 2800, "enemies", hull_breaker);
-	instance_create_layer(7300, 3000, "enemies", hull_breaker);
+	instance_create_layer(4000, 2800, "enemies", hull_breaker_bcity);
+	instance_create_layer(7300, 3000, "enemies", hull_breaker_bcity);
 }
 
 if counter = 6{
@@ -128,6 +128,7 @@ if counter = 17{
 		counter = 0;
 		talking = false;
 		player.incontrol = true;
+		bcity_exit.available = true;
 	}
 }
 
