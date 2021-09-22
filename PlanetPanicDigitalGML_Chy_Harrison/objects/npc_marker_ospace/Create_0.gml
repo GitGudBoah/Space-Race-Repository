@@ -1,0 +1,1 @@
+hdrone_dead = 0;

@@ -33,6 +33,10 @@ if o_game.game_over = false{
 		wall2.image_xscale = 7.75;
 		audio_play_sound(snd_alarm_low, 2, false);
 		counter = 3;
+		//hdrone
+		if npc_marker_ospace.hdrone_dead = 0{
+			npc_marker_ospace.hdrone_dead += 1;
+		}
 	}
 }
 

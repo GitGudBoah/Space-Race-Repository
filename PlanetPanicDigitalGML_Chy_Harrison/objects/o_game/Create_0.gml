@@ -28,3 +28,6 @@ armor_regen_delay = 6;
 //UPGRADES: Remote Drone
 Remote_Drone = false;
 Rdrone_cooldown = 6;
+
+//first time interactions
+first_hdrone = false;

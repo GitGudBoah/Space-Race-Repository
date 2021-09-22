@@ -49,13 +49,17 @@ if incontrol{
 		if o_game.Volley{
 			if mouse_wheel_down() && volley_charges > 0{
 				var inst1 = instance_create_layer(x, y, "Instances", o_bullet);
-				inst1.direction = image_angle - 5;
+				inst1.direction = image_angle - 2;
 				var inst2 = instance_create_layer(x, y, "Instances", o_bullet);
-				inst2.direction = image_angle + 5;
+				inst2.direction = image_angle + 2;
 				var inst3 = instance_create_layer(x, y, "Instances", o_bullet);
-				inst3.direction = image_angle - 15;
+				inst3.direction = image_angle - 5;
 				var fourth = instance_create_layer(x, y, "Instances", o_bullet);
-				fourth.direction = image_angle + 15;
+				fourth.direction = image_angle + 5;
+				var fifth = instance_create_layer(x, y, "Instances", o_bullet);
+				fifth.direction = image_angle - 9;
+				var sixth = instance_create_layer(x, y, "Instances", o_bullet);
+				sixth.direction = image_angle + 9;
 				audio_play_sound(snd_explosion_small, 2, false);
 				volley_charges -= 1;
 			}
