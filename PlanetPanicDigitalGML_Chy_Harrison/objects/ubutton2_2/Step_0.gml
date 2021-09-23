@@ -13,10 +13,23 @@ if (mouse_x >= bbox_left and mouse_x <= bbox_right and mouse_y >= bbox_top and m
 
 //purchase
 if upgrades_run.display = upgrades2_2 && keyboard_check_pressed(vk_enter){
-	if o_game.Remote_Drone = false{
-		o_game.Remote_Drone = true;
-		image_index = 1;
-		audio_play_sound(snd_explosion_small, 2, false);
+	if o_game.Remote_Drone = false && o_game.Volley = true{
+		if o_game.currency >= currency_cost{
+			o_game.Remote_Drone = true;
+			o_game.currency -= currency_cost;
+			image_index = 1;
+			audio_play_sound(snd_explosion_small, 2, false);
+			
+			o_game.RDrone_unlocked_here = global.current_room;
+		}
 	}
 }
-//can't buy- add this once we have an exp/currency system
+//you just purchased another upgrade, and you can no longer afford this one
+//or you just purchased the prerequisite upgrade and can affort this upgrade as well
+if o_game.Remote_Drone = false{
+	if o_game.Volley = false or o_game.currency < currency_cost{
+		image_index = 2;
+	} else{
+		image_index = 0;
+	}
+}

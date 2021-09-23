@@ -6,8 +6,8 @@ surface_resize(application_surface, 1050, 750);
 //
 game_over = false;
 bullet_speed = 11;
-//hud currently deactivated
-score = 0;
+//currency/exp system
+currency = 0;
 //pause menu
 paused = false;
 paused_surf = -1;
@@ -28,6 +28,11 @@ armor_regen_delay = 6;
 //UPGRADES: Remote Drone
 Remote_Drone = false;
 Rdrone_cooldown = 6;
+//SAVE ROOMS WHERE UPGRADES ARE UNLOCKED
+Armor_unlocked_here = intro;
+Volley_unlocked_here = intro;
+RDrone_unlocked_here = intro;
+Dash_unlocked_here = intro;
 
 //first time interactions
 first_hdrone = false;

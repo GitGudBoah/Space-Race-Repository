@@ -15,14 +15,14 @@ if counter = 2{
 		counter = 3;
 	} else{
 		speaker = spr_com_glaucus;
-		text = "We could dismantle this drone for parts to repair the damage to our ship, or we could harvest its parts as [exp/currency].";
+		text = "We could dismantle this drone for parts to repair the damage to our ship, or we could harvest its parts for Star Steel.";
 	}
 }
 
 //decision
 if counter = 3{
 	speaker = spr_com_blank;
-	text = "Repair your ship's damage, or harvest [exp/currency]?";
+	text = "Repair your ship's damage, or harvest Star Steel?";
 	decision = true;
 }
 
@@ -35,6 +35,7 @@ if counter = 4{
 		}
 		audio_play_sound(snd_menu_switch, 1, false);
 	} else{
+		o_game.currency += 10;
 		audio_play_sound(snd_explosion_small, 1, false);
 	}
 	

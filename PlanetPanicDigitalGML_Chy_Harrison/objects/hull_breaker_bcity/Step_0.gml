@@ -33,6 +33,7 @@ if o_game.game_over = false{
 }
 
 if hp <= 0{
+	o_game.currency += 20;
 	audio_play_sound(snd_explosion_small, 1, false);
 
 	repeat(10){

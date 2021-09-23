@@ -390,6 +390,7 @@
     {"id":{"name":"font_small","path":"fonts/font_small/font_small.yy",},"order":3,},
     {"id":{"name":"spr_burst_shot","path":"sprites/spr_burst_shot/spr_burst_shot.yy",},"order":10,},
     {"id":{"name":"spr_npc_marker","path":"sprites/spr_npc_marker/spr_npc_marker.yy",},"order":2,},
+    {"id":{"name":"font_upgrades","path":"fonts/font_upgrades/font_upgrades.yy",},"order":5,},
     {"id":{"name":"scene3","path":"rooms/scene3/scene3.yy",},"order":6,},
     {"id":{"name":"law3","path":"objects/law3/law3.yy",},"order":14,},
     {"id":{"name":"placeholder_music11","path":"sounds/placeholder_music11/placeholder_music11.yy",},"order":14,},

@@ -27,6 +27,7 @@ if direction < 90 or direction > 270{
 }
 
 if hp <= 0{
+	o_game.currency += 5;
 	com_intro2.counter2 += 1;
 	audio_play_sound(snd_explosion_small, 1, false);
 

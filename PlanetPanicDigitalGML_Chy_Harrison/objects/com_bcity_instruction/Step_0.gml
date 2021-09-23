@@ -15,31 +15,26 @@ if counter = 3{
 }
 
 if counter = 4{
-	speaker = spr_com_rhea;
+	speaker = spr_com_glaucus;
 	text = "Furthermore-- to unlock an item in the Upgrades menu, select the item and press ENTER.";
 }
 
 if counter = 5{
-	speaker = spr_com_glaucus;
-	text = "There is currently no exp system in the game, so upgrades can be unlocked for free!";
-}
-
-if counter = 6{
 	speaker = spr_com_demeter;
 	text = "Try out each of the available upgrades, and make sure to tell the programmers on your team about any ideas you have for future upgrades!";
 }
 
-if counter = 7{
+if counter = 6{
 	speaker = spr_com_alan;
 	text = "Jay... Please say something that makes sense.";
 }
 
-if counter = 8{
+if counter = 7{
 	speaker = spr_com_jay;
 	text = "Kansas mode will be included as downloadable content once Space Race sells its first billion copies.";
 }
 
-if counter = 9{
+if counter = 8{
 	counter = 0;
 	talking = false;
 	player.incontrol = true;

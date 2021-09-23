@@ -1,6 +1,7 @@
 //Die
 if hp <= 0{
 	if blood_hound_space1.death_counter >= 1{
+		o_game.currency += 20;
 		audio_play_sound(snd_explosion_small, 1, false);
 		repeat(10){
 			instance_create_layer(blood_hound_space1.x,blood_hound_space1.y,"Instances",debris);
