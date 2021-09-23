@@ -39,6 +39,7 @@ mid_dash = false;
 dash_duration = 1;
 //UPGRADES: Volley
 volley_charges = 0;
+gauge_not_spawned = true;
 //UPGRADES: Armor
 armored = true;
 armor_burst_delay = 2;

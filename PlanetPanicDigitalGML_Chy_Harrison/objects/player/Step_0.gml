@@ -62,6 +62,8 @@ if incontrol{
 				sixth.direction = image_angle + 9;
 				audio_play_sound(snd_explosion_small, 2, false);
 				volley_charges -= 1;
+				v_gauge.visible = true;
+				v_gauge.alarm[0] = room_speed * 1;
 			}
 		}
 		

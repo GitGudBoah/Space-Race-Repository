@@ -44,6 +44,8 @@ if hp <= 0{
 	if o_game.game_over = false and o_game.Volley{
 		if player.volley_charges < o_game.volley_max{
 			player.volley_charges += 1;
+			v_gauge.visible = true;
+			v_gauge.alarm[0] = room_speed * 1;
 		}
 	}
 	instance_destroy();
