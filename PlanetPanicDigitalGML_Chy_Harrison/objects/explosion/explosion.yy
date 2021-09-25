@@ -36,8 +36,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "intro",
-    "path": "folders/Objects/intro.yy",
+    "name": "old work",
+    "path": "folders/Objects/old work.yy",
   },
   "resourceVersion": "1.0",
   "name": "explosion",

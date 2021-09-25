@@ -31,8 +31,8 @@ if hp <= 0{
 	repeat(10){
 		instance_create_layer(x,y,"Instances",debris);
 	}
-	var inst = instance_create_layer(x,y,"Instances",explosion);
-	inst.image_xscale = 3;
-	inst.image_yscale = 3;
+	var inst = instance_create_layer(x,y,"Instances",obj_explosion);
+	inst.image_xscale = 2.6;
+	inst.image_yscale = 2.6;
 	instance_destroy();
 }

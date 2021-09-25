@@ -10,5 +10,5 @@ if invulnerable = false{
 		instance_create_layer(x,y,"Instances",debris);
 	}
 
-	instance_destroy(other);
+	other.hp -= 100;
 }

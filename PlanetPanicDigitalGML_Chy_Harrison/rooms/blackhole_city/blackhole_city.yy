@@ -27,6 +27,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"bandit_bcity","path":"objects/bandit_bcity/bandit_bcity.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7680.0,"y":3360.0,"resourceVersion":"1.0","name":"inst_62FF8969","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"bandit_bcity","path":"objects/bandit_bcity/bandit_bcity.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":6112.0,"y":3584.0,"resourceVersion":"1.0","name":"inst_49D9E4BB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"bandit_bcity","path":"objects/bandit_bcity/bandit_bcity.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4992.0,"y":3616.0,"resourceVersion":"1.0","name":"inst_7BD4CE16","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"title_outskirts","path":"objects/title_outskirts/title_outskirts.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":3424.0,"resourceVersion":"1.0","name":"inst_2F7C95DD","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":-3.0,"scaleY":18.0000019,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3520.0,"y":2144.0,"resourceVersion":"1.0","name":"inst_DDAC927","tags":[],"resourceType":"GMRInstance",},
@@ -93,6 +94,7 @@
     {"name":"inst_69BF13C7","path":"rooms/blackhole_city/blackhole_city.yy",},
     {"name":"inst_73BF6F83","path":"rooms/blackhole_city/blackhole_city.yy",},
     {"name":"inst_75423ED4","path":"rooms/blackhole_city/blackhole_city.yy",},
+    {"name":"inst_2F7C95DD","path":"rooms/blackhole_city/blackhole_city.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
