@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "level1",
-    "path": "folders/Objects/level1.yy",
+    "name": "outskirts",
+    "path": "folders/Objects/level1/outskirts.yy",
   },
   "resourceVersion": "1.0",
   "name": "v_gauge",

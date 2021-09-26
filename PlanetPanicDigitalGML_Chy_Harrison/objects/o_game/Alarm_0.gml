@@ -8,6 +8,9 @@ if checkpoints.checkpoint_counter = 1{
 if checkpoints.checkpoint_counter = 2{
 	currency = checkpoints.currency_save2;
 }
+if checkpoints.checkpoint_counter = 3{
+	currency = checkpoints.currency_save3;
+}
 //reset upgrades
 if room = Armor_unlocked_here{
 	Armor = false;

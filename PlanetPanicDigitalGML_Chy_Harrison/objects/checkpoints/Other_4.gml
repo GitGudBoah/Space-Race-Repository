@@ -16,3 +16,12 @@ if room = open_space{
 		currency_save2 = o_game.currency;
 	}
 }
+if room = totolsk_battle{
+	checkpoint_counter = 3;
+	
+	//exp/currency system
+	if first_enter3 = false{
+		first_enter3 = true;
+		currency_save3 = o_game.currency;
+	}
+}

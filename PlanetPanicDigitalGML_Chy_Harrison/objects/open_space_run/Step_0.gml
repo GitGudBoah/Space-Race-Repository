@@ -105,7 +105,7 @@ if o_game.game_over = false{
 		player.incontrol = false;
 		player.speed = 0;
 		var inst = instance_create_depth(0, 0, -999, fader);
-		inst.destination_room = Victory;
+		inst.destination_room = totolsk_battle;
 		audio_sound_gain(placeholder_music12, 0, 2000);
 		
 		counter = 8;

@@ -69,6 +69,17 @@ if room == open_space{
 	}
 }
 
+if room == totolsk_battle{
+	//don't replay room_start events after returning from menu system
+	if global.current_room = totolsk_battle{
+		//do nothing
+	} else{
+		audio_stop_all();
+		audio_sound_gain(placeholder_music12, 1, 0);
+		audio_play_sound(placeholder_music1, 2, true);
+	}
+}
+
 
 /// OLD WORK BELOW--
 if room = scene3
