@@ -4,7 +4,7 @@ if o_game.game_over = false{
 		chamber_start = true;
 		var wall1 = instance_create_layer(6944, 20448, "blackhole", obj_wall_spawn);
 		wall1.image_xscale = 12.25;
-		audio_play_sound(snd_alarm_low, 2, false);
+		audio_play_sound(snd_chamber_start, 2, false);
 		counter = 1;
 	}
 }
@@ -20,7 +20,7 @@ if killcount = 10 && counter = 1{
 	
 	//create exit
 	instance_destroy(inst_71DE899);
-	audio_play_sound(snd_static, 2, false);
+	audio_play_sound(snd_chamber_end, 2, false);
 	
 	counter = 2;
 }
@@ -31,7 +31,7 @@ if o_game.game_over = false{
 		chamber_start = true;
 		var wall2 = instance_create_layer(1888, 14176, "blackhole", obj_wall_spawn);
 		wall2.image_xscale = 7.75;
-		audio_play_sound(snd_alarm_low, 2, false);
+		audio_play_sound(snd_chamber_start, 2, false);
 		counter = 3;
 		//hdrone
 		if npc_marker_ospace.hdrone_dead = 0{
@@ -73,7 +73,7 @@ if killcount = 23 && counter = 4{
 	
 	//create exit
 	instance_destroy(inst_CB142B5);
-	audio_play_sound(snd_static, 2, false);
+	audio_play_sound(snd_chamber_end, 2, false);
 	
 	counter = 5;
 }
@@ -84,7 +84,7 @@ if o_game.game_over = false{
 		chamber_start = true;
 		var wall3 = instance_create_layer(6848, 8256, "blackhole", obj_wall_spawn);
 		wall3.image_xscale = 8.75;
-		audio_play_sound(snd_alarm_low, 2, false);
+		audio_play_sound(snd_chamber_start, 2, false);
 		instance_create_layer(0, 0, "Instances", asteroid_manager);
 		counter = 6;
 	}
@@ -94,7 +94,7 @@ if o_game.game_over = false{
 if killcount = 32 && counter = 6{
 	instance_destroy(asteroid_manager);
 	instance_destroy(inst_453AED61);
-	audio_play_sound(snd_static, 2, false);
+	audio_play_sound(snd_chamber_end, 2, false);
 	
 	counter = 7;
 }

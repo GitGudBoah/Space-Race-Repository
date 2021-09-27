@@ -13,8 +13,8 @@
   "soundFile": "snd_tractor_beam.wav",
   "duration": 2.74683714,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "enemies",
+    "path": "folders/Sounds/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_tractor_beam",

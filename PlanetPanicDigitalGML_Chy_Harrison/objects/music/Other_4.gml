@@ -28,10 +28,10 @@ if room = Game_Over
 	o_game.pausable = false;
 }
 
-if room = intro
+if room = intro_scroll
 {
 	//don't replay room_start events after returning from menu system
-	if global.current_room = intro{
+	if global.current_room = intro_scroll{
 		//do nothing
 	} else{
 		//fade in bg music

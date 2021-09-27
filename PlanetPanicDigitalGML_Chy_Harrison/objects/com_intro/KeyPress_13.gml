@@ -8,6 +8,7 @@ if attis_entrance.inrange{
 			inst.destination_room = intro_cutscene;
 		} else{
 			talking = true;
+			audio_play_sound(snd_comlink_popup, 2, false);
 		}
 	}
 }

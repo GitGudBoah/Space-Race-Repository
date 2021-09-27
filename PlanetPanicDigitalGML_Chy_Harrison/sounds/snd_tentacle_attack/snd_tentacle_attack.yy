@@ -13,8 +13,8 @@
   "soundFile": "snd_tentacle_attack.wav",
   "duration": 1.140488,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "enemies",
+    "path": "folders/Sounds/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_tentacle_attack",

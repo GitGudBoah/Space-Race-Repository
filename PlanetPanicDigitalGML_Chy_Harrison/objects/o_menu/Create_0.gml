@@ -1,7 +1,7 @@
 //fade transition
 canTrigger = true;
 //shortcut: menu sends you to the specified room
-shortcut = true;
+shortcut = false;
 shortcut_destination = totolsk_battle;
 
 menu_x = room_width/2;

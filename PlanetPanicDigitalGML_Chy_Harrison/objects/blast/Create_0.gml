@@ -1,0 +1,1 @@
+audio_play_sound(snd_player_armor_explosion, 1, false);

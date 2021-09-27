@@ -1,3 +1,7 @@
+if room = intro_scroll{
+	checkpoint_counter = 0.5;
+}
+
 if room = blackhole_city{
 	checkpoint_counter = 1;
 	

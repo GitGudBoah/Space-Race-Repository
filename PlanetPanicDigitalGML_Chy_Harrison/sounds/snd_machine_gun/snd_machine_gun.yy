@@ -13,8 +13,8 @@
   "soundFile": "snd_machine_gun.wav",
   "duration": 1.06746,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "enemies",
+    "path": "folders/Sounds/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_machine_gun",

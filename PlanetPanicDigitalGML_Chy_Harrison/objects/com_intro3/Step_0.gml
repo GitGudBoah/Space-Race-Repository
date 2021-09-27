@@ -1,3 +1,15 @@
+//player enter
+if player_entering{
+	if player_prop.x < player.x{
+		player_prop.x += 5;
+	} else{
+		player_entering = false;
+		player.visible = true;
+		instance_destroy(player_prop);
+		alarm[0] = true;
+	}
+}
+
 //intro
 if counter = 1{
 	speaker = spr_com_alan;

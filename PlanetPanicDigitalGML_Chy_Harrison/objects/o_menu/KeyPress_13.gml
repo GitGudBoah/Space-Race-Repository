@@ -17,17 +17,28 @@ switch(menu_index) {
 			if canTrigger{
 				canTrigger = false;
 				var inst = instance_create_depth(0, 0, -999, fader);
-				inst.destination_room = intro;
+				inst.destination_room = intro_scroll;
 				inst.fadein_speed = 0.2;
 				inst.fadeout_speed = 0.2;
 				inst.room_swap_delay = 0.2;
 			}
+			}
+			if checkpoints.checkpoint_counter = 0.5{
+			//fade in bg music
+			audio_stop_all();
+			audio_play_sound(placeholder_music0, 1, true);
+			audio_sound_gain(placeholder_music0, 0, 0);
+			audio_sound_gain(placeholder_music0, 0.5, 1000);
+			room_goto(intro);
 			}
 			if checkpoints.checkpoint_counter = 1{
 			room_goto(blackhole_city);
 			}
 			if checkpoints.checkpoint_counter = 2{
 			room_goto(open_space);
+			}
+			if checkpoints.checkpoint_counter = 3{
+			room_goto(totolsk_battle);
 			}
 			
 			//old work

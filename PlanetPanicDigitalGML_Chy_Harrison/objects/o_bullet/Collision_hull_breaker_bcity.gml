@@ -1,6 +1,6 @@
 if other.armored = true{
 	other.hp -= 10;
-	audio_play_sound(snd_menu_switch, 1, false);
+	audio_play_sound(snd_lasershot_armor, 1, false);
 } else{
 	other.hp -= 25;
 	audio_play_sound(snd_explosion_big, 1, false);

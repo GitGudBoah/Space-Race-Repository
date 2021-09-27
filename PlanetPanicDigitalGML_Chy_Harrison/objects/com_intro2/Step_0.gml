@@ -6,6 +6,7 @@ if intro_spawner.challenged{
 			player.incontrol = false;
 			player.speed = 0;
 			talking = true;
+			audio_play_sound(snd_comlink_popup, 2, false);
 			audio_sound_gain(placeholder_music_intro, 0, 2000);
 			audio_stop_sound(placeholder_music0);
 			audio_sound_gain(placeholder_music0, 0.5, 0);
@@ -18,6 +19,7 @@ if intro_spawner.challenged{
 			player.incontrol = false;
 			player.speed = 0;
 			talking = true;
+			audio_play_sound(snd_comlink_popup, 2, false);
 			audio_sound_gain(placeholder_music_intro, 0, 2000);
 			audio_stop_sound(placeholder_music0);
 			audio_sound_gain(placeholder_music0, 0.5, 0);

@@ -13,8 +13,8 @@
   "soundFile": "snd_alien_alert_smooth.wav",
   "duration": 0.961803,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "alarms",
+    "path": "folders/Sounds/alarms.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_alien_alert_smooth",

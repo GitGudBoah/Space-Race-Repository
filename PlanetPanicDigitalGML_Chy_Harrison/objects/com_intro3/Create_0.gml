@@ -9,4 +9,8 @@ stringHeight = string_height(text);
 talking = false;
 counter = 0;
 
-alarm[0] = room_speed * 2;
+//player moves into the room
+//alarm[0] = room_speed * 2;
+player_entering = true;
+player.incontrol = false;
+player.visible = false;

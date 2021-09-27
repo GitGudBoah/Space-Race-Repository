@@ -7,7 +7,7 @@ if o_game.game_over = false && player.incontrol{
 			if ammo > 0{
 				var inst = instance_create_layer(x,y, "Instances", o_bullet_drone);
 				inst.direction = random_range(image_angle - spray, image_angle + spray);
-				audio_play_sound(snd_lasershot, 1, false);
+				audio_play_sound(snd_drone_fire, 1, false);
 				reloading = true;
 				ammo -= 1;
 				if ammo = 0{

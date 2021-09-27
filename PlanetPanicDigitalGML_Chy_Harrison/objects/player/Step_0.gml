@@ -8,7 +8,7 @@ if incontrol{
 			direction = point_direction(x, y, mouse_x, mouse_y);
 			speed = 30;
 			alarm[1] = room_speed * dash_duration;
-			audio_play_sound(snd_explosion_small, 1, false);
+			audio_play_sound(snd_player_dash, 1, false);
 		}
 		
 		if(keyboard_check(ord("A"))){
@@ -60,7 +60,7 @@ if incontrol{
 				fifth.direction = image_angle - 9;
 				var sixth = instance_create_layer(x, y, "Instances", o_bullet);
 				sixth.direction = image_angle + 9;
-				audio_play_sound(snd_explosion_small, 2, false);
+				audio_play_sound(snd_player_volley, 1, false);
 				volley_charges -= 1;
 				v_gauge.visible = true;
 				v_gauge.alarm[0] = room_speed * 1;
@@ -74,6 +74,7 @@ if incontrol{
 				var inst4 = instance_create_layer(x, y, "Instances", remote_drone);
 				inst4.direction = image_angle;
 				inst4.image_angle = image_angle;
+				audio_play_sound(snd_drone_launch, 1, false);
 			}
 		}
 	}

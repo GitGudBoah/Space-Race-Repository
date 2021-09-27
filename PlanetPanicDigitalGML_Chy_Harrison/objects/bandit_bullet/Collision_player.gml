@@ -4,7 +4,7 @@ if other.invulnerable = false{
 		other.armored = false;
 		other.alarm[4] = room_speed * other.armor_burst_delay;
 		other.hp -= 15
-		audio_play_sound(snd_menu_switch, 1, false);
+		audio_play_sound(snd_player_armor_struck, 1, false);
 	} else{
 		other.hp -= 30;
 		audio_play_sound(snd_explosion_big, 1, false);

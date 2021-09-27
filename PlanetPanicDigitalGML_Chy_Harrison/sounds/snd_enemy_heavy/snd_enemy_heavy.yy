@@ -13,8 +13,8 @@
   "soundFile": "snd_enemy_heavy.wav",
   "duration": 1.081678,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "enemies",
+    "path": "folders/Sounds/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_enemy_heavy",

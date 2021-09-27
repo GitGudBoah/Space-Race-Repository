@@ -13,8 +13,8 @@
   "soundFile": "snd_alarm_high.wav",
   "duration": 4.717937,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "alarms",
+    "path": "folders/Sounds/alarms.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_alarm_high",
