@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 106,
+  "bbox_right": 0,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 11,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 107,
-  "height": 32,
+  "width": 1,
+  "height": 12,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"84480316-4d8b-45f3-aaf1-716d6e623068","path":"sprites/spr_healthbar_boarder2/spr_healthbar_boarder2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"84480316-4d8b-45f3-aaf1-716d6e623068","path":"sprites/spr_healthbar_boarder2/spr_healthbar_boarder2.yy",},"LayerId":{"name":"05b8672c-1bf1-49a2-aa0c-d6021320276d","path":"sprites/spr_healthbar_boarder2/spr_healthbar_boarder2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_healthbar_boarder2","path":"sprites/spr_healthbar_boarder2/spr_healthbar_boarder2.yy",},"resourceVersion":"1.0","name":"84480316-4d8b-45f3-aaf1-716d6e623068","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"12891e27-dc7d-469f-8520-b31e9edb0893","path":"sprites/spr_totolsk_healthbar/spr_totolsk_healthbar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"12891e27-dc7d-469f-8520-b31e9edb0893","path":"sprites/spr_totolsk_healthbar/spr_totolsk_healthbar.yy",},"LayerId":{"name":"ed39e022-a636-4fe2-ba6d-5b207b925adc","path":"sprites/spr_totolsk_healthbar/spr_totolsk_healthbar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_totolsk_healthbar","path":"sprites/spr_totolsk_healthbar/spr_totolsk_healthbar.yy",},"resourceVersion":"1.0","name":"12891e27-dc7d-469f-8520-b31e9edb0893","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_healthbar_boarder2","path":"sprites/spr_healthbar_boarder2/spr_healthbar_boarder2.yy",},
+    "spriteId": {"name":"spr_totolsk_healthbar","path":"sprites/spr_totolsk_healthbar/spr_totolsk_healthbar.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d33ffead-d62b-47f0-8931-cde732bd4fb2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"84480316-4d8b-45f3-aaf1-716d6e623068","path":"sprites/spr_healthbar_boarder2/spr_healthbar_boarder2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"eccc3b00-a5b6-4f93-b9df-391fd2c9096b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"12891e27-dc7d-469f-8520-b31e9edb0893","path":"sprites/spr_totolsk_healthbar/spr_totolsk_healthbar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_healthbar_boarder2","path":"sprites/spr_healthbar_boarder2/spr_healthbar_boarder2.yy",},
+    "parent": {"name":"spr_totolsk_healthbar","path":"sprites/spr_totolsk_healthbar/spr_totolsk_healthbar.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_healthbar_boarder2",
+    "name": "spr_totolsk_healthbar",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"05b8672c-1bf1-49a2-aa0c-d6021320276d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ed39e022-a636-4fe2-ba6d-5b207b925adc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/HUD/health gauge.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_healthbar_boarder2",
+  "name": "spr_totolsk_healthbar",
   "tags": [],
   "resourceType": "GMSprite",
 }

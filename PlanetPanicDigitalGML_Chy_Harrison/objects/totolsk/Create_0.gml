@@ -1,4 +1,4 @@
-hp_max = 4500;
+hp_max = 6000;
 hp = hp_max;
 death_counter = 0;
 move_speed = 20;
@@ -16,7 +16,8 @@ max_ammo = 20;
 ammo = max_ammo;
 attack_counter = -1;
 attack2_direction = 0;
-bomb_distance = 1100;
+attack3_dir = 90;
+counter = 0;
 
 vital_ammo = 6;
 
@@ -31,3 +32,11 @@ can_explode = true;
 //unique property: dies twice
 reviving = false;
 death_counter = 0;
+
+image_angle = 180;
+
+//draw hp bar 848
+healthbar_width = 840;
+healthbar_height = 12;
+healthbar_x = 105;
+healthbar_y = 688;

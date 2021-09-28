@@ -1,11 +1,11 @@
 if counter = 1{
 	speaker = spr_com_alan;
-	text = "Mankind should be working together to survive out here, not tearing each other apart!";
+	text = "Mankind should be working together against a shared enemy, not tearing itself apart!";
 }
 
 if counter = 2{
 	speaker = spr_com_alan;
-	text = "Wish I could go back in time and tell my young self that fighting for all of mankind was never truly an option.";
+	text = "Wish I could go back in time and tell my younger self that fighting for all of mankind was never truly an option...";
 }
 
 //hologram room
@@ -37,7 +37,7 @@ if counter = 7{
 
 if counter = 8{
 	speaker = spr_com_rhea;
-	text = "And regardless, you may still be able live out your childhood dream of being a hero. Nalthuraas has grown to our side of the galaxy.";
+	text = "And regardless, you may still be able live out your childhood dream of being a hero. The space-eating organism, Nalthuraas, has grown to our side of the galaxy.";
 }
 
 if counter = 9{

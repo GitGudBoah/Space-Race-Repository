@@ -1,4 +1,4 @@
-//new health bar
+//health bar
 draw_set_alpha(1);
 
 draw_sprite(spr_healthbar3,0,healthbar_x,healthbar_y);

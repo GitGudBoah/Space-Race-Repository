@@ -38,7 +38,7 @@ if o_game.game_over = false{
 	}
 	
 	//rotate sprite
-	if reviving = false{
+	if com_totolsk.boss_fight_triggered && reviving = false{
 		image_angle = point_direction(x, y, player.x, player.y) + 270;
 	}
 }

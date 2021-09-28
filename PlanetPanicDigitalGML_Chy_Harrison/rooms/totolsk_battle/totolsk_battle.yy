@@ -19,9 +19,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"com_totolsk","path":"objects/com_totolsk/com_totolsk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4800.0,"y":13952.0,"resourceVersion":"1.0","name":"inst_69E5F1B1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"npc_marker_totolsk","path":"objects/npc_marker_totolsk/npc_marker_totolsk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4576.0,"y":13856.0,"resourceVersion":"1.0","name":"inst_5E63C215","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"totolsk","path":"objects/totolsk/totolsk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":true,"inheritItemSettings":false,"x":4000.0,"y":1024.0,"resourceVersion":"1.0","name":"inst_39C52A99","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"fleeing_enemy","path":"objects/fleeing_enemy/fleeing_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4672.0,"y":5056.0,"resourceVersion":"1.0","name":"inst_640AE968","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"fleeing_enemy","path":"objects/fleeing_enemy/fleeing_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2720.0,"y":5632.0,"resourceVersion":"1.0","name":"inst_7EBA6C04","tags":[],"resourceType":"GMRInstance",},
@@ -68,7 +66,6 @@
     {"name":"inst_6A3CBE88","path":"rooms/totolsk_battle/totolsk_battle.yy",},
     {"name":"inst_448BA698","path":"rooms/totolsk_battle/totolsk_battle.yy",},
     {"name":"inst_5BFD6B47","path":"rooms/totolsk_battle/totolsk_battle.yy",},
-    {"name":"inst_39C52A99","path":"rooms/totolsk_battle/totolsk_battle.yy",},
     {"name":"inst_269395D8","path":"rooms/totolsk_battle/totolsk_battle.yy",},
     {"name":"inst_640AE968","path":"rooms/totolsk_battle/totolsk_battle.yy",},
     {"name":"inst_7EBA6C04","path":"rooms/totolsk_battle/totolsk_battle.yy",},

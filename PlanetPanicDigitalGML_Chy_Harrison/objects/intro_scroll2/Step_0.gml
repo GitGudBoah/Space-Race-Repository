@@ -3,6 +3,6 @@ if appear = 1{
 		image_alpha += 0.01;
 	} else{
 		appear = 2;
-		intro_scroll3.appear = 1;
+		alarm[1] = true;
 	}
 }

@@ -40,7 +40,7 @@ if counter = 5{
 	cy -= 12;
 	if counter2 = 0{
 		counter2 = 1;
-		alarm[0] = room_speed * 1.5;
+		alarm[0] = room_speed * 1;
 	}
 }
 
@@ -163,9 +163,7 @@ if counter = 24{
 if counter = 25{
 	counter = 0;
 	talking = false;
-	player.incontrol = true;
-	boss_fight_triggered = true;
-	camera_set_view_target(view_camera[0], player);
+	instance_create_layer(0, 0, "enemies", boss_cutaway_totolsk);
 	audio_stop_sound(placeholder_music1);
 	audio_sound_gain(placeholder_music1, 1, 0);
 }

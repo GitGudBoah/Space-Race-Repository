@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_title_scroll3",
-    "path": "sprites/spr_title_scroll3/spr_title_scroll3.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,18 +18,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "intro_scroll",
-    "path": "folders/Objects/intro/intro_scroll.yy",
+    "name": "totolsk_battle",
+    "path": "folders/Objects/level1/totolsk_battle.yy",
   },
   "resourceVersion": "1.0",
-  "name": "intro_scroll3",
+  "name": "boss_cutaway_totolsk",
   "tags": [],
   "resourceType": "GMObject",
 }
