@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button1_3",
-    "path": "sprites/spr_button1_3/spr_button1_3.yy",
+    "name": "spr_button1",
+    "path": "sprites/spr_button1/spr_button1.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,6 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

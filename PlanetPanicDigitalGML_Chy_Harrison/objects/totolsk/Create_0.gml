@@ -1,4 +1,4 @@
-hp_max = 6000;
+hp_max = 5600;
 hp = hp_max;
 death_counter = 0;
 move_speed = 20;

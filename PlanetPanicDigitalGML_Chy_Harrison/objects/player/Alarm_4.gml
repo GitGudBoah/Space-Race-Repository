@@ -2,7 +2,7 @@
 //spawn an explosion sprite object at our location that damages
 //and knocks back enemies it collides with.
 if room = totolsk_battle{
-	instance_create_layer(x, y, "blackhole", blast);
+	instance_create_layer(x, y, "chamber", blast);
 } else{
 	instance_create_layer(x, y, "boundaries", blast);
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button3",
-    "path": "sprites/spr_button3/spr_button3.yy",
+    "name": "spr_button5",
+    "path": "sprites/spr_button5/spr_button5.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects/menus/menu system/index/buttons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "button3",
+  "name": "button5",
   "tags": [],
   "resourceType": "GMObject",
 }
