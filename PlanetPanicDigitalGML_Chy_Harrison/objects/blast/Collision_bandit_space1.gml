@@ -11,6 +11,6 @@ if other.can_explode{
 
 	other.knockback = true;
 	other.alarm[3] = room_speed * other.knockback_duration;
-	other.direction = point_direction(blast.x, blast.y, x, y);
+	other.direction = point_direction(blast.x, blast.y, other.x, other.y);
 	other.speed = other.knockback_speed;
 }

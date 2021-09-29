@@ -18,7 +18,7 @@ was_animating = false;
 global.current_room = Menu;
 
 //UPGRADES: Dash
-Dash = false;
+Dash = true;
 //UPGRADES: Volley
 Volley = false;
 volley_max = 3;

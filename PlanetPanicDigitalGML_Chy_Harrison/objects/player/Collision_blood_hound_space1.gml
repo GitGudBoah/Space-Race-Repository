@@ -12,6 +12,6 @@ if invulnerable = false && other.reviving = false{
 
 	other.knockback = true;
 	other.alarm[3] = room_speed * other.knockback_duration;
-	other.direction = point_direction(player.x, player.y, x, y);
+	other.direction = point_direction(player.x, player.y, other.x, other.y);
 	other.speed = other.knockback_speed;
 }

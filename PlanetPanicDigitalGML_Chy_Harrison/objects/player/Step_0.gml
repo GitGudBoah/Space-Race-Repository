@@ -77,13 +77,19 @@ if incontrol{
 				audio_play_sound(snd_drone_launch, 1, false);
 			}
 		}
-	}
-	
-	//Break
-	if(keyboard_check(vk_shift)){
-		mid_dash = false;
-		alarm[1] = false;
-		speed = 0;
+		
+		//Break
+		if keyboard_check(vk_shift){
+			if mid_dash = false{
+				speed = 0;
+			}
+		}
+	} else{
+		if keyboard_check_pressed(vk_shift){
+			mid_dash = false;
+			alarm[1] = false;
+			speed = 0;
+		}
 	}
 	
 	//UPGRADES: Armor
