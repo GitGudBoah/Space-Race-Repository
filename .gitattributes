@@ -1,5 +1,5 @@
-*.yyp filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
+*.yyp filter=lfs diff=lfs merge=lfs -text
 *.yy filter=lfs diff=lfs merge=lfs -text
 *.gml filter=lfs diff=lfs merge=lfs -text
 *.mp3 filter=lfs diff=lfs merge=lfs -text
