@@ -1,4 +1,3 @@
-camera_set_view_target(view_camera[0], -1);
-cx = wounded_ship.x - 1575;
-cy = wounded_ship.y - 1125;
-cam_to_player = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b71dce455e149cd62a5cadc5827e58f84e95de215648471deadf5161c580b994
+size 118

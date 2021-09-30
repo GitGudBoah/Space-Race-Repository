@@ -1,27 +1,3 @@
-//chase the player
-if (check) && (distance_to_object(gagarin) <= range) {
-	pursuit = true;
-	check = false;
-}
-
-if enemy_manager2.game_over = false && pursuit
-{
-	direction=point_direction(x,y,gagarin.x,gagarin.y);
-	speed = 6;
-}
-
-//rotate sprite
-if direction < 90 or direction > 270{
-	image_xscale = -1;
-} else {
-	image_xscale = 1;
-}
-
-if hp <= 0{
-	audio_play_sound(snd_explosion_small, 1, false);
-
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-	instance_destroy();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:95e888143e4104ce818db11eac487bc000dcc183c4199511917188e04e3d9e28
+size 482

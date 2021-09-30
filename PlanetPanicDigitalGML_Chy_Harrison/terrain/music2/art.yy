@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_a_tentacle",
-    "path": "sprites/spr_a_tentacle/spr_a_tentacle.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "background",
-    "path": "folders/Objects/level2/background.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "art",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fe440979989b9c35a340882f94742684f42ccb54e8c88d04a7e80c52a3a1de7
+size 798

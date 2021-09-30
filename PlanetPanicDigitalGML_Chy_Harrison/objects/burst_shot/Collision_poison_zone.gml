@@ -1,7 +1,3 @@
-other.active = true;
-other.alarm[0] = room_speed * 4;
-audio_play_sound(snd_explosion_small, 1, false);
-repeat(5){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy();
+version https://git-lfs.github.com/spec/v1
+oid sha256:a27f30614d5ed8e95142af8701e50a0970d2cca49b2b4d01086c8544f2572ffe
+size 183

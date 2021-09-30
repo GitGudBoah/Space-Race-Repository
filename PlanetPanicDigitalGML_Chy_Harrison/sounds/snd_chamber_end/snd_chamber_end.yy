@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_chamber_end.wav",
-  "duration": 0.921655,
-  "parent": {
-    "name": "alarms",
-    "path": "folders/Sounds/alarms.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_chamber_end",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:86e396f6074fff5c51c997a7d7bd83070d3f14eec80301ecc3c7016b0bed0193
+size 479

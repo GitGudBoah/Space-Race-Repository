@@ -1,8 +1,3 @@
-damage = 20;
-//upgrade
-if music.pistol_upgrade = 1{
-	damage = 25;
-}
-
-speed = 30;
-alarm[0] = room_speed * 0.5;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5730a385557d0b4732ca337c2cfe86ec2e3bed8dc6f8e677e83951c44048ba12
+size 109

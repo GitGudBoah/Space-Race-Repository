@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_enemy_light.wav",
-  "duration": 0.618821,
-  "parent": {
-    "name": "enemies",
-    "path": "folders/Sounds/enemies.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_enemy_light",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:274a202550b85cf0bbb8c8105bf4db1b3f21f64cb9c43c27f2423cd28f792896
+size 481

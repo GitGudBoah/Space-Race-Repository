@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_drone_ready.wav",
-  "duration": 1.141156,
-  "parent": {
-    "name": "player",
-    "path": "folders/Sounds/player.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_drone_ready",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f01facfa4c54f516dd66c152bba832be875ca874af13161422e26993a478e935
+size 479

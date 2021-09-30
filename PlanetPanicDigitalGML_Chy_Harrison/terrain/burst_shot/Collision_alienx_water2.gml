@@ -1,15 +1,3 @@
-//explosion
-if other.mobile = false{
-	instance_create_layer(x,y,"Instances",explosion);
-} else{
-	//poison zone
-	var inst = instance_create_layer(x - 100,y - 150,"Instances",poison_zone);
-	inst.image_xscale = 5;
-	inst.image_yscale = 3;
-}
-
-audio_play_sound(snd_explosion_big, 1, false);
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy();
+version https://git-lfs.github.com/spec/v1
+oid sha256:280f9f91f023905025ea021fa9c84f76434636d102e0786182c055e5da8312b2
+size 366

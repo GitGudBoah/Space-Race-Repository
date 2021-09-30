@@ -1,36 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_button3",
-    "path": "sprites/spr_button3/spr_button3.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "buttons",
-    "path": "folders/Objects/menus/menu system/index/buttons.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "button3",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e886df1b67ae045d09ba2c7c4cbefede72af37e4a769b787c7e6ad13936b421
+size 950

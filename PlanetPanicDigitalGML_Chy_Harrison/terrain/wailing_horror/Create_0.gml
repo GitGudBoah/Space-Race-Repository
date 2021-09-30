@@ -1,8 +1,3 @@
-stopping_distance = 800;
-reloading = true;
-firerate = 10;
-
-alarm[0] = room_speed * 2;
-
-//fade in
-value = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ebacb24eb7031c76a349141e662e237d504a3f2689d17f82d58b684a736fa6a
+size 107

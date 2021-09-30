@@ -1,15 +1,3 @@
-hp = 100;
-move_speed = 8;
-speed = 0;
-
-reloading = true;
-firerate = 2.5;
-stopping_distance = 50;
-attacking = false;
-pre_attack_immobile = 0.25;
-post_attack_immobile = 0.25;
-knockback = false;
-knockback_duration = 0.5;
-knockback_speed = 30;
-
-alarm[0] = room_speed * random_range(0.5, 1.5);
+version https://git-lfs.github.com/spec/v1
+oid sha256:504d7dad55b88c36bedcd28ddf679b8876febcfbb2415c795811b64592edf0e9
+size 287

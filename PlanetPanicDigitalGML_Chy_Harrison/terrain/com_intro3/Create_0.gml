@@ -1,11 +1,3 @@
-//portrait
-speaker = spr_com_glaucus;
-
-//text
-text = "I detect many heartbeats. There are hostiles hiding in the nearby dust clouds.";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
-alarm[0] = room_speed * 2;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9eaf9a10f68c2c8412cdfca4197f0ca473c7c771fb84cfc08960dbc23063640
+size 270

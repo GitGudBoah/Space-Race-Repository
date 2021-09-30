@@ -1,10 +1,3 @@
-//portrait
-speaker = spr_com_rhea;
-
-//text
-text = "Alan, I nearly forgot to deliver a vital hint that will help you on your journey!";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b18e860669ad1ff63eae42a0d1934ecf066822f9619608794504509d68132fcd
+size 243

@@ -1,11 +1,3 @@
-// Quick reload
-if image_blend = c_red{
-	alarm[2] = false;
-	alarm[3] = false;
-	audio_play_sound(snd_explosion_small, 1, false);
-	reload_buff = true;
-	firerate = 0.12;
-	image_blend = c_white;
-	ammo = ammo_max;
-	reloading = false;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f6b544e20821489bd4fdbc71315433361678f3a28825f7ed64fd1e59a4ec3c1
+size 230

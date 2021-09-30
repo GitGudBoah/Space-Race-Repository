@@ -1,9 +1,3 @@
-chamber_start = false;
-counter = 0;
-
-//threshold
-chamber1_ystart = 20200;
-chamber2_ystart = 13950;
-chamber3_ystart = 8000;
-
-killcount = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b612fdea0a29ab6041588a7d4d2caea014c6021e9520344d37a32182a2b56f28
+size 138

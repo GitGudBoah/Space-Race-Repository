@@ -1,17 +1,3 @@
-if museum_entrance.inrange{
-	if talking = false && museum_entrance.available{
-		museum_entrance.available = false;
-		alan2.incontrol = false;
-		talking = true;
-		if museum_entrance.x > alan2.x{
-			alan2.image_xscale = 1;
-		}
-		if museum_entrance.x < alan2.x{
-			alan2.image_xscale = -1;
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd2a3e43302f420ac9b353f1452dbf31e37d3bf64cda96c42f96e25c919bbfdd
+size 325

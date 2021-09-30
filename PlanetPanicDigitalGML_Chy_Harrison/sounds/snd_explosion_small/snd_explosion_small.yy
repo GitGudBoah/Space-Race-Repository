@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 0.34,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_explosion_small.wav",
-  "duration": 0.892778,
-  "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_explosion_small",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d31de76840fbf89def26d06b377d6f4673b4a5c05c8e78a1092d503e021b844
+size 481

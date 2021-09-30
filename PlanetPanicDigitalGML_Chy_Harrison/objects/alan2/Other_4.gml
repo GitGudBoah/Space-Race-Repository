@@ -1,19 +1,3 @@
-if room == rm_museum{
-	walking_in = false;
-	incontrol = true;
-	audio_stop_all();
-	audio_play_sound(placeholder_music6, 1, true);
-	audio_sound_gain(placeholder_music6, 0, 0);
-	audio_sound_gain(placeholder_music6, 1, 1000);
-}
-
-if room == rm_museum2{
-	walking_in = false;
-	incontrol = true;
-	if music.song_played{
-		audio_stop_all();
-		audio_play_sound(placeholder_music6, 1, true);
-		audio_sound_gain(placeholder_music6, 0, 0);
-		audio_sound_gain(placeholder_music6, 1, 1000);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1876eb819993c8b522c6aba10fb9c3bdc19d020353273b573db58d4f24d77276
+size 479

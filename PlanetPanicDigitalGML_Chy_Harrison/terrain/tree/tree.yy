@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_invisiblewall",
-    "path": "sprites/spr_invisiblewall/spr_invisiblewall.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "obstacles",
-    "path": "folders/Objects/level2/obstacles.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "tree",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:da14a2a97b9e794c257086f0494f6c670b0a67c0511d350c00cd8f95fb1bd320
+size 806

@@ -1,13 +1,3 @@
-if distance_to_object(enemy_manager3.target) <= 70 && inrange = false{
-	inrange = true;
-	alan3.incontrol = false;
-	com3h_1.talking = true;
-}
-
-if com3h_1.counter > 9{
-	x -= 5;
-}
-
-if x <= -130{
-	instance_destroy();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f19113af638b72b150440615946029a7b2b5dfd8c7fe3b68fe883ea393691a18
+size 214

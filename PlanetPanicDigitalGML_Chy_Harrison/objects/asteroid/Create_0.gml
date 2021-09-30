@@ -1,7 +1,3 @@
-//fly toward the position of the player when created
-//sprite_index = choose(spr_asteroid_fragment, spr_asteroid_medium, spr_asteroid);
-
-direction = point_direction(x,y,player.x,player.y);
-
-image_angle = irandom_range(0,359);
-speed = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba94bb05b2beb0d2ecf7f923acd033c8e70bbd3f7d11a9e692288b1e5d6daa65
+size 236

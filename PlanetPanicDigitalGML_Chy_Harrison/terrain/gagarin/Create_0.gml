@@ -1,20 +1,3 @@
-power_up_fr = false;
-power_up_ss = false;
-bullet_speed = 30;
-
-// hp bar
-hp = 200;
-hp_max = hp;
-
-healthbar_width = 100;
-healthbar_height = 12;
-healthbar_x = 10;
-healthbar_y = 10;
-
-//shooting
-reloading = false;
-firerate = 0.25;
-
-//debuffs
-jammed = false;
-stuck = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b705a1a2b8a7751f46ad738070c152f9db195435a66e841fa466f0e7b215d9da
+size 267

@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_tractor_beam.wav",
-  "duration": 2.74683714,
-  "parent": {
-    "name": "enemies",
-    "path": "folders/Sounds/enemies.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_tractor_beam",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee3a2c73d8e473d91dddad09edd75b5353973054f81511ce4d57bde13b3c14ec
+size 485

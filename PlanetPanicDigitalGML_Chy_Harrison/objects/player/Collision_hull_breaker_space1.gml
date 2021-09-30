@@ -1,18 +1,3 @@
-if invulnerable = false{
-	invulnerable = true;
-	image_blend = c_gray;
-	alarm[0] = room_speed * 1;
-
-	audio_play_sound(snd_explosion_small, 1, false);
-
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-
-	other.knockback = true;
-	other.alarm[3] = room_speed * other.knockback_duration;
-	other.direction = point_direction(player.x, player.y, other.x, other.y);
-	other.speed = other.knockback_speed;
-	other.armored = false;
-	other.image_blend = c_orange;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c69c1e340bfe3a8932b38fa5afae5b823846c624c8e7419144af2ea665ed1ae0
+size 466

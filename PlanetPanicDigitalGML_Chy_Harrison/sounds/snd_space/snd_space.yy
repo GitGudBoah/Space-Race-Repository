@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_space.wav",
-  "duration": 89.605,
-  "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_space",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d6f72b3c09e23ad7415131eff3da823e6c39092bb80ca3a98a79c410f9a13dd
+size 458

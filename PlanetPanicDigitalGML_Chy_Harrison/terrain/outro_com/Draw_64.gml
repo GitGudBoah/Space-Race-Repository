@@ -1,10 +1,3 @@
-draw_set_alpha(1);
-draw_set_font(font_small);
-
-//portrait
-draw_sprite(speaker, 1, 220, 50);
-
-//text
-draw_sprite(spr_textbox, 1, 300, 0);
-draw_set_font(font_gametext);
-draw_text_ext(500, 50, text, stringHeight, boxWidth);
+version https://git-lfs.github.com/spec/v1
+oid sha256:18b7ebabb4e8eb74762dc5ab02817e4b6e26fb6472a6679723937d6f09d525cf
+size 220

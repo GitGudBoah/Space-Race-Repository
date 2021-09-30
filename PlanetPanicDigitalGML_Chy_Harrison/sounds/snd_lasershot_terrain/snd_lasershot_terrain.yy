@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_lasershot_terrain.wav",
-  "duration": 0.577937,
-  "parent": {
-    "name": "player",
-    "path": "folders/Sounds/player.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_lasershot_terrain",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e85f767fb6b530484cf7f4756e9fd2c2842815d751eb8074849945400c01182
+size 491

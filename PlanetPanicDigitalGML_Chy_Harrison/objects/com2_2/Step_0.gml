@@ -1,31 +1,3 @@
-//Jay found the abandoned settlement
-
-if counter = 1{
-	speaker = spr_com_jay;
-	text = "I found what looks like an abandoned settlement. Want to come check it out?";
-}
-
-if counter = 2{
-	speaker = spr_com_glaucus;
-	text = "I've got to stay here to repair the ship. It's going to take me several more hours.";
-}
-
-if counter = 3{
-	speaker = spr_com_demeter;
-	text = "Come quickly. The sound of Glaucus fixing the ship is driving me insane.";
-}
-
-if counter = 4{
-	speaker = spr_com_jay;
-	text = "Roger that.";
-}
-
-if counter = 5{
-	talking = false;
-	if canTrigger{
-		canTrigger = false;
-		jay2.sprite_index = alan_rifle;
-		jay2.image_xscale = 1;
-		jay2.incontrol = true;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0088310fcdc3b38233deccb21eef1dd6f88ddf4d6dc07338693707fad48a8a53
+size 667

@@ -1,10 +1,3 @@
-xpos = 1050;
-xpos2 = 1050;
-xpos3 = 1050;
-counter = 0;
-opacity = 0;
-canTrigger = true;
-audio_play_sound(snd_explosion_big, 2, false);
-audio_play_sound(snd_alarm_low, 2, false);
-
-//instance_create_layer(0, 0, (layer below other Draw GUI's), boss_cutaway_totolsk);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8aa6139683203fe205d7feba02815fc2157d0944f17e3e330e61f70aa1995608
+size 261

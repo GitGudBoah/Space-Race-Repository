@@ -1,17 +1,3 @@
-if cultist3_2.inrange{
-	if talking = false && cultist3_2.available{
-		cultist3_2.available = false;
-		enemy_manager3.target.incontrol = false;
-		talking = true;
-		if cultist3_2.x > enemy_manager3.target.x{
-			enemy_manager3.target.image_xscale = 1;
-		}
-		if cultist3_2.x < enemy_manager3.target.x{
-			enemy_manager3.target.image_xscale = -1;
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e264ffebb87d68f7ed912845aa553a1f1c34157766a31833a2bd4bb7f4a92c6
+size 380

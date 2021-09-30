@@ -1,10 +1,3 @@
-if other.dodging = false{
-	other.hp -= 50;
-
-	audio_play_sound(snd_explosion_small, 1, false);
-
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-	instance_destroy();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9020c87d048b80390e2e625150d81291c257145a6b7afbeb920ff01d29dcb9d
+size 182

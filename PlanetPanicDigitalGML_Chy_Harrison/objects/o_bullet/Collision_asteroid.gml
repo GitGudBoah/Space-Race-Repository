@@ -1,23 +1,3 @@
-with(other){
-	instance_destroy();
-	
-	if(sprite_index == spr_asteroid){
-		repeat(2){
-			var new_asteroid = instance_create_layer(x,y,"Instances",asteroid);
-			new_asteroid.sprite_index = spr_asteroid_medium;
-		}
-	} else if(sprite_index == spr_asteroid_medium){
-		repeat(2){
-			var new_asteroid = instance_create_layer(x,y,"Instances",asteroid);
-			new_asteroid.sprite_index = spr_asteroid_fragment;
-		}
-	}
-	
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-	
-}
-audio_play_sound(snd_explosion_small, 1, false);
-
-instance_destroy();
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c17f7d8017b44986c170aa96634a0936815bea89638e51d7b4aa1c493835e44
+size 545

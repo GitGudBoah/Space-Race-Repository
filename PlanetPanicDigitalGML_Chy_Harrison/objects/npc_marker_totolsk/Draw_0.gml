@@ -1,9 +1,3 @@
-if o_game.game_over = false && com_totolsk.counter2 = 0{
-	if wounded_ship.inrange && wounded_ship.available{
-		draw_set_font(font_marker);
-		draw_set_alpha(0.75);
-		draw_sprite(spr_npc_marker, 1, player.x - 2.5, player.y - 405)
-		draw_set_alpha(1);
-		draw_text(player.x, player.y - 400, "Enter")
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a2702e0b1ca4667dce809a8b13b290874e97eeb3bbb0c99c6c393d36ff725f7
+size 300

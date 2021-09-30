@@ -1,9 +1,3 @@
-if counter = 1{
-	speaker = spr_com_alice;
-	text = "Hurry up, dad! The zoo is going to close!";
-}
-
-if counter = 2{
-	speaker = spr_com_alan;
-	text = "Don't run too fast, Alice!";
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9dbae8c09148ec82fd8187c1ca3652ece35c6375509e64f6f5724dc5770f5ad9
+size 178

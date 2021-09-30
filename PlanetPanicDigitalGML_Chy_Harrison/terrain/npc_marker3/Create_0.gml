@@ -1,3 +1,3 @@
-audio_stop_all();
-audio_sound_gain(placeholder_music7, 1, 0);
-audio_play_sound(placeholder_music7, 1, true);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e346d030bc760587970e5ad987786c66b4312e608ca7db6cdfe8dfb663f4582
+size 108

@@ -1,9 +1,3 @@
-//portrait
-speaker = spr_com_alan;
-
-//text
-text = "It's dazed! Now's our chance!";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-counter = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b826d86adf536baf1677baf9314d249b6e349bae0be98695e88dad6c926f42a7
+size 174

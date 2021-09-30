@@ -1,5 +1,3 @@
-if distance_to_object(enemy_manager3.target) <= 70{
-	inrange = true;
-} else{
-	inrange = false;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d697df91a8a104e29eb311819f012b22c6fe49176dbde50b9c800ad476f2d452
+size 96

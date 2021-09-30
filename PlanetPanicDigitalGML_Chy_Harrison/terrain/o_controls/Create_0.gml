@@ -1,16 +1,3 @@
-place_x = room_width/2;
-place_y = room_height - 150;
-button_h = 24;
-button_w = 256;
-
-//controls
-xx = room_width/2;
-yy = room_height/2 - 50;
-c_h = 32;
-
-c_line[0] = "Move Forward: W";
-c_line[1] = "Rotate: A & D";
-c_line[2] = "Shoot: Spacebar";
-c_line[3] = "Break: Shift";
-c_line[4] = "Pause Game: P";
-c_lines = array_length_1d(c_line);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6b76dccf4267a0cb13d7f43b913bbb4cdd6c05340a9d8b308f6c20686c4f78f
+size 333

@@ -1,16 +1,3 @@
-if counter = 1{
-	fire2 = true;
-}
-if counter = 2{
-	fire3 = true;
-}
-if counter = 3{
-	fire4 = true;
-}
-if counter = 4{
-	fire1 = true;
-	counter = 1;
-} else{
-	counter += 1;
-}
-alarm[0] = room_speed * firerate;
+version https://git-lfs.github.com/spec/v1
+oid sha256:23379a787fb40f2e492f302b10956fbbf45b8c1d99c17859ccb1def0d94464c5
+size 202

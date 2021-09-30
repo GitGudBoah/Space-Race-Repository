@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_powerup_warp",
-    "path": "sprites/spr_powerup_warp/spr_powerup_warp.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "powerups",
-    "path": "folders/Objects/level1/powerups.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "warp",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d90314e058d067e6aed20e6284df15c41eda31f9a6bfaf7426a5b73beb1c1b6
+size 801

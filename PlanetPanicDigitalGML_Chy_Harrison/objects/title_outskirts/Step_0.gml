@@ -1,16 +1,3 @@
-if counter = 1{
-	if opacity < 1{
-		opacity += fade_speed;
-	} else{
-		counter = 2;
-		alarm[1] = room_speed * 0.6;
-	}
-}
-
-if counter = 3{
-	if opacity > 0{
-		opacity -= fade_speed;
-	} else{
-		instance_destroy();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:38f2853c289cd43e4ac294942c8e8d602970e3fc1c5a052e3640dc655486caee
+size 212

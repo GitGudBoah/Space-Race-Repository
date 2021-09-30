@@ -1,15 +1,3 @@
-if o_game.game_over = false{
-	if (player.y >= y + 150) && (distance_to_object(player) <= 200){
-		inrange = true;
-	} else{
-		inrange = false;
-	}
-}
-
-if leaving{
-	y += 12;
-	if counter = 0{
-		counter = 1
-		alarm[0] = room_speed * 2;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:01bb6e85339dafd16184ad51103d6e0079584d0bae540eeae185d83ec8bfe79c
+size 233

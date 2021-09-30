@@ -1,10 +1,3 @@
-with(other){
-	hp -= 10;
-}
-
-audio_play_sound(snd_alien_alert_smooth, 1, false);
-
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy();
+version https://git-lfs.github.com/spec/v1
+oid sha256:01acaf8e77c6b1614b0134af64d5cbe5bd9745e9628720ce1d68d892602eec14
+size 161

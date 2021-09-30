@@ -1,15 +1,3 @@
-if skeleton2.inrange && skeleton2.available{
-	draw_set_font(font_marker);
-	draw_set_alpha(0.75);
-	draw_sprite(spr_npc_marker, 1, skeleton2.x - 2.5, skeleton2.y - 405)
-	draw_set_alpha(1);
-	draw_text(skeleton2.x, skeleton2.y - 400, "Enter")
-}
-
-if note.inrange && note.available{
-	draw_set_font(font_marker);
-	draw_set_alpha(0.75);
-	draw_sprite(spr_npc_marker, 1, note.x - 2.5, note.y - 405)
-	draw_set_alpha(1);
-	draw_text(note.x, note.y - 400, "Enter")
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8134373f24d4a80c5a8c2812a4fa6bf855ed5cdf4946a3155faf93256f600f37
+size 452

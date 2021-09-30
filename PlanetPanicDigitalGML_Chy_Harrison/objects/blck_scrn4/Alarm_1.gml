@@ -1,4 +1,3 @@
-audio_stop_sound(snd_space_race_intro);
-audio_sound_gain(snd_space_race_intro, 1, 0);
-music.stations = 2;
-room_goto(rm_level3);
+version https://git-lfs.github.com/spec/v1
+oid sha256:97f5fa0c3e64303d24a92d1cfb01ba35d1989904b49ff038e145bd0d3122dfef
+size 127

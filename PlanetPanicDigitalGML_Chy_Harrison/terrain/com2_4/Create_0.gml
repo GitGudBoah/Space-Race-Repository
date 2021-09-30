@@ -1,10 +1,3 @@
-//portrait
-speaker = spr_com_jay;
-
-//text
-text = "How's Alan? Is he still breathing?";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-alarm[0] = room_speed * 2;
-talking = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:86dac17bd4f4410f4912201ad8a953bc028aa53428d84441091ef146ab7b9176
+size 209

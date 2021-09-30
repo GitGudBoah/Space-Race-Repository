@@ -1,11 +1,3 @@
-if other.can_explode{
-	other.can_explode = false;
-	other.alarm[5] = room_speed * 2;
-	other.hp -= 75;
-
-	audio_play_sound(snd_explosion_small, 1, false);
-
-	repeat(5){
-		instance_create_layer(other.x, other.y,"Instances",debris);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8eaf5f441a62acf98e4a0eb89b0714b195d2cc3f220a06e5cff537d5f071edbe
+size 231

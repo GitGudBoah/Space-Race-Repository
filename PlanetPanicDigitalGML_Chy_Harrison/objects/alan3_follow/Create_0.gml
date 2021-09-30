@@ -1,15 +1,3 @@
-following = true;
-stop_distance = 130;
-catchup_distance = 900;
-
-//verticality
-water_floor = 1536;
-neutral_floor = 1024;
-pipes_floor = 448;
-canTrigger = true;
-canTrigger2 = true;
-canTrigger3 = true;
-climbing = false;
-climbing2 = false;
-descending = false;
-descending2 = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:346fa5e5dbf5745e8fcd9f7d4fc84f3ada3a4e9b2baeb9dd43c3fbb299fefb98
+size 275

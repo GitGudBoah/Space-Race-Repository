@@ -1,21 +1,3 @@
-//Alan enters the museum
-
-if counter = 1{
-	speaker = spr_com_robot;
-	text = "DR. ZHANG IS WAITING FOR YOU INSIDE.";
-}
-
-if counter = 2{
-	speaker = spr_com_alan;
-	text = "Shut the hell up, tin can.";
-}
-
-if counter = 3{
-	speaker = spr_com_robot;
-	text = "...";
-	audio_sound_gain(placeholder_music5, 0, 1000);
-}
-
-if counter = 4{
-	room_goto(rm_museum);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:30aed797135af9c31537015437d2a136d2f552079f30b3af75d9e16293a8aa67
+size 349

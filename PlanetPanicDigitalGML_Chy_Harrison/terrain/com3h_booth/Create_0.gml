@@ -1,15 +1,3 @@
-//portrait
-speaker = spr_com_alan;
-
-//text
-text = "Hey.";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
-//decision
-decision = false;
-choice = false;
-text1 = "*Accept*";
-text2 = "*Reject*";
+version https://git-lfs.github.com/spec/v1
+oid sha256:653ca93f6815fc6da5a9e1c4ec2b411c37360ca151bae00b698e4dfd5896300f
+size 251

@@ -1,14 +1,3 @@
-canTrigger = true;
-activated = false;
-
-//fade in
-image_alpha = 0;
-
-// new hp bar
-hp = 200;
-hp_max = hp;
-
-healthbar_width = 100;
-healthbar_height = 12;
-healthbar_x = x + 55;
-healthbar_y = y + 5;
+version https://git-lfs.github.com/spec/v1
+oid sha256:902bf0a10c6b4de0b3b45114b31141cf8a11757f324002eb6abbd2b68213a6e0
+size 193

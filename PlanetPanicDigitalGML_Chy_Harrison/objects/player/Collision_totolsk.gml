@@ -1,15 +1,3 @@
-if invulnerable = false && other.reviving = false{
-	invulnerable = true;
-	image_blend = c_gray;
-	alarm[0] = room_speed * 1;
-	hp -= 50;
-
-	audio_play_sound(snd_explosion_big, 1, false);
-
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-
-	direction = point_direction(other.x, other.y, x, y);
-	speed = 30;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39f21c6f0a0c5797c45d614db3c1671e12296fdddf0719d6ce1320a32ee28c3a
+size 319

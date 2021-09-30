@@ -1,8 +1,3 @@
-/// Update grid path
-if o_game.game_over = false{
-	if mp_grid_path(global.grid, path, x, y, player.x, player.y, 1){
-		path_start(path, move_speed, path_action_stop, false);
-	}
-}
-
-alarm[4] = room_speed * 0.5;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e818ccaa310226a9358a580a1604f5a00be3dee5947071d584e82071d30b60b9
+size 207

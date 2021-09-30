@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_alarm_low.wav",
-  "duration": 4.722937,
-  "parent": {
-    "name": "alarms",
-    "path": "folders/Sounds/alarms.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_alarm_low",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9723d78ff6c3a3fccc97f5cae3fadd3361ef6f6cc46bdb9245b8c756a5bae1f9
+size 475

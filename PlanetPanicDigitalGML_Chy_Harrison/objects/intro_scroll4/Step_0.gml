@@ -1,8 +1,3 @@
-if appear = 1{
-	if image_alpha < 1{
-		image_alpha += 0.01;
-	} else{
-		appear = 2;
-		alarm[0] = room_speed * 5;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:37b731b733a44e5a88298a2d985a5549d5e25c7c45434c38b6615dad5f30f54b
+size 115

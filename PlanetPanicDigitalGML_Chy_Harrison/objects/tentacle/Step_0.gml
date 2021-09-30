@@ -1,24 +1,3 @@
-if (hp <= 0) && (alive) {
-	alive = false;
-	alarm[0] = true;
-}
-
-if (distance_to_object(player) < range) && cantrigger
-{
-	inrange = true;
-	cantrigger = false;
-}
-
-if (inrange) {
-	if (!fade) {
-		image_yscale += 1;
-		if (alert){
-			audio_play_sound(snd_tentacle_attack, 1, false);
-			alert = false;
-		}
-	}
-}
-
-if (fade) {
-		image_alpha += -.05;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e8c90c67439ab1675d4991c68541d131762a612d7cf77f6135b429b385d8fac
+size 341

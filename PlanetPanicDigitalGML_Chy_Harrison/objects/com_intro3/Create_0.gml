@@ -1,16 +1,3 @@
-//portrait
-speaker = spr_com_glaucus;
-
-//text
-text = "The sonar is picking up several attack ships. There are hostiles hiding in the nearby dust clouds.";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
-
-//player moves into the room
-//alarm[0] = room_speed * 2;
-player_entering = true;
-player.incontrol = false;
-player.visible = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:35baaebacc7acd9230c6b53fbe170c194cb838009d01f841316d7469da9832a5
+size 396

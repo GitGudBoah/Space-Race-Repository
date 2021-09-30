@@ -1,10 +1,3 @@
-//portrait
-speaker = spr_com_jay;
-
-//text
-text = "Hurry! We need to find shelter!";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-alarm[0] = room_speed * 1;
-talking = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:00a57b9d2493ee6bbb8879c0afa3066de185944f94432deec7f30c2364fe5c8e
+size 206

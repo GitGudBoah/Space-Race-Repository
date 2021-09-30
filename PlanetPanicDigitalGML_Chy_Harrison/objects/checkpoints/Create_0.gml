@@ -1,10 +1,3 @@
-checkpoint_counter = 0;
-
-//exp/currency system
-first_enter = false;
-first_enter2 = false;
-first_enter3 = false;
-
-currency_save1 = 0;
-currency_save2 = 0;
-currency_save3 = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:96c047e933fde9f13d31fad528d1780c5499479b996190dfbdf067c40869abc0
+size 172

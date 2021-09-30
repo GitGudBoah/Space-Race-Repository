@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_powerup_strip",
-    "path": "sprites/spr_powerup_strip/spr_powerup_strip.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "powerups",
-    "path": "folders/Objects/level1/old work/powerups.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "randomizer",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4fac9a9d58905f90383dd8f2877f4956759be2d106caea4948941c2000a145c
+size 819

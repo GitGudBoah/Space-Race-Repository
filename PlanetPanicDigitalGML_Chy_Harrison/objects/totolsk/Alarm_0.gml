@@ -1,17 +1,3 @@
-ammo = max_ammo;
-
-if death_counter < 6{
-	if attack_counter < 1{
-		attack_counter += 1;
-	} else{
-		attack_counter = 0;
-	}
-} else{
-	if attack_counter < 2{
-		attack_counter += 1;
-	} else{
-		attack_counter = 0;
-	}
-}
-
-reloading = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba2b95a9b287583697d5d844c6a87f66c4d74233708bcc15173ceff8a3585f05
+size 231

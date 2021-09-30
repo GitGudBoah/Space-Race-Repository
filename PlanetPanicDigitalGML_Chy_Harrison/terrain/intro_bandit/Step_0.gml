@@ -1,35 +1,3 @@
-//speed
-if intro_spawner.kandar_defeated = true{
-	speed = 8;
-}
-
-if o_game.game_over = false{
-	direction = point_direction(x, y, player.x, player.y);
-
-	//shooting
-	if reloading = false{
-		var inst = instance_create_layer(x, y, "Instances", bandit_bullet);
-		inst.direction = direction;
-		audio_play_sound(snd_lasershot, 1, false);
-		reloading = true;
-		alarm[0] = room_speed * 2.5;
-	}
-}
-
-//rotate sprite
-if direction < 90 or direction > 270{
-	image_xscale = -1;
-} else {
-	image_xscale = 1;
-}
-
-//die
-if hp <= 0{
-	audio_play_sound(snd_explosion_small, 1, false);
-
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-	com_intro2.killcount += 1;
-	instance_destroy();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b307bca40d3892e9f139f2ee48ee9a7369d8d20aaead4c573d127dc597ebbfa2
+size 676

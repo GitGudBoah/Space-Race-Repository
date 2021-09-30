@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 0.25,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_lasershot.wav",
-  "duration": 0.651372,
-  "parent": {
-    "name": "player",
-    "path": "folders/Sounds/player.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_lasershot",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d17d7a6d32320075cef5a916b263b4406eda5c15b2609235a65f124b6a562d4
+size 476

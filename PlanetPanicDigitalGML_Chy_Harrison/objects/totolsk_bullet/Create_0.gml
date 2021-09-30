@@ -1,8 +1,3 @@
-//bullet speed = 11 is hard mode; easy mode is 9
-speed = o_game.bullet_speed + 8;
-
-if com_totolsk.boss_defeated = false{
-	if totolsk.reviving{
-		speed = o_game.bullet_speed;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b7406466581bc7176dfcd099f2f9f3310bce95ddc99175dafb0613128d17134
+size 178

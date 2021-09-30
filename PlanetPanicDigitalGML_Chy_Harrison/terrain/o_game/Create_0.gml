@@ -1,10 +1,3 @@
-//only used in level 1 & intro
-game_over = false;
-
-//hud currently deactivated
-score = 0;
-//pause menu
-paused = false;
-paused_surf = -1;
-pausable = false;
-was_animating = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d48516f275adbc2669547a7ef013672fef5e55a1487256b957ce9c3b7978471b
+size 177

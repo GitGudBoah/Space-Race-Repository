@@ -1,8 +1,3 @@
-//room_goto(scene9);
-
-//fade to black - transition to next room
-var inst = instance_create_depth(0, 0, -999, fader);
-inst.destination_room = black_screen3;
-inst.fadein_speed = 1;
-inst.fadeout_speed = 0.02;
-inst.room_swap_delay = 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9c592bee3ffc912259761a5943b13d354d39490f0175a76633a4b898430a91e
+size 231

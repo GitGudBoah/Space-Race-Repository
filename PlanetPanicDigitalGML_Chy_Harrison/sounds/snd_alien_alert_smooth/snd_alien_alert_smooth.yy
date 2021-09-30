@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 0.5,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_alien_alert_smooth.wav",
-  "duration": 0.961803,
-  "parent": {
-    "name": "alarms",
-    "path": "folders/Sounds/alarms.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_alien_alert_smooth",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:21a0dd9f0c835a2f7ea78bbf1a7a84c4731891e69f7aa63b7ca714e4d19869d0
+size 493

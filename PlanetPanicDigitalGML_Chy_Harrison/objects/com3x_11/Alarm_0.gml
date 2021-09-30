@@ -1,5 +1,3 @@
-counter += 1;
-talking = true;
-//camera shake
-view_camera[0] = camera_create_view(0, 0, 2100, 1500, 0, -1, -1, -1, 1050, 750);
-camera_shake.range = 100;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4dd8edc0fff85a53ac5200b2753aea4ed162f66de5cfa79fdfd23230ddc759de
+size 151

@@ -1,9 +1,3 @@
-if o_game.game_over = false{
-	if attis_entrance.inrange && attis_entrance.available{
-		draw_set_font(font_marker);
-		draw_set_alpha(0.75);
-		draw_sprite(spr_npc_marker, 1, player.x - 2.5, player.y - 405)
-		draw_set_alpha(1);
-		draw_text(player.x, player.y - 400, "Enter")
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6347e9651c2ad1a9c3a54e4b70354a69da93feb0ea008af35b3e95d13089380
+size 276

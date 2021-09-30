@@ -1,17 +1,3 @@
-if flower_shop.inrange{
-	if talking = false && flower_shop.available{
-		flower_shop.available = false;
-		alan2.incontrol = false;
-		talking = true;
-		if flower_shop.x > alan2.x{
-			alan2.image_xscale = 1;
-		}
-		if flower_shop.x < alan2.x{
-			alan2.image_xscale = -1;
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd9db1c93843059812e98040c84b9c97779fb26e11b73c2abb100dea1c3fba87
+size 305

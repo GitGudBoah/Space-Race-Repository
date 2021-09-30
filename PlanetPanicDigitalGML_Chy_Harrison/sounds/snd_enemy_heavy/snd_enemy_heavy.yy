@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_enemy_heavy.wav",
-  "duration": 1.081678,
-  "parent": {
-    "name": "enemies",
-    "path": "folders/Sounds/enemies.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_enemy_heavy",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:55c1605ad0d19b2505804fceef9fccc8fcd142d6fb28b536ba51deb8751dfae7
+size 481

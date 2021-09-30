@@ -1,9 +1,3 @@
-//project vitals
-if vital_ammo > 0{
-	vital_ammo -= 1;
-	var vital = instance_create_layer(x, y, "Instances", totolsk_vital);
-	vital.direction = random_range(0, 360);
-	audio_play_sound(snd_enemy_heavy, 1, false);
-
-	alarm[8] = room_speed * 0.25;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:09cb39d96bf433d8c828d1178135eb9d3b96f6a1e89bc6c22a2f403720f2f24c
+size 244

@@ -1,15 +1,3 @@
-// 1
-if alive1{
-	draw_set_alpha(1);
-	draw_sprite(spr_healthbar3,0,tentacleb.healthbar_x,tentacleb.healthbar_y);
-	draw_sprite_stretched(spr_healthbar,0,tentacleb.healthbar_x,tentacleb.healthbar_y,min((tentacleb.hp/tentacleb.hp_max) * tentacleb.healthbar_width, tentacleb.healthbar_width), tentacleb.healthbar_height);
-	draw_sprite(spr_healthbar2,0,tentacleb.healthbar_x,tentacleb.healthbar_y);
-}
-
-//2
-if alive2{
-	draw_set_alpha(1);
-	draw_sprite(spr_healthbar3,0,tentacleb2.healthbar_x,tentacleb2.healthbar_y);
-	draw_sprite_stretched(spr_healthbar,0,tentacleb2.healthbar_x,tentacleb2.healthbar_y,min((tentacleb2.hp/tentacleb2.hp_max) * tentacleb2.healthbar_width, tentacleb2.healthbar_width), tentacleb2.healthbar_height);
-	draw_sprite(spr_healthbar2,0,tentacleb2.healthbar_x,tentacleb2.healthbar_y);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4624ee839b6b5b0419700e55246d4019e0f3a2c739d5ec7cb65dbbad401cf5f3
+size 800

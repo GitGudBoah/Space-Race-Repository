@@ -1,12 +1,3 @@
-if loverx.inrange{
-	if talking = false && loverx.available{
-		loverx.available = false;
-		glaucus3_lead.incontrol = false;
-		talking = true;
-		glaucus3_lead.image_xscale = -1;
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:434790d456b14a58592bbfbb2b4b7683968500a312c14f5772182456a41e0a21
+size 210

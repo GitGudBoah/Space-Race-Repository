@@ -1,20 +1,3 @@
-hp = 100;
-mobile = true;
-speeed = 5;
-range = 1600;
-canTrigger = true;
-canTrigger2 = true;
-encountered = false;
-stop_distance = 800;
-
-//fire order
-access1 = false;
-access2 = false;
-access3 = false;
-access4 = false;
-
-//explosion - collision check
-hit9 = true;
-
-//poison knife-strike
-poison_target = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d1bdbcedcdc90409e4160946b8149fd537ee1211178353b6cbbb05bd4d470a3
+size 303

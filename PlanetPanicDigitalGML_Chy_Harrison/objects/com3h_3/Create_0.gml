@@ -1,18 +1,3 @@
-//portrait
-speaker = spr_com_kandar;
-
-//text
-text = "It's time we wipe these shit stains off of this station, once and for all!";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-enemy_manager3.target.incontrol = false;
-talking = true;
-counter = 0;
-//decision
-decision = false;
-choice = false;
-text1 = "Yes";
-text2 = "No";
-
-charge = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:82268dde90b5b12315ed4d2f2e8a1478575863174c3f3cb3be27148870287877
+size 369

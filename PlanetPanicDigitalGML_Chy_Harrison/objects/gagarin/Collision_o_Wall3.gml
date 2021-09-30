@@ -1,9 +1,3 @@
-audio_sound_gain(placeholder_music3, 0, 2000);
-
-if room = rm_forest2{
-	room_goto(rm_crash_site);
-}
-
-if room = rm_forest3{
-	room_goto(rm_forest4);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6fcb83f1fbd34be1fb618eea38a77ea5bdf739dc6643c2f4427aef27c7c5587
+size 147

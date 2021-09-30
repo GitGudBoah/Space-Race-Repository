@@ -1,12 +1,3 @@
-//portrait
-speaker = 0;
-
-//text
-text = 0;
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-activated = false;
-alarm[0] = room_speed * 2;
-alarm[11] = room_speed * 6;
-counter = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:25871be9d1cc7da74cfa7cb60baa0d7d5cb43ce31b4b0763e106a102e6dc30da
+size 207

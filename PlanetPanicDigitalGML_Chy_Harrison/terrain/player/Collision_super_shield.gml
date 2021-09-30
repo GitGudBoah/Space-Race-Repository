@@ -1,16 +1,3 @@
-power_up_ss = true;
-hp += 45;
-alarm[1] = room_speed * 5;
-audio_play_sound(snd_menu_switch, 1, false);
-
-if player.x > 3500 && player.x < 3700{
-	commlink.speaker = spr_com_glaucus;
-	commlink.text = "This should keep our pistons pumping a bit longer.";
-	commlink.talking = true;
-	commlink.alarm[1] = room_speed * 4;
-}
-
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy(other);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7da53eeb638f0beedcf62098104d1dafec7608a289d44744fc0d395270be9c58
+size 402

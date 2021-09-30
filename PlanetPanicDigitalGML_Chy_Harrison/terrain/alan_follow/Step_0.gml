@@ -1,20 +1,3 @@
-//follow
-if enemy_manager2.alan_follow_alive && following{
-	if distance_to_object(jay2_2) > stop_distance{
-		if distance_to_object(jay2_2) > catchup_distance{
-			if jay2_2.x > x{
-				x += 12;
-			}
-			if jay2_2.x < x{
-				x -= 12;
-			}
-		} else{
-			if jay2_2.x > x{
-				x += 7;
-			}
-			if jay2_2.x < x{
-				x -= 7;
-			}
-		}
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e33fd66446a218b2410533492ca65df84adb697becdce860861b29a0e2c6930c
+size 327

@@ -1,9 +1,3 @@
-speed = 6;
-stuck = true;
-alarm[4] = room_speed * 5;
-audio_play_sound(snd_menu_switch, 1, false);
-
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy(other);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6715d10c94f132d2ed8089c3908722c1597880ae5ed4126e4c2c4f6eff9f8e32
+size 184

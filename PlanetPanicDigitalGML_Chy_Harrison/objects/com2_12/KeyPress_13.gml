@@ -1,18 +1,3 @@
-if note.inrange{
-	if talking = false && note.available{
-		note.available = false;
-		skeleton2.available = false;
-		jay2_2.incontrol = false;
-		talking = true;
-		if note.x > jay2_2.x{
-			jay2_2.image_xscale = 1;
-		}
-		if note.x < jay2_2.x{
-			jay2_2.image_xscale = -1;
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6104fbbfd0b5ce1bc382994e8a4d4711867cc8c9bfa4f29328bfd33c89fc984
+size 306

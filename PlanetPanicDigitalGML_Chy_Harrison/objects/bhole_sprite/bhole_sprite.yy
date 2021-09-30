@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_blackhole_distance",
-    "path": "sprites/spr_blackhole_distance/spr_blackhole_distance.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "totolsk_battle",
-    "path": "folders/Objects/level1/totolsk_battle.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "bhole_sprite",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8d5ae1a8d902d6bd5a8ec01481b24a666efcc2617d0b9d6d35f0ed98cd5b615
+size 839

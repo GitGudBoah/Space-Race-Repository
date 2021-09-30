@@ -1,21 +1,3 @@
-incontrol = true;
-dodging = false;
-reverse = false;
-canDodge = true;
-dodgeCD = 0.4;
-
-// hp bar
-hp = 200;
-hp_max = hp;
-
-healthbar_width = 100;
-healthbar_height = 12;
-healthbar_x = 10;
-healthbar_y = 10;
-
-canDie = false;
-
-//shooting
-reloading = false;
-firerate = 0.1;
-firing = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9355d1fff8a61efe719f24bdc7136b362b66e607fd5669e35e524b6415538c8
+size 280

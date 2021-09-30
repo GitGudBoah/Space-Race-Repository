@@ -1,14 +1,3 @@
-if index_run.display = index5{
-	//do nothing
-} else{
-	if (mouse_x >= bbox_left and mouse_x <= bbox_right and mouse_y >= bbox_top and mouse_y <= bbox_bottom){
-		image_index = 1;
-		if (mouse_check_button_pressed(mb_left)){
-			index_run.display = index5;
-			image_index = 2;
-			audio_play_sound(snd_menu_switch, 2, false);
-		}
-	} else{
-		image_index = 0;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cd32dec4157ee817ca2c39597e1acf603670a8bce5a7b4d053e9cb3c78ea644
+size 356

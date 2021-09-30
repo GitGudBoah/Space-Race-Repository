@@ -1,14 +1,3 @@
-if inrange && available{
-	com2_dahlia.m_counter = 2;
-	available = false;
-	audio_stop_all();
-	audio_play_sound(hip_hop, 1, true);
-	
-	music2.available = true;
-	music2_3.available = true;
-	music2_4.available = true;
-	
-	dahlia2.available = true;
-	com2_dahlia.counter = 0;
-	com2_dahlia.counter2 = 2;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8a33cabb64e7e9a030feac5fb663c32b0012514619ce1e985f251229c225515
+size 296

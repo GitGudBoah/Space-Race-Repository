@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_powerdebuff_sticky_exhaust",
-    "path": "sprites/spr_powerdebuff_sticky_exhaust/spr_powerdebuff_sticky_exhaust.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "powerups & debuffs",
-    "path": "folders/Objects/level2/powerups & debuffs.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "sticky_exhaust",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:670771007fa9cf54fbe143d558220003faf9267b9f05be799597e23e08a770b3
+size 873

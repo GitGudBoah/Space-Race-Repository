@@ -1,11 +1,3 @@
-//portrait
-speaker = spr_com_jay;
-
-//text
-text = "A race of androids, huh? Sounds like something out of a sci-fi movie.";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
-counter2 = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:88142cc3792b7ba7d4b538779df057317fdb0bedcc1c0832454b5f1ad749d759
+size 244

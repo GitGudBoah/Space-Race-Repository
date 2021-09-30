@@ -1,17 +1,3 @@
-if t_booth.inrange{
-	if talking = false && t_booth.available{
-		t_booth.available = false;
-		enemy_manager3.target.incontrol = false;
-		talking = true;
-		if t_booth.x > enemy_manager3.target.x{
-			enemy_manager3.target.image_xscale = 1;
-		}
-		if t_booth.x < enemy_manager3.target.x{
-			enemy_manager3.target.image_xscale = -1;
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f5eae17cb5f924c0540ca4eb2e793e1ae61322066e5f9d3a664741ca1f8fefd
+size 365

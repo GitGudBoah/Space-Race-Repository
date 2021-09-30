@@ -1,8 +1,3 @@
-counter = 0;
-opacity = 0;
-fade_speed = 0.04;
-appeared = 0;
-
-audio_play_sound(snd_alarm_high, 1, false);
-
-//instance_create_layer(0, 0, (layer below other Draw GUI's), asteroid_warning);
+version https://git-lfs.github.com/spec/v1
+oid sha256:6598471b8fa6c0422c0c6b3ed774b6ce2c11947918ff49e44d576ce29ea4c2c9
+size 185

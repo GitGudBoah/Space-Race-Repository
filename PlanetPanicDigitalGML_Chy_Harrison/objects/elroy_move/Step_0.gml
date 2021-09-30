@@ -1,17 +1,3 @@
-if e_enter{
-	x += 10;
-	sprite_index = spr_elroy_run;
-	image_xscale = -1;
-	y = 1005;
-}
-
-if x >= 4370{
-	e_enter = false;
-	sprite_index = spr_elroy_concerned;
-}
-
-if e_exit{
-	x -= 10;
-	sprite_index = spr_elroy_run;
-	image_xscale = 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4afff3cc8dad6e2964fe9307b00c272994d4c39dfe3ace07810b1eb4bc40c45a
+size 231

@@ -1,18 +1,3 @@
-if gagarin2_exit.inrange{
-	if talking = false && gagarin2_exit.available{
-		gagarin2_exit.available = false;
-		jay2_2.incontrol = false;
-		talking = true;
-		if gagarin2_exit.x > jay2_2.x{
-			jay2_2.image_xscale = 1;
-		}
-		if gagarin2_exit.x < jay2_2.x{
-			jay2_2.image_xscale = -1;
-		}
-		alan.image_xscale = -1;
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:502c9751a7eb12dd0b3ba6b2d476d33068146cbcdc5f9c1fb5cc233f39301a58
+size 346

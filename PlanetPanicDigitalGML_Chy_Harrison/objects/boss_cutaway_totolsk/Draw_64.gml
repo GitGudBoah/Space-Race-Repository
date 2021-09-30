@@ -1,3 +1,3 @@
-draw_sprite_ext(spr_boss_cutaway_totolsk, 0, xpos, 0, 0.5, 0.5, 0, c_white, opacity);
-draw_sprite_ext(spr_boss_cutaway_totolsk0, 0, xpos2, 0, 0.5, 0.5, 0, c_white, opacity);
-draw_sprite_ext(spr_boss_cutaway_totolsk1, 0, xpos3, 0, 0.5, 0.5, 0, c_white, opacity);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d12e469dbb386243337c9ea0640b5c65923635cea49b8595f0f25caf3d85aead
+size 261

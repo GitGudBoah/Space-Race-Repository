@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_skeleton",
-    "path": "sprites/spr_skeleton/spr_skeleton.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "background",
-    "path": "folders/Objects/level2/background.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "skel",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:66fc647d93665d8f8969a4ce21ddbd6e090b15ea9dced0963bb05034a553f23b
+size 793

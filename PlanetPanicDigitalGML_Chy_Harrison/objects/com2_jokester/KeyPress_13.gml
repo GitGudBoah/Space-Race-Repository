@@ -1,17 +1,3 @@
-if jokester.inrange{
-	if talking = false && jokester.available{
-		jokester.available = false;
-		alan2.incontrol = false;
-		talking = true;
-		if jokester.x > alan2.x{
-			alan2.image_xscale = 1;
-		}
-		if jokester.x < alan2.x{
-			alan2.image_xscale = -1;
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f572ac741955d7483721836f65ee510a59a008a46ebc6deea21c61a0da76a1e7
+size 290

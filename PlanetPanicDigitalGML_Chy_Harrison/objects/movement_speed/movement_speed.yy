@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_powerup_movement_speed",
-    "path": "sprites/spr_powerup_movement_speed/spr_powerup_movement_speed.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "powerups",
-    "path": "folders/Objects/level1/old work/powerups.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "movement_speed",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:465771da15728e91fff8f15e58083cab45bd5f1798f56d4fe8736c72e51a103a
+size 850

@@ -1,7 +1,3 @@
-currency_cost = 100;
-
-if o_game.Remote_Drone = true{
-	image_index = 1;
-} else if o_game.Volley = false or o_game.currency < currency_cost{
-	image_index = 2;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2b5afb7ea0c6959a2f228f4114a3684fcb0be4aa339afd55075ad3f90bb20bd
+size 158

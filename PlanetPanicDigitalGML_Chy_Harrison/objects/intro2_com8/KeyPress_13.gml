@@ -1,19 +1,3 @@
-if enemy_manager.farewell{
-	if alice_corpse.inrange{
-		if talking = false && alice_corpse.available{
-			alice_corpse.available = false;
-			alan_move2.incontrol = false;
-			talking = true;
-			if alice_corpse.x > alan_move2.x{
-				alan_move2.image_xscale = 1;
-			}
-			if alice_corpse.x < alan_move2.x{
-				alan_move2.image_xscale = -1;
-			}
-		}
-	}
-
-	if talking{
-		counter += 1;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:56c9ec022dd48841fd320d8a4cd3ff8bd4f8780f4dd2be1e105c4e64e4dd3797
+size 380

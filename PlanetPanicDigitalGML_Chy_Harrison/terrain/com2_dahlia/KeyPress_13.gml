@@ -1,19 +1,3 @@
-if dahlia2.inrange{
-	if talking = false && dahlia2.available{
-		dahlia2.available = false;
-		alan2.incontrol = false;
-		talking = true;
-		if dahlia2.x > alan2.x{
-			alan2.image_xscale = 1;
-			dahlia2.image_xscale = 1;
-		}
-		if dahlia2.x < alan2.x{
-			alan2.image_xscale = -1;
-			dahlia2.image_xscale = -1;
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f45c560b6d8ba14ad93ec59bb1950f69f46dfd1e1fa3401e9bef1782d7b878d3
+size 344

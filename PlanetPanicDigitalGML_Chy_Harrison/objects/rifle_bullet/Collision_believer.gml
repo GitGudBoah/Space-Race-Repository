@@ -1,18 +1,3 @@
-if other.boss_fight = true{
-	other.hp -= 25;
-	
-	if enemy_manager2.game_over = false && other.mobile = false{
-		if jay2_2.x > other.x{
-			other.x -= 7;
-		}
-		if jay2_2.x < other.x{
-			other.x += 7;
-		}
-	}
-	
-	//destroy
-	repeat(2){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-	instance_destroy();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:84f616ecc143a63c42ac2e7a557d8ffab9c49f5c40ac04a0249f6eadc0be4234
+size 303

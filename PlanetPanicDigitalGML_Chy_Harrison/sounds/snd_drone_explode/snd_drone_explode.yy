@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_drone_explode.wav",
-  "duration": 1.080385,
-  "parent": {
-    "name": "player",
-    "path": "folders/Sounds/player.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_drone_explode",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eee806c226e175c3bb256582469ae3009098b52b9d908282010407777af0ec8e
+size 483

@@ -1,17 +1,3 @@
-if attis_entrance.inrange{
-	if talking = false && attis_entrance.available{
-		attis_entrance.available = false;
-		player.incontrol = false;
-		player.speed = 0;
-		if intro_spawner.kandar_defeated{
-			var inst = instance_create_depth(0, 0, -999, fader);
-			inst.destination_room = scene1;
-		} else{
-			talking = true;
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:297a1061771d80bbd1753cb31c3f2751ad310ca6126cd65b7b2cda1a7c8466c7
+size 354

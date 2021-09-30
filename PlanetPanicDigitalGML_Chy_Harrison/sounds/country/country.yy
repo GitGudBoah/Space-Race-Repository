@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 0.18,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "country.mp3",
-  "duration": 198.293,
-  "parent": {
-    "name": "museum",
-    "path": "folders/Sounds/temp_music/museum.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "country",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7a900a12bd76b7010b3bc665c0c009e4f9fb2ff3a98615bddd14672dbb855955
+size 474

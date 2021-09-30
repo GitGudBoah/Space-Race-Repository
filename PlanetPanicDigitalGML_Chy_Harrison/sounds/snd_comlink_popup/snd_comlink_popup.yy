@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 1.0,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "snd_comlink_popup.wav",
-  "duration": 0.830726,
-  "parent": {
-    "name": "alarms",
-    "path": "folders/Sounds/alarms.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "snd_comlink_popup",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c874684789ab8a4057bf807c61c81e40d64b7bbfeb4bf9ee79a6d94af16417b
+size 483

@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_hotel",
-    "path": "sprites/spr_hotel/spr_hotel.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "objects",
-    "path": "folders/Objects/level1/background/objects.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "hotel",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a4eb9dd3dc352196e98d99277d5426fec0378ef0c6170a904975d5bd23b66fb
+size 790

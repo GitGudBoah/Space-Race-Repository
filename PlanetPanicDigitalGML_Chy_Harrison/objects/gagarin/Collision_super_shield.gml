@@ -1,9 +1,3 @@
-power_up_ss = true;
-hp += 45;
-alarm[1] = room_speed * 5;
-audio_play_sound(snd_menu_switch, 1, false);
-
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy(other);
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e1249f49c1a21fe15eb60cd9bd92ab83b4793550cedf5b9a50699d498914e8c
+size 189

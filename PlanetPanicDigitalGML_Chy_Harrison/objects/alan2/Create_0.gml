@@ -1,28 +1,3 @@
-incontrol = false;
-dodging = false;
-reverse = false;
-canDodge = true;
-dodgeCD = 0.4;
-
-canTrigger = false;
-
-// new hp bar
-hp = 200;
-hp_max = hp;
-
-healthbar_width = 100;
-healthbar_height = 12;
-healthbar_x = 10;
-healthbar_y = 10;
-
-rifle = false;
-reloading = false;
-firerate = 0.1;
-
-cig = true;
-kneeling = false;
-idle = true;
-armed = false;
-shooting = false;
-walking_in = true;
-firing = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cd50a2c3727095c90e8248a167ed0cbab3612cdd50bf3a3e202ad550ff032bd
+size 389
