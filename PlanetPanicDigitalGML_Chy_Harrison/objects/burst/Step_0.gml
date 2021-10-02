@@ -1,8 +1,3 @@
-if jay3_follow.burst_early_trigger = true{
-	jay3_follow.burst_early_trigger = false;
-	//poison zone
-	var inst = instance_create_layer(x, y - 256, "Instances", poison_zone);
-	inst.image_xscale = 5;
-	inst.image_yscale = 3;
-	instance_destroy();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:96ea90b9ef5e2f86854282b5f0773b2a6a274620585019dca02ccd3eb931fec8
+size 243

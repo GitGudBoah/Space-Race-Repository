@@ -1,17 +1,3 @@
-if jokester3.inrange{
-	if talking = false && jokester3.available{
-		jokester3.available = false;
-		enemy_manager3.target.incontrol = false;
-		talking = true;
-		if jokester3.x > enemy_manager3.target.x{
-			enemy_manager3.target.image_xscale = 1;
-		}
-		if jokester3.x < enemy_manager3.target.x{
-			enemy_manager3.target.image_xscale = -1;
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5efc19cc2407bad30f5f30b53f93d231a91f7e949432f1131e79035f67e61a5
+size 375

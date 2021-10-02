@@ -1,11 +1,3 @@
-speed = 30;
-mid_dash = true;
-alarm[0] = room_speed * 0.6;
-image_blend = c_purple;
-
-//Fire
-reloading = true;
-firerate = 0.1;
-ammo = 40;
-bullet_speed = 45;
-spray = 8;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c04ca6848163b00ef792f883c603e7cc95be652d2e02dbbd08ec48e9d738184
+size 164

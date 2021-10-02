@@ -1,9 +1,3 @@
-//portrait
-speaker = spr_com_glaucus;
-
-//text
-text = "I'VE LOST CONTROL!";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-counter = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6c1c00eb2f2ac6b438a83c0c5c054e02c4dbe04cafe5c12aa2ab15d04b18f70
+size 166

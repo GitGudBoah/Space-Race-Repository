@@ -1,17 +1,3 @@
-if plant_alive{
-	if plant.inrange && plant.available{
-		draw_set_font(font_marker);
-		draw_set_alpha(0.75);
-		draw_sprite(spr_npc_marker, 1, plant.x - 2.5, plant.y - 405)
-		draw_set_alpha(1);
-		draw_text(plant.x, plant.y - 400, "Enter")
-	}
-}
-
-if insignia.inrange && insignia.available{
-	draw_set_font(font_marker);
-	draw_set_alpha(0.75);
-	draw_sprite(spr_npc_marker, 1, insignia.x - 2.5, insignia.y - 405)
-	draw_set_alpha(1);
-	draw_text(insignia.x, insignia.y - 400, "Enter")
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4fe27caf64423ffb26e38ef21b2d0f625605dbc4b447aca4d366c1a75d3f936
+size 477

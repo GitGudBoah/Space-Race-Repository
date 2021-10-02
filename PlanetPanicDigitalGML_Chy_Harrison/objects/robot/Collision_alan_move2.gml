@@ -1,16 +1,3 @@
-if enemy_manager.hostile{
-	audio_play_sound(snd_explosion_big, 1, false);
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-
-	if (vulnerable){
-		hp -= 20;
-		vulnerable = false;
-		alarm[0] = room_speed * 0.5;
-	}
-
-	with (other){
-		hp -= 1;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d955383c2c468b8a7753cd40d4e62a14044b9b0768de73bc9a860a7d5875c60
+size 257

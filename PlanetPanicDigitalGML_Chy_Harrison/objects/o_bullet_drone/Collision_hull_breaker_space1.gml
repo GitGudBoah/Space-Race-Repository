@@ -1,12 +1,3 @@
-if other.armored = true{
-	other.hp -= bullet_damage/2.5;
-	audio_play_sound(snd_menu_switch, 1, false);
-} else{
-	other.hp -= bullet_damage;
-	audio_play_sound(snd_explosion_big, 1, false);
-}
-
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy();
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd7b5321cdcd41a593d57b72ed529a086269792962a0ea4b81f6137eb146c6dd
+size 275

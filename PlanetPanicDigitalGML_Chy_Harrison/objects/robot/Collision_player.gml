@@ -1,11 +1,3 @@
-//explode on impact
-audio_play_sound(snd_explosion_big, 1, false);
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-
-if (vulnerable){
-	hp -= 20;
-	vulnerable = false;
-	alarm[0] = room_speed * 0.5;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5217f3e8f1a3fee693ecf95eb3d6e86f293f715941100cf47f16bd176f4c5586
+size 210

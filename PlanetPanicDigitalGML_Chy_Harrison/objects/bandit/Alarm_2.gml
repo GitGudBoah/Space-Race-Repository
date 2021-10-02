@@ -1,10 +1,3 @@
-//attack
-var inst = instance_create_layer(x, y, "Instances", bandit_bullet);
-inst.direction = direction;
-var inst1 = instance_create_layer(x, y, "Instances", bandit_bullet);
-inst1.direction = direction - 10;
-var inst2 = instance_create_layer(x, y, "Instances", bandit_bullet);
-inst2.direction = direction + 10;
-audio_play_sound(snd_lasershot, 1, false);
-alarm[1] = room_speed * post_attack_immobile;
-alarm[0] = room_speed * firerate;
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9f94f39bd103e0e120c73b2ffd526b6fec279cdd2afd75f092516f766284fa1
+size 433

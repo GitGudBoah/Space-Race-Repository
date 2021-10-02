@@ -1,14 +1,3 @@
-/// Create the grid
-cell_width = 183;
-cell_height = 105;
-
-hcells = room_width div cell_width;
-vcells = room_height div cell_height;
-
-global.grid = mp_grid_create(0, 0, hcells, vcells, cell_width, cell_height);
-
-// Add the walls
-mp_grid_add_instances(global.grid, obj_wall, false);
-
-/// Remember to destroy the grid once it is no longer being used
-//mp_grid_destroy(global.grid);
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1f97fd4859393218af8918b5f0248f701c6fcf66b6d47764a05f1eb00904bfe
+size 378

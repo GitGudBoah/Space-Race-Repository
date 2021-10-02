@@ -1,15 +1,3 @@
-firerate = 1.25;
-counter = 1;
-alarm[0] = room_speed * firerate;
-
-fire1 = true;
-in_use1 = false;
-
-fire2 = false;
-in_use2 = false;
-
-fire3 = false;
-in_use3 = false;
-
-fire4 = false;
-in_use4 = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6d48bf99187964a94ec039ee834ba698f0cac1e80156ec3a70ec827238c21af
+size 194

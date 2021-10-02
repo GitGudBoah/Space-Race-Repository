@@ -1,15 +1,3 @@
-if o_game.game_over = false{
-	if player.x > 12150 && cantrigger
-	{
-		activated = true;
-		cantrigger = false;
-	}
-}
-
-if (activated) {
-	image_yscale += 1;
-	if (alert){
-		audio_play_sound(snd_tentacle_attack, 1, false);
-		alert = false;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b7a0ad0404977b3c2549195d1655051483ba285e41795834f89a899b2e9b2d9
+size 237

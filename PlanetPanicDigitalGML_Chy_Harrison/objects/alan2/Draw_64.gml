@@ -1,6 +1,3 @@
-// new health bar
-draw_set_alpha(1);
-
-draw_sprite(spr_healthbar3,0,healthbar_x,healthbar_y);
-draw_sprite_stretched(spr_healthbar,0,healthbar_x,healthbar_y,min((hp/hp_max) * healthbar_width, healthbar_width), healthbar_height);
-draw_sprite(spr_healthbar2,0,healthbar_x,healthbar_y);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f98a8a8d5a0f3fa7b641c744a41c7f6a2cac6c991e4d97aa68502a3252838979
+size 281

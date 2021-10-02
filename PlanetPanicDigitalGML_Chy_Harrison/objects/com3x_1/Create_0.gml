@@ -1,19 +1,3 @@
-//portrait
-speaker = spr_com_glaucus;
-
-//text
-text = "Hello!? Are there any passengers on this station!?";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
-//decision
-decision = false;
-choice = false;
-text1 = "Yes";
-text2 = "No";
-
-//trigger
-alan3.incontrol = false;
-alarm[0] = room_speed * 1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b6b5797a04cd314cbdf2067796665f8a931802783b244efe4e7c28df4fae5a9
+size 352

@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_citizen3",
-    "path": "sprites/spr_citizen3/spr_citizen3.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "background",
-    "path": "folders/Objects/old work/level3/old work/background.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "citizen_d",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:deebf9bdd2f7403774e08215f8f5e4ad9e449167dbede153809d7273c534e373
+size 816

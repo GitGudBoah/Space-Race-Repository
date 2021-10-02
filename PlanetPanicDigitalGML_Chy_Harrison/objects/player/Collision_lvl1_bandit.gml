@@ -1,7 +1,3 @@
-hp -= 50;
-other.hp -= 100;
-audio_play_sound(snd_explosion_big, 1, false);
-
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:144b547df07ca2b56e7be7809ac033779336f581139887aed67fc685369ec9f2
+size 136

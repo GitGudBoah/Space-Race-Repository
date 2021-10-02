@@ -1,15 +1,3 @@
-if gagarin2_enter.inrange && gagarin2_enter.available{
-	draw_set_font(font_marker);
-	draw_set_alpha(0.75);
-	draw_sprite(spr_npc_marker, 1, gagarin2_enter.x - 2.5, gagarin2_enter.y - 405)
-	draw_set_alpha(1);
-	draw_text(gagarin2_enter.x, gagarin2_enter.y - 400, "Enter")
-}
-
-if skeleton.inrange && skeleton.available{
-	draw_set_font(font_marker);
-	draw_set_alpha(0.75);
-	draw_sprite(spr_npc_marker, 1, skeleton.x - 2.5, skeleton.y - 405)
-	draw_set_alpha(1);
-	draw_text(skeleton.x, skeleton.y - 400, "Enter")
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d486598ad9bb4b9b0cef0c2ad9681edb026a9d08adb4da4dbbc215348b1680a
+size 506

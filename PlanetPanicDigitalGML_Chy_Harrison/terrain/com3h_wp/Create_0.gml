@@ -1,17 +1,3 @@
-//portrait
-speaker = spr_com_alan;
-
-//text
-text = "Hey.";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
-//decision
-decision = false;
-choice = 0;
-text1 = "Pistol- Damage";
-text2 = "Knife- Range";
-text3 = "Poison- Length";
-counter2 = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d2bac099b882a5aef3d19e66225ea81a0f8c9dd2e7ab2bd58df720cdf9f2e11
+size 297

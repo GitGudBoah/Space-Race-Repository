@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "alice_idle",
-    "path": "sprites/alice_idle/alice_idle.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "background",
-    "path": "folders/Objects/level3/background.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "citizen_k",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9617be46232d3cbd0f4cd1f4a1a539ee14dc691fa0bc87a5f01ba42c967d52e3
+size 792

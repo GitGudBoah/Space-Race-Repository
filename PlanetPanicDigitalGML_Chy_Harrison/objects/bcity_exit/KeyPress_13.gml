@@ -1,8 +1,3 @@
-if inrange && available{
-	available = false;
-	player.incontrol = false;
-	player.speed = 0;
-	var inst = instance_create_depth(0, 0, -999, fader);
-	inst.destination_room = open_space;
-	audio_sound_gain(placeholder_music13, 0, 2000);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:893f6f0fd49208c6cd27275c497ab9ada7e088c128dfc7d0b5cb39cf8b27e94d
+size 232

@@ -1,13 +1,3 @@
-//can change
-destination_room = Victory;
-fadein_speed = 0.0075;
-fadeout_speed = 0.02;
-room_swap_delay = 2;
-
-canTrigger = true;
-
-//no touching!
-image_alpha = 0;
-fade_in = 0;
-fade_out = 1;
-state = fade_in;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b8582d37d0d4e303e7c4554028e6a8cc739453b37c0f8a2416ed1ccf61ec0a4
+size 203

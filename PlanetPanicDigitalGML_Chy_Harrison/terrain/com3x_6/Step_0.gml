@@ -1,27 +1,3 @@
-//Glaucus takes lead
-
-if counter = 1{
-	speaker = spr_com_glaucus;
-	text = "*trembles* Right.";
-}
-
-if counter = 2{
-	speaker = spr_com_alan;
-	text = "I didn't know that you could feel nervous.";
-}
-
-if counter = 3{
-	speaker = spr_com_glaucus;
-	text = "I'm not nervous- I'm excited!";
-}
-
-if counter = 4{
-	speaker = spr_com_demeter;
-	text = "That's the spirit!";
-}
-
-if counter = 5{
-	talking = false;
-	glaucus3_lead.incontrol = true;
-	counter = 6;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:447bd64a606dfedf31b94858409477b5461ca859785d0d3ef5d87db9e04999ef
+size 443

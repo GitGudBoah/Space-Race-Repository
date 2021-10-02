@@ -1,16 +1,3 @@
-if other.can_explode && other.reviving = false{
-	other.can_explode = false;
-	other.alarm[5] = room_speed * 2;
-	other.hp -= 75;
-
-	audio_play_sound(snd_explosion_small, 1, false);
-
-	repeat(5){
-		instance_create_layer(other.x, other.y,"Instances",debris);
-	}
-
-	other.knockback = true;
-	other.alarm[3] = room_speed * other.knockback_duration;
-	other.direction = point_direction(blast.x, blast.y, x, y);
-	other.speed = other.knockback_speed;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fcee17664b7af2c689d83d2bd87578ce60383817353b5e1adf701d18e9a4d1eb
+size 450

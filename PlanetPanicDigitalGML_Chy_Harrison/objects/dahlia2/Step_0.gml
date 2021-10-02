@@ -1,33 +1,3 @@
-if distance_to_object(alan2) <= 70{
-	inrange = true;
-} else{
-	inrange = false;
-}
-
-//walk
-if walk{
-	image_xscale = -1;
-	sprite_index = spr_dahlia_walk;
-	if alan2.x >= x - 200{
-		x += 8;
-	} else if distance_to_object(alan2) <= range{
-		x += 7;
-	}
-}
-
-if x >= 8160 && canTrigger{
-	canTrigger = false;
-	walk = false;
-	sprite_index = spr_dahlia;
-	available = true;
-	//com
-	com2_dahlia.counter = 0;
-	com2_dahlia.counter2 = 1;
-}
-
-if x >= 3250 && canTrigger2{
-	canTrigger2 = false;
-	walk = false;
-	sprite_index = spr_dahlia;
-	available = true;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:55aa182ce04d6782e9cdf4a80a9ef7c66615c0c5c1b00b3c879cd77185691455
+size 536

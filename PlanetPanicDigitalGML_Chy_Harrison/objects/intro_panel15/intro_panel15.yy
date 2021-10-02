@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "panel15",
-    "path": "sprites/panel15/panel15.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "map",
-    "path": "folders/Objects/intro/cutscene/map.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "intro_panel15",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:985364fe3a6b21eb551c3ebb27e968ff7baff7f914954ad34cced6e35500d5dc
+size 781

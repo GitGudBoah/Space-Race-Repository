@@ -1,13 +1,3 @@
-//portrait
-speaker = spr_com_alan;
-
-//text
-text = "Glaucus, get us out of here! Gordan-!";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = true;
-
-canTrigger = true;
-canTrigger2 = true;
-canTrigger3 = true;
+version https://git-lfs.github.com/spec/v1
+oid sha256:df3f51a848b703e57f0db82f2166cce8e212bf290e0b36224339095760d7fc55
+size 245

@@ -1,11 +1,3 @@
-//intro
-if counter = 1{
-	speaker = spr_com_alan;
-	text = "Maybe if we just ignore them...";
-}
-
-if counter = 2{
-	counter = 0;
-	talking = false;
-	player.incontrol = true;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7591eaf2097051e349f51d50cb27ba5e78d27c7f0d047490c0f7b1a5c3ac17a
+size 170

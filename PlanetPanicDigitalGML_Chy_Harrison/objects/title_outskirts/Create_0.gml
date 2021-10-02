@@ -1,8 +1,3 @@
-counter = 0;
-opacity = 0;
-fade_speed = 0.01;
-alarm[0] = room_speed * 1;
-
-audio_play_sound(snd_alien_alert_smooth, 1, false);
-
-//instance_create_layer(0, 0, (layer below other Draw GUI's), asteroid_warning);
+version https://git-lfs.github.com/spec/v1
+oid sha256:75ac38de39007cd554c5f087e8bc44ef15b579e85beb0836557917d3f0d62550
+size 206

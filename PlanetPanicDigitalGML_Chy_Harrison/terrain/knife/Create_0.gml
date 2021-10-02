@@ -1,8 +1,3 @@
-range = 0.125;
-//upgrade
-if music.knife_upgrade = 1{
-	range = 0.15625;
-}
-
-speed = 35;
-alarm[0] = room_speed * range;
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a30d86f8ff94f301e6c60e3a691d0f7221aaa9acde6f912ee6bb96504c02d38
+size 116

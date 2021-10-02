@@ -1,14 +1,3 @@
-//portrait
-speaker = spr_com_alan;
-
-//text
-text = "Hey.";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
-
-canTrigger = true;
-canTrigger2 = true;
-canTrigger3 = true;
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d8702ea9d1633a309387bfd0eda6955f6e338f7ba39f48990ee0d506ba85bd8
+size 226

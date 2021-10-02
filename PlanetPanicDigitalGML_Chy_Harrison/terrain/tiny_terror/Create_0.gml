@@ -1,17 +1,3 @@
-hp = 100;
-speed = 0;
-
-pursuit = false;
-check = true;
-range = 1000;
-
-//reloading = false;
-//firerate = 4;
-slowing_distance = 800;
-stopping_distance = 200;
-
-//fire order
-access1 = false;
-access2 = false;
-access3 = false;
-access4 = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c03d536de8b21528d30035117c07965ea7fa1072789f27c4f455b26208f83fb4
+size 235

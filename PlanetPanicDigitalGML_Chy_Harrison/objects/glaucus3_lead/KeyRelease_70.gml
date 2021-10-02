@@ -1,11 +1,3 @@
-image_blend = c_white;
-
-if incontrol && charged{
-	if overload = 0{
-		overload = -1;
-		audio_play_sound(snd_explosion_big, 1, false);
-		instance_create_layer(x, y, "obj_npc", explosion);
-	} else if overload > 0{
-		overload -= 10;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:11b463ee5d35afa43d6d346b9c9531f543b17b6fcd7ed7ade8eee76b648dc00c
+size 233

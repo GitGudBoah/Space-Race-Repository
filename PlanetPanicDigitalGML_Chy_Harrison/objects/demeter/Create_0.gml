@@ -1,13 +1,3 @@
-//follow
-following = false;
-stop_distance = 50;
-catchup_distance = 900;
-
-//shoot poison
-reloading = false;
-face_r = true;
-firerate = 4;
-firing = false;
-//cooldown indicator
-cooldown_indicator = "POISON: READY";
-display_cooldown = true;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f079523481e973e2846a8fefe1ccdc96fb5b88c4ae2864abe82a8d4fa5b3b6a2
+size 235

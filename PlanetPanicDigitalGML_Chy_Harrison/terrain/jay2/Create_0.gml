@@ -1,23 +1,3 @@
-incontrol = false;
-dodging = false;
-reverse = false;
-canDodge = true;
-dodgeCD = 0.4;
-
-// hp bar
-hp = 200;
-hp_max = hp;
-
-healthbar_width = 100;
-healthbar_height = 12;
-healthbar_x = 10;
-healthbar_y = 10;
-
-//shooting
-reloading = false;
-firerate = 0.1;
-firing = false;
-
-//intro
-sprite_index = alan_kneeled;
-image_xscale = -1;
+version https://git-lfs.github.com/spec/v1
+oid sha256:908429e5c8e8e7235e25d8fe6b7a82e28e2cc4c58a756dcc2d057e9f15a18297
+size 321

@@ -1,8 +1,3 @@
-/// Create the path and move to the player
-if o_game.game_over = false && knockback = false{
-	if mp_grid_path(global.grid, path, x, y, player.x, player.y, 1){
-		path_start(path, move_speed, path_action_stop, false);
-	}
-}
-
-alarm[5] = room_speed * 0.5;
+version https://git-lfs.github.com/spec/v1
+oid sha256:ffcc4cb2cd20d29937e7ad4a5efd6e5db10f42195f627b950f3ae27e5fb33383
+size 250

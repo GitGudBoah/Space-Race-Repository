@@ -1,11 +1,3 @@
-//Die
-if o_game.game_over = false{
-	player.alarm[7] = room_speed * o_game.Rdrone_cooldown;
-}
-
-audio_play_sound(snd_explosion_small, 1, false);
-
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy();
+version https://git-lfs.github.com/spec/v1
+oid sha256:515fccb89cb275f0dbe5d626a0ba4a10b78622e425ca314e1e355232f9fc251f
+size 223

@@ -1,19 +1,3 @@
-if counter = 0{
-	if opacity < 1{
-		opacity += fade_speed;
-	} else{
-		counter = 1;
-		appeared += 1;
-	}
-}
-
-if counter = 1{
-	if opacity > 0{
-		opacity -= fade_speed;
-	} else{
-		if appeared >= 3{
-			instance_destroy();
-		}
-		counter = 0;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a22b07d1895cb9829934c595cb9517145bd9539d065ee77d776244174d38932
+size 238

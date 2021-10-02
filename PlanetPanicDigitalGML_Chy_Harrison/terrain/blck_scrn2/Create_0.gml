@@ -1,13 +1,3 @@
-talking = false;
-counter = 0;
-title = "6 YEARS AGO"
-title_alpha = 1;
-alarm[0] = room_speed * 2;
-
-//portrait
-speaker = spr_com_dahlia;
-
-//text
-text = "After a year of strict quarantine and grueling tests, you're now a free man.";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b19e4aedf94f2bc995a77c68990ced40c109b45599db1fc81fec5f67b82a049
+size 306

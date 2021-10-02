@@ -1,19 +1,3 @@
-//attack: stage 2
-if o_game.game_over = false{
-	var inst = instance_create_layer(x, y, "Instances", bandit_bullet);
-	inst.direction = point_direction(x,y,player.x,player.y) + 20;
-	var inst1 = instance_create_layer(x, y, "Instances", bandit_bullet);
-	inst1.direction = point_direction(x,y,player.x,player.y) - 20;
-	var inst2 = instance_create_layer(x, y, "Instances", bandit_bullet);
-	inst2.direction = point_direction(x,y,player.x,player.y) + 25;
-	var inst3 = instance_create_layer(x, y, "Instances", bandit_bullet);
-	inst3.direction = point_direction(x,y,player.x,player.y) - 25;
-	var inst4 = instance_create_layer(x, y, "Instances", bandit_bullet);
-	inst4.direction = point_direction(x,y,player.x,player.y) + 30;
-	var inst5 = instance_create_layer(x, y, "Instances", bandit_bullet);
-	inst5.direction = point_direction(x,y,player.x,player.y) - 30;
-	audio_play_sound(snd_enemy_light, 1, false);
-}
-
-alarm[1] = room_speed * post_attack_immobile;
-alarm[0] = room_speed * firerate;
+version https://git-lfs.github.com/spec/v1
+oid sha256:06f94354a3a2f62e604b1075bdd6cd578e15af55bfe14b858c07609ec31b3d7d
+size 977

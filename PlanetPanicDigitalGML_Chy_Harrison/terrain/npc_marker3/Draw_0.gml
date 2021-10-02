@@ -1,25 +1,3 @@
-if enemy_manager3.game_over = false{
-	if gate.inrange && gate.available{
-		draw_set_font(font_marker);
-		draw_set_alpha(0.75);
-		draw_sprite(spr_npc_marker, 1, player.x - 2.5, player.y - 405)
-		draw_set_alpha(1);
-		draw_text(player.x, player.y - 400, "Enter")
-	}
-
-	if hal_9.inrange && hal_9.available{
-		draw_set_font(font_marker);
-		draw_set_alpha(0.75);
-		draw_sprite(spr_npc_marker, 1, player.x - 2.5, player.y - 405)
-		draw_set_alpha(1);
-		draw_text(player.x, player.y - 400, "Enter")
-	}
-
-	if xenom.inrange && xenom.available{
-		draw_set_font(font_marker);
-		draw_set_alpha(0.75);
-		draw_sprite(spr_npc_marker, 1, player.x - 2.5, player.y - 405)
-		draw_set_alpha(1);
-		draw_text(player.x, player.y - 400, "Enter")
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:345550b71a9338be33252ce8ce2ab401588809039f93a6d5e001d996c003bad9
+size 722

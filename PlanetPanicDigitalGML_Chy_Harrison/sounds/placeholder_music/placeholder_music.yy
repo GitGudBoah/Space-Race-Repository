@@ -1,23 +1,3 @@
-{
-  "compression": 0,
-  "volume": 0.3,
-  "preload": false,
-  "bitRate": 128,
-  "sampleRate": 44100,
-  "type": 0,
-  "bitDepth": 1,
-  "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
-  },
-  "soundFile": "placeholder_music.mp3",
-  "duration": 172.073578,
-  "parent": {
-    "name": "temp_music",
-    "path": "folders/Sounds/temp_music.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "placeholder_music",
-  "tags": [],
-  "resourceType": "GMSound",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:92ef619c65e9aebc216bef18ef8457d68dae615edf12137b49b92e70f04f4b26
+size 493

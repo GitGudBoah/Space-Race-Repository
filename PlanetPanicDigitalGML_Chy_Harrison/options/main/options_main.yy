@@ -1,16 +1,3 @@
-{
-  "option_gameguid": "9c2a4988-4931-4b31-be3e-3a6df685e798",
-  "option_game_speed": 60,
-  "option_mips_for_3d_textures": false,
-  "option_draw_colour": 4294967295,
-  "option_window_colour": 255,
-  "option_steam_app_id": "0",
-  "option_sci_usesci": false,
-  "option_author": "",
-  "option_lastchanged": "",
-  "option_spine_licence": false,
-  "resourceVersion": "1.2",
-  "name": "Main",
-  "tags": [],
-  "resourceType": "GMMainOptions",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:12637a1516708cd30eacdb46976b5f8d46317f2a6bad73b28ea313721963c88a
+size 452

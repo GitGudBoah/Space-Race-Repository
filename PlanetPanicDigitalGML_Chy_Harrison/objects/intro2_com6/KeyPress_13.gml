@@ -1,14 +1,3 @@
-if enemy_manager.burned = false{
-	if npc4.inrange{
-		if talking = false && npc4.available{
-			npc4.available = false;
-			alan_move2.incontrol = false;
-			talking = true;
-			alan_move2.image_xscale = 1;
-		}
-	}
-
-	if talking{
-		counter += 1;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ab920854b677ddae0d30358b8f239ac51f625ea7591824b9e93a8ce65fd04ba
+size 243

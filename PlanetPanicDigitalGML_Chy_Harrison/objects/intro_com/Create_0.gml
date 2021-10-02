@@ -1,9 +1,3 @@
-//portrait
-speaker = spr_com_glaucus;
-
-//text
-text = "Ah, space...humanity's last hope. The cosmos is always a sight to behold.";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-counter = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa3841953c34a9394cd14883c6d5795c840f0a9372385b6803a1de5bb01b02e4
+size 221

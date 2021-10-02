@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_powerup_super_shield",
-    "path": "sprites/spr_powerup_super_shield/spr_powerup_super_shield.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "powerups",
-    "path": "folders/Objects/level1/old work/powerups.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "super_shield",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f03640909f1671f0615882a80eb040e9beded8b2d066db6e859bf96aa393ee5
+size 842

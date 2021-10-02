@@ -1,6 +1,3 @@
-//UPGRADES: Armor
-//spawn an explosion sprite object at our location that damages
-//and knocks back enemies it collides with.
-instance_create_layer(x, y, "boundaries", blast);
-audio_play_sound(snd_explosion_big, 1, false);
-alarm[5] = room_speed * o_game.armor_regen_delay;
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd4efacb8501df0db4f8be75b03258677dfc1a0c879d64cf2729d3f2c35ec391
+size 437

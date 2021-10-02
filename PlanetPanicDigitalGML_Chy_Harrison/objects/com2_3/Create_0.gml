@@ -1,16 +1,3 @@
-//portrait
-speaker = spr_com_demeter;
-
-//text
-text = "...Are you going to keep us in suspense?";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-alarm[0] = room_speed * 1;
-talking = false;
-counter = 0;
-
-canTrigger = true;
-//decision
-decision = false;
-choice = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7aa49b2495963c65da099d18d87ca067a02b8cd158aefec83a33d6b9dd65e09
+size 297

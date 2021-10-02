@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_plant",
-    "path": "sprites/spr_plant/spr_plant.yy",
-  },
-  "solid": true,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "obstacles",
-    "path": "folders/Objects/level2/obstacles.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "plant2",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:344361bbb3ea220828de3c9ef62c8c015cb56b3c191996b171e9221fa26c2033
+size 783

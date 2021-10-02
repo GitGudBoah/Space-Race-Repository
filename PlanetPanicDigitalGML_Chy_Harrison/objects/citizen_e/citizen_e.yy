@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_elroy_armed",
-    "path": "sprites/spr_elroy_armed/spr_elroy_armed.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "background",
-    "path": "folders/Objects/old work/level3/old work/background.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "citizen_e",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a537c503ad0e4ba0fd86405e1012c923c0f122b3b48954d47456793eeeafd092
+size 825

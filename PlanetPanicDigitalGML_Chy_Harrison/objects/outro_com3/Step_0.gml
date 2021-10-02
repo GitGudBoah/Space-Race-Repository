@@ -1,18 +1,3 @@
-if counter = 1{
-	speaker = spr_com_alan;
-	text = "HOLD ON FOR YOUR LIFE!";
-}
-
-if counter = 2{
-	speaker = spr_com_demeter;
-	text = "SHIT! SHIT!";
-}
-
-if counter = 3{
-	speaker = spr_com_jay;
-	text = "HOLY F-";
-}
-
-if counter >= 4{
-	room_goto(scene7);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ab678aa82130496f3e45a287abbba010ba76984d8ea4e6bb8dba8cc5f323e2f
+size 248

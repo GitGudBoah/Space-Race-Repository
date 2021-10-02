@@ -1,27 +1,3 @@
-//encounter the believer's crew...
-
-if counter = 1{
-	speaker = spr_com_alan;
-	text = "He's hiding.";
-}
-
-if counter = 2{
-	speaker = spr_com_demeter;
-	text = "...What killed these people?";
-}
-
-if counter = 3{
-	speaker = spr_com_jay;
-	text = "I don't see any signs of a struggle.";
-}
-
-if counter = 4{
-	speaker = spr_com_blank;
-	text = "Leaves rustle nearby.";
-}
-
-if counter = 5{
-	counter = 6;
-	talking = false;
-	jay2_2.incontrol = true;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4334e7326ec050ff2fd7fbe55cae2bda203844b5eb9a89e3d1c5a746e899233
+size 435

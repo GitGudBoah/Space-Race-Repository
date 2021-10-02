@@ -1,7 +1,3 @@
-if room = rm_xenom3{
-	target = glaucus3_lead;
-}
-
-if room = beast_fight{
-	target = glaucus3_lead;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b564dfc8c9768674c379ec822fdae4dbc01bb4d0787ca082bead07363e24d16b
+size 98

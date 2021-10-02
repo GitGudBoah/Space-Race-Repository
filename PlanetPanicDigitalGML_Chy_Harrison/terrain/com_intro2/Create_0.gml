@@ -1,11 +1,3 @@
-//portrait
-speaker = spr_com_blank;
-
-//text
-text = "Kandar flees into the stars on an escape drone.";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
-killcount = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:6cd9b220c446f5272036a6da3997eaab362916e2bd47bc98dc9e3c2d5eac65f9
+size 225

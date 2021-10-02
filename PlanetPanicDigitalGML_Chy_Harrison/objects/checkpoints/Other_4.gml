@@ -1,18 +1,3 @@
-if room = blackhole_city{
-	checkpoint_counter = 1;
-	
-	//exp/currency system
-	if first_enter = false{
-		first_enter = true;
-		currency_save1 = o_game.currency;
-	}
-}
-if room = open_space{
-	checkpoint_counter = 2;
-	
-	//exp/currency system
-	if first_enter2 = false{
-		first_enter2 = true;
-		currency_save2 = o_game.currency;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d0d30202669dfcbe86cb1f1df929caeab15380812a0094b0166c8ca5d09465a7
+size 745

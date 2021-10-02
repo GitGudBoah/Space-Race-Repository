@@ -1,24 +1,3 @@
-//portrait
-speaker = spr_com_blank;
-
-//text
-text = "[A stranger's voice is heard over the commlink: ]";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
-
-alarm[0] = room_speed * 2;
-
-kill_count = 0;
-canTrigger = true;
-kill_count2 = 0;
-second_phase = false;
-
-//decision
-decision = false;
-choice = 0;
-text1 = "Blackhole?";
-text2 = "Totolsk?";
-text3 = "*Leave*";
+version https://git-lfs.github.com/spec/v1
+oid sha256:17c1a38a3ca60b90008dda83c3aaab8bed007e02662a882f619a28f26f16e5c1
+size 418

@@ -1,10 +1,3 @@
-//enter the gagarin drone
-
-if counter = 1{
-	speaker = spr_com_jay;
-	text = "Crap! They followed me!";
-}
-
-if counter = 2{
-	room_goto(rm_forest2);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ed0e488643ca2478d202e3e03c79771a132eded2938323a01b8b60cf8fe24ef
+size 146

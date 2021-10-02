@@ -1,9 +1,3 @@
-currency_cost = 100;
-
-if o_game.Armor = true{
-	image_index = 1;
-} else if o_game.currency < currency_cost{
-	image_index = 2;
-}
-
-unlocked_in_room = intro;
+version https://git-lfs.github.com/spec/v1
+oid sha256:02a441c182a5cf6e95f052746c452ea0d18813310b88b7cfee330849ade50e4e
+size 153

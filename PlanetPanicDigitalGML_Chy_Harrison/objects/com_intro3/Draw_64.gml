@@ -1,12 +1,3 @@
-if talking{
-	draw_set_alpha(1);
-	draw_set_font(font_small);
-
-	//portrait
-	draw_sprite(speaker, 1, 240, 50);
-
-	//text
-	draw_sprite(spr_textbox, 1, 320, 0);
-	draw_set_font(font_gametext);
-	draw_text_ext(520, 50, text, stringHeight, boxWidth);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9c45ac7b7ef91974e112babea010707ec607280b8f4201f39f95e6bfa2cacae
+size 242

@@ -1,8 +1,3 @@
-other.mobile = false;
-other.alarm[0] = room_speed * 2;
-other.image_blend = c_green;
-audio_play_sound(snd_tractor_beam, 1, false);
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy();
+version https://git-lfs.github.com/spec/v1
+oid sha256:954e811907339baa8ae88125f800890f6d4f89e0e359ea2a22ee8886aee116c5
+size 211

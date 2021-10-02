@@ -1,20 +1,3 @@
-if room = rm_crash_site{
-	reloading = true;
-	display_cooldown = false;
-}
-
-if room = rm_forest4{
-	following = true;
-	reloading = true;
-	display_cooldown = false;
-}
-
-if room = rm_settlement{
-	following = true;
-	reloading = true;
-	display_cooldown = false;
-}
-
-if room = rm_believer{
-	following = true;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f929ab7281f41ad6f830262a40e36b6efd14afb75a5a32cb3f184d07a7fd696
+size 300

@@ -1,4 +1,3 @@
-draw_set_alpha(title_alpha);
-draw_set_font(font_title);
-draw_text(room_width/2, room_height/2, title);
-draw_set_font(font_gametext);
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fb1d9959774a5de0854ac18b6293c84e43229ce171d9cf57e813ce03c48347a
+size 132

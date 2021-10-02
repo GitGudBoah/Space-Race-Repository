@@ -1,11 +1,3 @@
-//room_goto(rm_museum2);
-
-//fade to black - transition to next room
-if canTrigger{
-	canTrigger = false;
-	var inst = instance_create_depth(0, 0, -999, fader);
-	inst.destination_room = rm_museum2;
-	inst.fadein_speed = 0.2;
-	inst.fadeout_speed = 0.2;
-	inst.room_swap_delay = 0.2;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba1f46fd9cc31331b27312483d42fddf11ee9fd0f0b6f77093e30fcf5e5b1f38
+size 278

@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_robot_idle",
-    "path": "sprites/spr_robot_idle/spr_robot_idle.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "background",
-    "path": "folders/Objects/level3/background.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "citizen_r",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:165b9dc83f55a523be3302f7628004f5ad5c79c68fe0fb33397821a3308619d1
+size 804

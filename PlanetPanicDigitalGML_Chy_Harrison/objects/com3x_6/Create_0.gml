@@ -1,11 +1,3 @@
-//portrait
-speaker = spr_com_alan;
-
-//text
-text = "Be evasive. You're not going to overpower them unless Monroe lands a shot.";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-glaucus3_lead.incontrol = false;
-talking = true;
-counter = 0;
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f136fdac0be404fe3cdaf07d51e2e56627867ca6a2bd2216929cf19ea671e65
+size 268

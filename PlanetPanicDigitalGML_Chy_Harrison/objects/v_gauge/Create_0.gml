@@ -1,3 +1,3 @@
-y_offset = 100;
-image_xscale = 0.15;
-image_yscale = 0.15;
+version https://git-lfs.github.com/spec/v1
+oid sha256:5096c15638e02afb781b4279ef4778643a92e8b809a6dbeeb4244205759db89c
+size 57

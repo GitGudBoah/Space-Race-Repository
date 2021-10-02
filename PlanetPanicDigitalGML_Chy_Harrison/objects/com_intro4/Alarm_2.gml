@@ -1,2 +1,3 @@
-instance_create_depth(0, 0, -3, intro_panel11);
-com_intro4.talking = true;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ffe752088f0774f04dad6c1e656cc04f09ee7cc1c53ca94fbf92e3fcb694053
+size 74

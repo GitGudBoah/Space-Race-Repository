@@ -1,10 +1,3 @@
-if room = rm_forest4{
-	audio_sound_gain(snd_alarm_low, 0, 2000);
-	room_goto(rm_settlement);
-}
-
-if room = rm_settlement{
-	audio_stop_sound(snd_alarm_low);
-	audio_sound_gain(snd_alarm_low, 1, 0);
-	room_goto(rm_believer);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f1160f8c7a9fce597f5c115969ee367465738a4859820f8f53d8be9124f5798
+size 220

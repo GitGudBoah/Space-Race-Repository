@@ -1,17 +1,3 @@
-if o_game.game_over = false{
-	x = player.x;
-	y = player.y + y_offset;
-	
-	if player.volley_charges = 0{
-		image_index = 0;
-	}
-	if player.volley_charges = 1{
-		image_index = 1;
-	}
-	if player.volley_charges = 2{
-		image_index = 2;
-	}
-	if player.volley_charges = 3{
-		image_index = 3;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:63598fcfd3e1b44fb91758ceacd6af6ce44b6cdb3aa7d29394c3b04edd0ac6df
+size 285

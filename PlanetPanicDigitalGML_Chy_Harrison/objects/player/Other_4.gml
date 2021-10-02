@@ -1,13 +1,3 @@
-//unmark room_persistent after returning from menu system
-room_persistent = false;
-
-// spawn v_gauge after unlocking
-if o_game.Volley && gauge_not_spawned{
-	gauge_not_spawned = false;
-	instance_create_layer(0, 0, "enemies", v_gauge);
-}
-
-//old work--
-if room == rm_level3{
-	rm1 = false;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ac1856f8d8f87e95d3235deb30fceb2c55101b2f9de2d1e500b47fe8f393b79c
+size 287

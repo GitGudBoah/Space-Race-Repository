@@ -1,18 +1,3 @@
-if state == fade_in{
-	image_alpha += fadein_speed;
-	if image_alpha >= 1{
-		image_alpha = 1;
-		//state = fade_out;
-		if canTrigger{
-			canTrigger = false;
-			alarm[0] = room_speed * room_swap_delay;
-		}
-	}
-}
-else if state == fade_out{
-	image_alpha -= fadeout_speed;
-	if image_alpha <= 0{
-		image_alpha = 0;
-		instance_destroy();
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:88b06b00e15f13f5b093721babe51f75e7b805056adcf544bdac39001afbe030
+size 332

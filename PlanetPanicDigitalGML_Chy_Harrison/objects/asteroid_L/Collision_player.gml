@@ -1,14 +1,3 @@
-if other.invulnerable = false{
-	with(other){
-		invulnerable = true;
-		image_blend = c_gray;
-		alarm[0] = room_speed * 1;
-		hp -= 40;
-	}
-
-	audio_play_sound(snd_explosion_big, 1, false);
-
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2344a244e2de8e447c8acaab73ac2e6841f6077508a52a314d3ef68a0ce48314
+size 252

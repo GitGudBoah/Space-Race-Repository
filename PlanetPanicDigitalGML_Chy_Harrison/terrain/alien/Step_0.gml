@@ -1,12 +1,3 @@
-//chase the player
-if o_game.game_over = false
-{
-	direction=point_direction(x,y,player.x,player.y);
-}
-
-//rotate sprite
-if direction < 90 or direction > 270{
-	image_xscale = -1;
-} else {
-	image_xscale = 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:36b825eabd78bd521aff7281bbb2373a77bb6a3481e6dda3c63f8ead9ae33bde
+size 206

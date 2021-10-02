@@ -1,17 +1,3 @@
-if skeleton.inrange{
-	if talking = false && skeleton.available{
-		skeleton.available = false;
-		jay2.incontrol = false;
-		talking = true;
-		if skeleton.x > jay2.x{
-			jay2.image_xscale = 1;
-		}
-		if skeleton.x < jay2.x{
-			jay2.image_xscale = -1;
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:687ed69ff5f2d86cf44658d4b9ee79e236ee164e6882389d5867a1574b3a0ecf
+size 285

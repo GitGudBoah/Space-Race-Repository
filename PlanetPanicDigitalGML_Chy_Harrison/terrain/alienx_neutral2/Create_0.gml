@@ -1,7 +1,3 @@
-hp = 200;
-mobile = true;
-speeed = 5;
-range = 1000;
-canTrigger = true;
-canTrigger2 = true;
-encountered = false;
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ae344b1d818a4546b4dbdf33f2868ac2df23f6ca968e585ef1f9093eb899e35
+size 110

@@ -1,19 +1,3 @@
-if other.poison_target = false{
-	other.hp -= 50;
-
-	if enemy_manager3.game_over = false{
-		if enemy_manager3.target.x > other.x{
-			other.x -= 50;
-		}
-		if enemy_manager3.target.x < other.x{
-			other.x += 50;
-		}
-	}
-
-	//destroy
-	audio_play_sound(snd_explosion_small, 1, false);
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-	instance_destroy();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:77172a6a1b54ec17a655316354d1b51e328b088ee699aadc0c076ce8bd2f752b
+size 364

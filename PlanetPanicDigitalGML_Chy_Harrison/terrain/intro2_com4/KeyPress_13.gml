@@ -1,19 +1,3 @@
-if enemy_manager.hostile = false{
-	if npc2.inrange{
-		if talking = false && npc2.available{
-			npc2.available = false;
-			alan_move2.incontrol = false;
-			talking = true;
-			if npc2.x > alan_move2.x{
-				alan_move2.image_xscale = 1;
-			}
-			if npc2.x < alan_move2.x{
-				alan_move2.image_xscale = -1;
-			}
-		}
-	}
-}
-
-if talking{
-	counter += 1;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef678f11a337b3c013d1d01fa5e44f2ae96a9e997c19b02e32b0e2fefa1f7217
+size 344

@@ -1,7 +1,3 @@
-//cooldown indicator
-draw_sprite_ext(spr_black_pixel, 1, 5, 34, 135, 25, 0, c_white, 0.75);
-draw_set_alpha(1);
-draw_set_font(font_gametext);
-draw_set_halign(fa_left);
-draw_text(10, 50, cooldown_indicator);
-draw_set_halign(fa_middle);
+version https://git-lfs.github.com/spec/v1
+oid sha256:4bd7f6fe0a731e660a972220ee4836aafff46796074217cd56c15bd602ce85b2
+size 233

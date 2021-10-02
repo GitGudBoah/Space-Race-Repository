@@ -1,10 +1,3 @@
-if other.boss_fight = true{
-	other.mobile = false;
-	other.alarm[1] = room_speed * 2;
-	other.image_blend = c_green;
-	audio_play_sound(snd_tractor_beam, 1, false);
-	repeat(10){
-		instance_create_layer(x,y,"Instances",debris);
-	}
-	instance_destroy();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:716ab92c7f6d98eb68cffb58b6198493acb2dbeb38352d5c2a39374e3ce51b1b
+size 249

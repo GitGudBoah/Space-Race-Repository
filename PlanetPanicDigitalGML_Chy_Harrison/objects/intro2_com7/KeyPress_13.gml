@@ -1,19 +1,3 @@
-if enemy_manager.hostile = true{
-	if elroy_gun.inrange{
-		if talking = false && elroy_gun.available{
-			elroy_gun.available = false;
-			alan_move2.incontrol = false;
-			talking = true;
-			if elroy_gun.x > alan_move2.x{
-				alan_move2.image_xscale = 1;
-			}
-			if elroy_gun.x < alan_move2.x{
-				alan_move2.image_xscale = -1;
-			}
-		}
-	}
-
-	if talking{
-		counter += 1;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad0373aa0a13c8d10a6a97089ccd96579e74a6e4976f3dd16b7bec2bc6672ffd
+size 371

@@ -1,15 +1,3 @@
-//portrait
-speaker = spr_com_citizen2;
-
-//text
-text = "You three! Stop right there!";
-boxWidth = sprite_get_width(spr_textbox);
-stringHeight = string_height(text);
-
-talking = false;
-counter = 0;
-//decision
-decision = false;
-choice = false;
-text1 = "Yes";
-text2 = "No";
+version https://git-lfs.github.com/spec/v1
+oid sha256:107f07cd1599368cf44623312f57021f2d72f857d8e2e3913201f76a91e0dd10
+size 268

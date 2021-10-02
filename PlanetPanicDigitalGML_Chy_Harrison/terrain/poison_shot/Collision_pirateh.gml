@@ -1,14 +1,3 @@
-//knife-strike
-demeter3.target_x = other.x;
-demeter3.target_y = other.y;
-other.poison_target = true;
-demeter3.target_stunned = true;
-
-other.mobile = false;
-other.alarm[0] = room_speed * 2;
-other.image_blend = c_green;
-audio_play_sound(snd_tractor_beam, 1, false);
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy();
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f4e8b911c0e1fc5b67084cc80892a451046ad9ceae2e8a2f9df5888d8bcbde8
+size 345

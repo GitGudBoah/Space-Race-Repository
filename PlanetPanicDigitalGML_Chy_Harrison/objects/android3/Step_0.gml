@@ -1,9 +1,3 @@
-if greet{
-	if x < 576{
-		x += 14;
-	} else{
-		greet = false;
-		instance_create_layer(x, y, "Instances", harpoon);
-		audio_play_sound(snd_lasershot, 1, false);
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a2ad3aceb2123493461871e412cb603bc3d3fb5f777eb7df9bedbb244df986b
+size 162

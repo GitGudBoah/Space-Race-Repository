@@ -1,34 +1,3 @@
-{
-  "spriteId": {
-    "name": "spr_a_tentacle",
-    "path": "sprites/spr_a_tentacle/spr_a_tentacle.yy",
-  },
-  "solid": false,
-  "visible": true,
-  "spriteMaskId": null,
-  "persistent": false,
-  "parentObjectId": null,
-  "physicsObject": false,
-  "physicsSensor": false,
-  "physicsShape": 1,
-  "physicsGroup": 1,
-  "physicsDensity": 0.5,
-  "physicsRestitution": 0.1,
-  "physicsLinearDamping": 0.1,
-  "physicsAngularDamping": 0.1,
-  "physicsFriction": 0.2,
-  "physicsStartAwake": true,
-  "physicsKinematic": false,
-  "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [],
-  "overriddenProperties": [],
-  "parent": {
-    "name": "objects",
-    "path": "folders/Objects/level2/objects.yy",
-  },
-  "resourceVersion": "1.0",
-  "name": "music2_3",
-  "tags": [],
-  "resourceType": "GMObject",
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b97020a0ff1c828d868ec2eab27c7c697b49e311dd151265dee278d7efc46ba1
+size 797

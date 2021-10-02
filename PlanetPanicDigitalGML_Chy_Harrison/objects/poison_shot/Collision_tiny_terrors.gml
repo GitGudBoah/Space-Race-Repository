@@ -1,10 +1,3 @@
-with(other){
-	exploding = true;
-}
-
-audio_play_sound(snd_alien_alert_smooth, 1, false);
-
-repeat(10){
-	instance_create_layer(x,y,"Instances",debris);
-}
-instance_destroy();
+version https://git-lfs.github.com/spec/v1
+oid sha256:acb073bb60754b6774d4b80c03f2ab84c6fcaf06a5073d69ed95284d6fddb1a4
+size 169
