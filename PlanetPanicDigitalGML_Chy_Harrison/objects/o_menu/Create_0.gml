@@ -1,8 +1,8 @@
 //fade transition
 canTrigger = true;
 //shortcut: menu sends you to the specified room
-shortcut = false;
-shortcut_destination = open_space;
+shortcut = true;
+shortcut_destination = forest_test;
 
 menu_x = room_width/2;
 menu_y = 250;
